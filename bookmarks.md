@@ -1,5 +1,285 @@
 
+# Monday, January 5, 2026
+
+## @aidenybai - Repogrep: Ultra-Fast Public GitHub Repository Search
+> introducing repogrep.​com
+>
+> ultra fast codebase search for any public github repo
+>
+> where i found the React hooks source code in &lt;10 sec https://t.co/2xYi77LMTE
+
+- **Tweet:** https://x.com/aidenybai/status/2008222085240549530
+- **What:** A tool announcement for Repogrep.com, an ultra-fast search engine for public GitHub repositories that enables rapid code discovery across any open-source project.
+
+---
+
+## @doodlestein - Planning Large-Scale AI Projects with Iterative Refinement
+> *Replying to @badlogicgames:* Could you share a real world project + the plan you came up with? I've been building software for over 25 years, and I was never able to do "hyper-waterfall", as in: preplan everything to a detail level that allows mechanical execution like that.
+>
+> As you work on a project, problems you didn't anticipate pop up. I don't understand how that is solved.
+>
+> Here's a recent example from my cass memory project (see quoted post for the whole process which I posted about live as I did it):
+>
+> https://t.co/Dn2x6YQPMQ
+>
+> Once you've implemented the entire plan (after turning it into beads and so forth), you have a version 1 that should be usable if you've done things well. It will probably require some bug fixes and UI polishing, but that's just part of my workflow.
+>
+> Then after using it, you might decide that you missed some things or have ideas for other features. Well, then you create another big plan, like I did here in the same project; nothing says you can only ever do one plan and then that's it:
+>
+> https://t.co/sQN2HJDc5B
+>
+> *Quoting @doodlestein:* OK, status update. Starting from absolutely nothing ~5 hours ago except a big ol' plan document, I turned that into over 350 beads (we got a bunch of new testing beads), I now have conjured up ~11k lines of code, about 8k of which is the core code and the rest is testing code (see screenshot).
+>
+> Around 204 commits so far. Probably at least 25 agents have been involved at some point or other.
+>
+> If you want to look at the actual Agent Mail messages, I used the handy export feature to publish this as a static website you can see here:
+>
+> https://t.co/QKP9dCfwTq
+>
+> So how far did we get already? You can see Claude's full assessment in the attached screenshot. Here's its bottom line conclusion, though:
+>
+> Key Insights
+>
+>   1. The product is USABLE NOW - 151 tests pass, binary compiles, all core commands work. The closed rate understates this because open issues are heavily weighted toward testing.
+>   2. Testing is the biggest gap - ~40% of remaining work. This is actually good news
+>    - it means implementation is largely done and what remains is verification.
+>   3. High velocity - 2.9 hour average lead time shows issues get completed, not stalled.
+>   4. Phases 2-4 are future work - Advanced features (local semantic search, decision  logging, starter playbooks) are explicitly deferred.
+>   5. The 14 open epics are misleading - Most are testing-focused sub-epics or future  phases, not blockers.
+>
+> Bottom Line
+>
+> For a "can I use this tool effectively" definition: ~85-90% done.
+>
+> The core ACE pipeline (Generate context → Reflect on sessions → Curate playbook →
+>   Validate scientifically) is complete and functional. What remains is mostly test  coverage, polish, and future-phase features.
+>
+> If this were a startup product, you'd say: "MVP shipped, now hardening for production."
+
+- **Tweet:** https://x.com/doodlestein/status/2008226781870854531
+- **Link:** https://github.com/Dicklesworthstone/cass_memory_system
+- **Parent:** https://x.com/badlogicgames/status/2008223886857343391
+- **Quoted:** https://x.com/doodlestein/status/1997853884442681719
+- **Filed:** [cass-memory.md](./knowledge/tools/cass-memory.md)
+- **What:** Jeffrey Emanuel demonstrates how to overcome "hyper-waterfall" planning limitations by treating large projects as iterative refinements: build a complete version from a detailed plan, then create additional plans for improvements and new features. Shows real example with the cass-memory system reaching MVP status in ~5 hours with multi-agent AI assistance.
+
+---
+
+
+---
+
+
 # Sunday, January 4, 2026
+
+## @banteg - Official bunny devcontainer with Claude and Codex
+> official bunny devcontainer just dropped
+>
+> run claude code and codex in yolo mode. isolated, unattended, auth persists across all your repos via shared docker volumes.
+
+- **Tweet:** https://x.com/banteg/status/2007748646230733139
+- **Link:** https://github.com/banteg/agents
+- **What:** Development of open-source agent workflows including git worktree helpers (git-wt, worktrunk) and devcontainer setup for running AI agents like Claude Code and Codex in isolated environments with authentication persistence.
+
+---
+
+## @gakonst - Rekordbox waveform analysis web app
+> also my entire feed is people talking about their vibe coding setup and tools for improving their vibe coding setup - what fun thing did you build recently?
+>
+> i spent some time recently building an open source version of rekordbox's waveform analysis w/ a web app on cf workers
+>
+> *Quoting @gakonst:* IME testing out my own agents files and cloning others' franken-agent files / skills repos, less is more and most over-engineered agent files or skill directories are hurting your speed
+
+- **Tweet:** https://x.com/gakonst/status/2007836229279363510
+- **Quoted:** https://x.com/gakonst/status/2007831002660659511
+- **What:** Open source waveform analysis tool built as a web app on Cloudflare Workers, inspired by Rekordbox. Reflects on the trend of vibe coding setups and agent workflow optimization.
+
+---
+
+## @mohamede1945 - Codex performance improvement with agents.md
+> Codex feels faster after I've adopted @steipete's agents .md from agent-scripts repo and some of his config described https://t.co/Z8bM3q3T5h
+>
+> Smaller tasks that used to take 2-5 mins is now always under 1 min. Maybe the telegraph style makes it faster?
+>
+> and ofc I added the motivational 1-liner
+
+- **Tweet:** https://x.com/mohamede1945/status/2007844824934691260
+- **Link:** https://steipete.me/posts/2025/shipping-at-inference-speed
+- **What:** Performance improvement in Codex using optimized agents configuration from @steipete. Tasks reduced from 2-5 minutes to under 1 minute, attributed to telegraph-style structured prompts.
+
+---
+
+## @moreconfetti - Every's compound engineering approach
+> *Replying to @moreconfetti:* https://t.co/aG6odRE5we
+> @steipete is making waves with his Clawdbot project. Understand how he works and why he prefers Codex over Claude Code:
+>
+> https://t.co/dJbCiXKYjL
+> @every has developed one of the best engineering toolkits for @claudeai (especially useful for my Rails projects) and @danshipper is a must follow for AI thought leadership in 2026
+
+- **Tweet:** https://x.com/moreconfetti/status/2007866139007975435
+- **Parent:** https://x.com/moreconfetti/status/2007866137191805130
+- **Link:** https://every.to/chain-of-thought/compound-engineering-how-every-codes-with-agents
+- **What:** Every.to's compound engineering methodology for AI-assisted software development. A four-step process optimized for teams working with AI agents, particularly relevant for Rails development.
+
+---
+
+## @moreconfetti - Claude Code 2.0 guide and Opus 4.5 workflows
+> *Replying to @moreconfetti:* https://t.co/aG6odRE5we
+> @steipete is making waves with his Clawdbot project. Understand how he works and why he prefers Codex over Claude Code:
+>
+> https://t.co/ynIhEjZp42
+> @dejavucoder gives some good perspective on the shift in capabilities and workflows in the second half of 2025
+
+- **Tweet:** https://x.com/moreconfetti/status/2007866140840882636
+- **Parent:** https://x.com/moreconfetti/status/2007866139007975435
+- **Link:** https://sankalp.bearblog.dev/my-experience-with-claude-code-20-and-how-to-get-better-at-using-coding-agents/
+- **What:** Deep dive into Claude Code 2.0 features, Opus 4.5 workflows, and context engineering. Covers sub-agents, MCP servers, hooks, skills, and practical tips for maximizing AI-assisted coding productivity. Analysis of capability shifts in H2 2025.
+
+---
+
+---
+
+## @moreconfetti - Clawdbot vs Claude Code: Shipping Code at Inference Speed
+> PSA for a CTO, Head of AI, VP/Dir of Engineering, CXO:
+> This is going to be one of the most important "back to work" weeks of your career. You must get your team aligned on agentic dev ASAP. If you're feeling behind or overwhelmed, here are some good reads to get you inspired 🧵
+>
+> *Replying to @moreconfetti:* PSA for a CTO, Head of AI, VP/Dir of Engineering, CXO:
+> This is going to be one of the most important "back to work" weeks of your career. You must get your team aligned on agentic dev ASAP. If you're feeling behind or overwhelmed, here are some good reads to get you inspired 🧵
+>
+> @steipete is making waves with his Clawdbot project. Understand how he works and why he prefers Codex over Claude Code:
+
+- **Tweet:** https://x.com/moreconfetti/status/2007866137191805130
+- **Link:** https://steipete.me/posts/2025/shipping-at-inference-speed
+- **Parent:** https://x.com/moreconfetti/status/2007866135547646039
+- **What:** An article about shipping code at inference speed, exploring how Clawdbot enables rapid development cycles and comparing different approaches to agentic coding.
+
+---
+
+## @mattpocockuk - The Ralph Wiggum Approach to Long-Running AI Coding Agents
+> There's an AI coding approach that lets you run seriously long-running AI agents (hours, days) that ship code while you sleep. I've tried it, and I'm not going back.
+>
+> It's the Ralph Wiggum approach. Here it is in a nutshell:
+>
+> Run a coding agent with a clean slate, again and again until a stop condition is met.
+>
+> The Bash Script
+>
+> Running ralph involves a single bash script.
+>
+> 1. Set up a bash for loop that runs a set number of times, let's say 10. You choose a finite number to prevent the agent running infinitely.
+> 2. Inside the loop, you get the coding agent (Claude Code, OpenCode, Codex etc) to work on a single feature in the repo until that single feature is done. You prompt it to say "if, after implementing, there is no further work to be done, reply with <promise>COMPLETE</promise>".
+> 3. Check for <promise>COMPLETE</promise> inside the loop and exit early if it exists.
+>
+> The Stop Condition
+>
+> How does the LLM know when to emit <promise>COMPLETE</promise>? There are multiple approaches:
+>
+> - Raw Prompting: Just pass a very clear stop condition to the prompt inside the bash loop. "The job is complete when X conditions are met"
+> - TODO list: Give the agent a TODO list to complete
+> - PRD: My preferred approach, explained below
+>
+> Progress Reports
+>
+> In your prompt, you MUST tell the agent to commit its work, and append its progress to a local progress.txt file.
+>
+> Committing its work allows future agents to navigate what was done via the git history.
+>
+> The progress.txt is a standard long-running agent practice. Feed it in to the agent via the prompt, and use the verb 'append' to make sure it doesn't update previous entries.
+>
+> Keep CI Green
+>
+> Each commit MUST pass all tests and types. This means you have to prompt the agent to run typechecks and tests on each commit.
+>
+> If you don't do this, you're hamstringing future agent runs with bad code, and they'll need to bisect to find bugs. Super nasty.
+>
+> This means that building really healthy feedback loops is CRITICAL to Ralph's success.
+>
+> The PRD
+>
+> Two problems immediately emerge with Ralph.
+>
+> The first is that the agent picks tasks which are too large. They don't scope the amount of work correctly and they try things which are too ambitious. This means they run out of context window and just end up failing.
+>
+> The second is that the agent doesn't know when to stop.
+>
+> To solve this, I use a PRD-based approach that formalizes the work I want Ralph to complete in a list of user stories.
+>
+> It's a mix of a PRD and a TODO-list, where the PRD is a JSON file of user stories with 'passes: false'.
+>
+> I then prompt the agent to pick the highest priority feature, and ONLY work on that feature. It then updates the passing status of the relevant PRD item at the end.
+>
+> This scopes it down extremely effectively, meaning it utilizes only a small part of its context window, and thus isn't swamped by context rot.
+>
+> Summary
+>
+> - Bash script
+> - JSON-based PRD
+> - progress.txt
+> - Keep CI green
+> - Feedback loops
+>
+> You'll have an AI coding setup that can ship while you kip.
+
+- **Tweet:** https://x.com/mattpocockuk/status/2007924876548637089
+- **What:** A detailed guide to running long-duration AI coding agents using the "Ralph Wiggum approach" with bash scripts, PRD files, and clean stop conditions to enable autonomous feature development while maintaining code quality.
+
+---
+
+## @doodlestein - Clawdbot, ACIP, and Securing AI-Powered Personal Assistants
+> OK, I'm normally in such a rabbit hole of my own crazy schemes, so I finally got around to installing and setting up @steipete 's Clawdbot project, which I have like 20+ different X bookmarks for because I've been meaning to try it for so long.
+>
+> And, wow. This is so unbelievably cool. Of course, I simply cloned the repo and had my buddy Claude Opus install and configure it all for me, which was very easy.
+>
+> Then I started going a little wild adding more and more integrations to it, many of which are included out of the box using various other utilities that Peter has made in his prodigious bursts of creation these past few months.
+>
+> But then I started inquiring about other things for which there were no integrations, like Cloudflare's wrangler utility, or the vercel cli. And it turns out that it's incredibly easy to add new skills to Clawdbot, so I started doing just that.
+>
+> Then I realized I could teach Clawdbot about all of my Agent Flywheel tools like cass and bv, and then some of my other random new tools like giil. I made a repo with all that stuff you can see here:
+>
+> https://t.co/3KoXwIuQUf
+>
+> But the thing I'm most excited about is that Clawdbot is THE perfect use case for this "acip" idea I've been thinking about for the past year:
+>
+> https://t.co/hKABLkavor
+>
+> That stands for "Advanced Cognitive Inoculation Prompt" and it's basically the idea that you can reduce the attack surface and make a system a lot more robust to most prompt injection attacks through prompting, at least compared to a naive system without anything like that.
+>
+> Obviously any system like that is intrinsically flawed, but dismissing it feels to me like saying you shouldn't even bother to lock your front door when you go on vacation because someone could pick the lock. Sure, but it doesn't hurt, doesn't cost much to do, and reduces the chances of some casual intruder getting in and robbing you.
+>
+> Anyway, I first created that 9 months ago, and models have gotten a lot better since then. So I went to work with GPT Pro 5.2 in the web app and also Opus 4.5 to revise and enhance the ACIP prompt itself. You can see in the readme file all the changes that were made and why.
+>
+> ACIP is just English text, not code, so anyone could read it and hopefully understand how it works. And even though it has obvious shortcomings (a robust defense requires something external to the main model, like a second, independent "audit model" that is checking everything over before sending it to the main model; I discuss many of the problems that come up in this sort of thing in this article I wrote ~2 years ago: https://t.co/V5od2x9ZG4 )
+>
+> But as I said in the quoted post, I feel like the time has finally come for ACIP, because now users like me are voluntarily hooking up LLMs to highly sensitive parts of their life, like emails, iMessage, Telegram, etc. And what's different now is also that Clawdbot can be accessed remotely via Telegram and other methods.
+>
+> Sure, I have my Telegram integration locked down to just me, but one could imagine various scary security situations where an unauthorized attacker could be communicating with an LLM-based agent that has full rein of my computer but also my entire digital life.
+>
+> And you want that agent to have a high degree of mental fortitude, and not fold like a cheap lawn chair as soon as some slick character comes along and does some social engineering attack, or tries to use role play or stories or any number of creative and clever techniques designed to trip up and fool our robot brethren.
+>
+> Anyway, in the acip readme you will find a curl bash one-liner that sets it up with Clawdbot to protect you. It uses more tokens and increases latency somewhat, but I think it's worth it given how much chaos could conceivably be caused by a fully set up Clawdbot getting hijacked by an attacker.
+>
+> *Quoting @doodlestein:* I made this project 9 months ago and it didn't generate much interest at the time, but perhaps its time has finally come now with the rise in popularity of personal assistant projects that use LLMs, such as @steipete 's venerable Clawdbot (née Clawdis):
+>
+> https://t.co/RfsIkhKhdO
+
+- **Tweet:** https://x.com/doodlestein/status/2007996215892336924
+- **Tags:** [[clawdbot]] [[ai-security]] [[acip]] [[agentic-coding]]
+- **Link:** https://github.com/Dicklesworthstone/agent_flywheel_clawdbot_skills_and_integrations
+- **Quoted:** https://x.com/doodlestein/status/2007910745980481780
+- **What:** A comprehensive exploration of integrating Clawdbot with custom skills and introducing the Advanced Cognitive Inoculation Prompt (ACIP) as a security layer to defend personal AI assistants against prompt injection attacks.
+
+---
+
+## @NickADobos - Turning Codebase Sections into Agent-Discoverable Skills
+> Wait this is an interesting idea.
+>
+> Turn sections of your code base into skills.
+> That way agents can easily see the key parts and start exploring there first
+
+- **Tweet:** https://x.com/NickADobos/status/2008050237320118628
+- **Quoted:** https://x.com/Dimillian/status/2007864306952774107
+- **What:** A brief observation about the value of distilling key codebase sections into reusable skills format, enabling AI agents to quickly understand architecture and prioritize exploration.
+
+---
 
 ## @trq212 - AI alignment and interpretability resources
 > If you started using Claude Code over the holidays, you might be curious about how AI actually works, the benefits and risks, and where it's headed. Here are some of my favorite papers on alignment, interpretability, and societal impacts
@@ -25,6 +305,370 @@
 
 
 # Saturday, January 3, 2026
+
+## @6asscat - Context-dependent story credibility challenge
+> this is the funniest shit to ever happen but u really can't talk about it unless u got the video on standby cuz everyone's gonna think u went off the fuckin deep end
+>
+> *Quoting @FurkanGozukara:* One year ago today, Zionist tunnels were discovered under synagogues in NYC. Stained mattresses and baby high chairs were found inside. A year later, no real conclusions, this seems to be slipping into the memory hole of time. https://t.co/h1AE6uxEpX
+
+- **Tweet:** https://x.com/6asscat/status/2007410346253066572
+- **Quoted:** https://x.com/FurkanGozukara/status/2007096285682356439
+- **What:** Commentary on the challenge of sharing controversial stories without supporting evidence. Humorous take on credibility requirements for unbelievable claims.
+
+---
+
+---
+
+## @0xDesigner - Formula for effective Claude Code usage
+> the formula for getting the most out of claude code:
+>
+> "i want [goal/outcome]" + "interview me thoroughly to extract ideas and intent" + ultrathink + (plan mode on)
+>
+> thank me later
+
+- **Tweet:** https://x.com/0xDesigner/status/2007467970952335533
+- **What:** Best practices for Claude Code. Combining clear goal setting, detailed extraction of user intent, extended thinking, and plan mode for optimal results.
+
+---
+
+---
+
+## @threepointone - Where good ideas come from for coding agents
+> new post: where good ideas come from (for coding agents) https://t.co/CwE393F8rz
+>
+> thought about why some people cook with coding agents, and others bounce off. my take: llms are "thought completers" traversing idea-space - so good results come from good navigation: constraints, context, oracles, loops. I used steven johnson's "where good ideas come" from as a rubric and mapped it onto coding agents. also a note about how "juniors" can adapt to this new feature, and what "creating software" looks like practically.
+
+- **Tweet:** https://x.com/threepointone/status/2007497491294396565
+- **Link:** https://sunilpai.dev/posts/seven-ways/
+- **What:** Deep dive on LLM effectiveness as thought completers. Maps Steven Johnson's idea frameworks to coding agent workflows, covering constraints, context, iteration patterns, and practical implications for developers adapting to AI-assisted development.
+
+---
+
+---
+
+## @deedydas - Heart disease prevention through statins and LDL management
+> Heart disease is the #1 cause of death in modern nations, more than cancer. It took the lives of 3 people I know just this year.
+>
+> This beautiful easy-to-read article called "Cardiovascular Disease is a Solved Problem" cites copious medical research to argue that:
+>
+> – heart disease and stroke, caused by plaque buildup in your arteries (atherosclerosis), arises from lifetime exposure to LDL cholesterol, particularly apoB, which is largely genetic.
+>
+> – Preventatively taking statins (rosuvastatin) for $15/mo can reduce LDL levels by 50%+ with no major side effects and reduce lifetime plaque buildup, even as early as your 20s!
+>
+> You should consult your doctor before taking medications, but it's always worth thinking about heart disease early.
+
+- **Tweet:** https://x.com/deedydas/status/2007511612824178894
+- **What:** Health awareness on cardiovascular disease prevention. Discusses evidence-based statin therapy for reducing LDL cholesterol and atherosclerotic plaque buildup, with emphasis on preventative treatment from early adulthood.
+
+---
+
+---
+
+## @kr0der - Tips for Using Codex Effectively
+> if you're also trying out Codex like me, here are some important tips that made Codex way better for me:
+>
+> 1. i always run codex —yolo or else it keeps stopping to ask for permissions. this feels fine as long as your prompt isn't bad.
+>
+> 2. start your setup from @steipete 's repo here - https://t.co/AYAlsng7d5 - i copied nearly all of it and obviously reworded parts that didn't relate to my work.
+>
+> 3. you have to use it differently than claude code so it'll take a couple of days to adjust. i found that if i give good instructions, it just one shots the task more reliably than CC. garbage in garbage out.
+>
+> 4. if you need a plan just write "make a plan" or use @thsottiaux 's skill here - https://t.co/ZFC1vhUVTk
+>
+> 5. codex is really good at long running tasks, especially when you give it a way to verify its outputs. the ralph-wiggum version for codex is typing "don't stop until …." and it'll listen.
+>
+> *Quoting @thsottiaux:* Simply adding "Ask questions if my request is underspecified" at the end of a prompt to Codex works well as you might expect, but also codified it a bit more in a `$ask-questions-if-underspecified` skill that I use regularly. https://t.co/QVPidaONx6
+
+- **Tweet:** https://x.com/kr0der/status/2007538273745539187
+- **Quoted:** https://x.com/thsottiaux/status/2006624682515247604
+- **What:** Anthony shares practical tips for effectively using Codex AI, including workflow patterns like using --yolo mode, implementing verification methods for long-running tasks, and leveraging community skills for prompting improvements.
+
+---
+
+## @DidiTrading - Predicting Insider Activity on Polymarket
+> Day 399: We spotted the Maduro attack before it happened.
+>
+> My brother @spacexbt, built a tool that tracks potential insider activity on Polymarket. Last night, the tracker flagged five separate alerts hours before the event happened.
+> Based on that signal, he was able to buy at 7.5c, long before the market reacted.
+>
+> You don't need to predict the future, you need to track suspicious behavior. (Fresh wallets, unusual sizing, repeated entries in niche markets)
+> e.g this insider turned $35k into $442k: https://t.co/h5fmtDZHPY
+>
+> Polymarket API keys are open to everyone. With today's AI coding tools, there's zero excuse not to build something similar yourself.
+>
+> *Quoting @spacexbt:* been working on a tool to get an edge on polymarket
+> currently backtesting it and the results look promising
+> managed to pull $11,000 today with some on and off trades
+>
+> while building, one thing became clear to me:
+> the next bear market will probably be boring for most,
+> but prediction markets won't die
+>
+> money opportunities don't disappear, they just move..
+> even if memecoins and airdrops slow down,
+> there'll always be a market for something, in that case polymarket
+>
+> still got more features to add and fine tuning to do
+> once i'm happy with how it performs,
+> i'll probably invite a few people to test it with me
+>
+> what i really respect about @Polymarket
+> is how open their system is
+> they literally hand you the API and say "go build"
+> they give everyone, coder or not
+> a chance to find their own way to make money
+>
+> will keep you all updated once the tool's ready
+
+- **Tweet:** https://x.com/DidiTrading/status/2007559456662634966
+- **Quoted:** https://x.com/spacexbt/status/1979256857878257776
+- **What:** Didi describes a tool that detects insider trading activity on Polymarket by analyzing behavioral patterns like fresh wallets and unusual trade sizing, enabling profitable trades before market reactions. Demonstrates the potential of leveraging open APIs with AI coding tools.
+
+---
+
+## @doodlestein - Complete Workflow for AI-Assisted Software Development
+> If you have a markdown plan for a new piece of software that you're getting ready to start implementing with a coding agent such as Claude Code, before starting the actual implementation work, give this a try.
+>
+> Paste your entire markdown plan into the ChatGPT 5.2 Pro web app with extended reasoning enabled and use this prompt; when it's done, paste the complete output from GPT Pro into Claude Code or Codex and tell it to revise the existing plan file in-place using the feedback:
+>
+> ---
+> Carefully review this entire plan for me and come up with your best revisions in terms of better architecture, new features, changed features, etc. to make it better, more robust/reliable, more performant, more compelling/useful, etc.
+>
+> For each proposed change, give me your detailed analysis and rationale/justification for why it would make the project better along with the git-diff style changes relative to the original markdown plan shown below:
+>
+> <PASTE YOUR EXISTING COMPLETE PLAN HERE>
+> ---
+>
+> This has never failed to improve a plan significantly for me. The best part is that you can start a fresh conversation in ChatGPT and do it all again once Claude Code or Codex finishes integrating your last batch of suggested revisions.
+>
+> After four or five rounds of this, you tend to reach a steady-state where the suggestions become very incremental.
+>
+> (Note: I was originally planning to end this post here, but thought it would be helpful for people to see this part in the larger context of the entire workflow I recommend using all my tooling)
+>
+> Then you're ready to turn the plan into beads (think of these as epics/tasks/subtasks and associated dependency structure. The name comes from Steve Yegge's amazing project, which is like Jira or Linear, but optimized for use by coding agents), which I do with this prompt using Claude Code with Opus 4.5:
+>
+> ---
+> OK so please take ALL of that and elaborate on it more and then create a comprehensive and granular set of beads for all this with tasks, subtasks, and dependency structure overlaid, with detailed comments so that the whole thing is totally self-contained and self-documenting (including relevant background, reasoning/justification, considerations, etc.-- anything we'd want our \"future self\" to know about the goals and intentions and thought process and how it serves the over-arching goals of the project.)  Use only the `bd` tool to create and modify the beads and add the dependencies. Use ultrathink.
+> ---
+>
+> After it finished all of that, I then do a round of this prompt (if CC did a compaction at any point, be sure to tell it to re-read your AGENTS dot md file):
+>
+> ---
+> Check over each bead super carefully-- are you sure it makes sense? Is it optimal? Could we change anything to make the system work better for users? If so, revise the beads. It's a lot easier and faster to operate in \"plan space\" before we start implementing these things!  Use ultrathink.
+> ---
+>
+> Then you're ready to start implementing. The fastest way to do that is to start up a big swarm of agents that coordinate using my MCP Agent Mail project.
+>
+> Then you can simply create a bunch of sessions using Claude Code, Codex, and Gemini-CLI in different windows or panes in tmux (or use my ntm project which tries to abstract and automate some of this) in your project folder at once and give them the following as their marching orders (for this to work well, you need to make sure that your AGENTS dot md file has the right blurbs to explain each of the tools; I'll include a complete example of this in a reply to this post):
+>
+> ---
+> First read ALL of the AGENTS dot md file and README dot md file super carefully and understand ALL of both! Then use your code investigation agent mode to fully understand the code, and technical architecture and purpose of the project. Then register with MCP Agent Mail and introduce yourself to the other agents.
+>
+> Be sure to check your agent mail and to promptly respond if needed to any messages; then proceed meticulously with your next assigned beads, working on the tasks systematically and meticulously and tracking your progress via beads and agent mail messages.
+>
+> Don't get stuck in \"communication purgatory\" where nothing is getting done; be proactive about starting tasks that need to be done, but inform your fellow agents via messages when you do so and mark beads appropriately.
+>
+> When you're not sure what to do next, use the bv tool mentioned in AGENTS dot md to prioritize the best beads to work on next; pick the next one that you can usefully work on and get started. Make sure to acknowledge all communication requests from other agents and that you are aware of all active agents and their names.  Use ultrathink.
+> ---
+>
+> If you've done a good job creating your beads, the agents will be able to get a decent sized chunk of work done in that first pass. Then, before they start moving to the next bead, I have them review all their work with this:
+>
+> ---
+> Great, now I want you to carefully read over all of the new code you just wrote and other existing code you just modified with \"fresh eyes\" looking super carefully for any obvious bugs, errors, problems, issues, confusion, etc. Carefully fix anything you uncover. Use ultrathink.
+> ---
+>
+> I keep running rounds of that until they stop finding bugs. Eventually they'll need to do a compaction, so if they do that, right after hit them with this (note that I've been typing AGENTS dot md to avoid the annoying preview on X because it thinks it's a website; you can replace that with a period and remove the spaces if you want; the agents don't care either way):
+>
+> ---
+> Reread AGENTS dot md so it's still fresh in your mind.   Use ultrathink.
+> ---
+>
+> When the reviews come up clean, have them move on to the next bead:
+>
+> ---
+> Reread AGENTS dot md so it's still fresh in your mind.   Use ultrathink.   Use bv with the robot flags (see AGENTS dot md for info on this) to find the most impactful bead(s) to work on next and then start on it. Remember to mark the beads appropriately and communicate with your fellow agents. Pick the next bead you can actually do usefully now and start coding on it immediately; communicate what you're working on to your fellow agents and mark beads appropriately as you work. And respond to any agent mail messages you've received.
+> ---
+>
+> When all your beads are completed, you might want to run one of these prompts:
+>
+> ---
+> Do we have full unit test coverage without using mocks/fake stuff? What about complete e2e integration test scripts with great, detailed logging? If not, then create a comprehensive and granular set of beads for all this with tasks, subtasks, and dependency structure overlaid with detailed comments.
+> ---
+>
+> or
+>
+> ---
+> Great, now I want you to super carefully scrutinize every aspect of the application workflow and implementation and look for things that just seem sub-optimal or even wrong/mistaken to you, things that could very obviously be improved from a user-friendliness and intuitiveness standpoint, places where our UI/UX could be improved and polished to be slicker, more visually appealing, and more premium feeling and just ultra high quality, like Stripe-level apps.
+> ---
+>
+> or
+>
+> ---
+> I still think there are strong opportunities to enhance the UI/UX look and feel and to make everything work better and be more intuitive, user-friendly, visually appealing, polished, slick, and world class in terms of following UI/UX best practices like those used by Stripe, don't you agree? And I want you to carefully consider desktop UI/UX and mobile UI/UX separately while doing this and hyper-optimize for both separately to play to the specifics of each modality. I'm looking for true world-class visual appeal, polish, slickness, etc. that makes people gasp at how stunning and perfect it is in every way.  Use ultrathink.
+> ---
+>
+> And then start the process again of implementing the beads. When you're done with all that and have solid test coverage, you can then keep doing rounds of these two prompts until they consistently come back clean with no changes made:
+>
+> ---
+> I want you to sort of randomly explore the code files in this project, choosing code files to deeply investigate and understand and trace their functionality and execution flows through the related code files which they import or which they are imported by.
+>
+> Once you understand the purpose of the code in the larger context of the workflows, I want you to do a super careful, methodical, and critical check with \"fresh eyes\" to find any obvious bugs, problems, errors, issues, silly mistakes, etc. and then systematically and meticulously and intelligently correct them.
+>
+> Be sure to comply with ALL rules in AGENTS dot md and ensure that any code you write or revise conforms to the best practice guides referenced in the AGENTS dot md file. Use ultrathink.
+> ---
+>
+> and
+>
+> ---
+> Ok can you now turn your attention to reviewing the code written by your fellow agents and checking for any issues, bugs, errors, problems, inefficiencies, security problems, reliability issues, etc. and carefully diagnose their underlying root causes using first-principle analysis and then fix or revise them if necessary? Don't restrict yourself to the latest commits, cast a wider net and go super deep! Use ultrathink.
+> ---
+>
+> You should also periodically have one of the agents run this as you're going to commit your work:
+>
+> ---
+> Now, based on your knowledge of the project, commit all changed files now in a series of logically connected groupings with super detailed commit messages for each and then push. Take your time to do it right. Don't edit the code at all. Don't commit obviously ephemeral files. Use ultrathink.
+> ---
+>
+> If you simply use these tools, workflows, and prompts in the way I just described, you can create really incredible software in a just a couple days, sometimes in just one day.
+>
+> I've done it a bunch of times now in the past few weeks and it really does work, as crazy as that may sound. You see my GitHub profile for the proof of this. It looks like the output from a team of 100+ developers.
+>
+> The frontier models and coding agent harnesses really are that good already, they just need this extra level of tooling and prompting and workflows to reach their full potential.
+>
+> To learn more about my system (which is absolutely free and 100% open-source), check out:
+>
+> https://t.co/22Fy2w73x0
+>
+> It include a complete tutorial that shows anyone how to get start with this process. You don't even need to know much at all about computers; you just need the desire to learn and some grit and determination. And about $500/month for the Claude Max and GPT Pro subscriptions, plus another $50 or so for the cloud server.
+>
+> If you want to change the entire direction of your life, it has truly never been easier. If you think you might want to do it, I really recommend just immersing yourself.
+>
+> Once you get Claude Code up and running on the cloud server, you basically have an ultra competent friend who can help you with any other problems you encounter.
+>
+> And I will personally answer your questions or problems if you reach out to me on X or on GitHub issues (it might be Claude impersonating me though, lol).
+
+- **Tweet:** https://x.com/doodlestein/status/2007588870662107197
+- **Link:** https://agent-flywheel.com/
+- **What:** Jeffrey Emanuel presents a comprehensive multi-stage workflow for AI-assisted software development, combining ChatGPT Pro for planning, Claude Code for implementation with task management via beads, and coordinated multi-agent systems for scaling complex projects.
+
+---
+
+## @irl_danB - OpenProse: A Programming Language for AI Sessions
+> "Wow."
+>
+> the OpenProse VM is a new kind of computer
+>
+> try it in 30 seconds:
+>
+> https://t.co/uCWV6A3ocm
+>
+> install skill (no code, no dependencies) in Claude Code, Opencode, Amp, Codex
+>
+> restart to load skill
+>
+> `openprose boot`
+>
+> onboarding is built in, it should hold your hand from there https://t.co/0fnWcGuEp9
+>
+> *Quoting @xpasky:* @irl_danB I tried it with the skill installed.
+>
+> It executed the VM perfectly. Wow.
+
+- **Tweet:** https://x.com/irl_danB/status/2007595082229395519
+- **Link:** https://www.prose.md/
+- **Quoted:** https://x.com/xpasky/status/2007592282409623887
+- **What:** Dan introduces OpenProse, a new programming language designed for AI sessions that enables agent orchestration and complex workflows without code or dependencies, installable as a skill across multiple coding harnesses.
+
+---
+
+## @irl_danB - OpenProse as a VM for Agent Orchestration
+> https://t.co/uCWV6A3ocm turns your harness into a VM that can do arbitrarily complex agent orchestration
+>
+> it's just a prompt. no frameworks, no code, no dependencies, nothing https://t.co/FeTm0UTAz2
+>
+> *Quoting @nickcammarata:* i think there's probably a $100b prompt waiting out there that puts the models 0.5 generations ahead
+
+- **Tweet:** https://x.com/irl_danB/status/2007618496092618872
+- **Link:** https://www.prose.md/
+- **Quoted:** https://x.com/nickcammarata/status/2006400435167563962
+- **What:** Dan emphasizes OpenProse's capabilities as a paradigm shift for agent orchestration within coding harnesses, describing it as a prompt-based system with no framework or dependency overhead.
+
+---
+
+## @GeoffreyHuntley - Learn fundamentals for software engineering
+> @seflless @Vjeux learn the fundamentals
+
+> *Replying to @seflless:* @Vjeux Cc @GeoffreyHuntley, what's your recommendation? You mentioned Anthropic's Ralph skill is just broken recently
+
+- **Tweet:** https://x.com/GeoffreyHuntley/status/2007629738219897146
+- **Link:** https://ghuntley.com/ralph/
+- **Parent:** https://x.com/seflless/status/2007629603205226759
+- **What:** Advice to learn fundamentals, responding to a conversation about software engineering tools. Links to an article about Ralph Wiggum as a "software engineer" - a commentary on AI agent capabilities and their limitations.
+
+---
+
+DATE: Saturday, January 3, 2026
+## @vasuman - Starting a high-signal agents and vibe coding group chat
+> Trying something new: starting a group chat dedicated to agents (and to a lesser extent, vibe coding).
+
+To get in, you must be qualified, must have built/shipped something real with quality (tell me what that is in the comments).
+
+Absolutely 0 exceptions. Need this group chat to be high signal and low noise, for the sake of everyone in it. Otherwise it dies in 2 days.
+
+Good indicator: I built a memory layer for agents, here's the GitHub link.
+
+Bad indicator: I vibe coded this thing that took 5 seconds and no one including myself finds any value in it.
+
+Please comment with a few words if you are interested.
+
+- **Tweet:** https://x.com/vasuman/status/2007642606684061718
+- **What:** Initiative to create a high-quality discussion group for agents and "vibe coding" with strict membership requirements to maintain signal-to-noise ratio.
+
+---
+
+DATE: Saturday, January 3, 2026
+## @GrantSlatton - Looking for quality 100% cotton t-shirt brands
+> i'm in the market to replace all my plain white t-shirts
+
+both v-neck and crew neck
+
+does anyone have a 100% cotton t-shirt brand they LOVE both the feel and fit of?
+
+- **Tweet:** https://x.com/GrantSlatton/status/2007654971425337456
+- **What:** Personal shopping request for high-quality cotton t-shirts in multiple neckline styles.
+
+---
+
+DATE: Saturday, January 3, 2026
+## @PaulSolt - macOS agents worth exploring
+> Steal concepts from @steipete on his Agents .md file for Codex.
+
+Peekaboo (macOS agent vision): https://t.co/VUVbl4D3HP
+
+The Oracle: https://t.co/sx6ADh4nhJ
+
+RepoBar (macOS Menubar): https://t.co/3KrHijbYqh
+
+> *Quoting @steipete:* @hammaadjam I'd cut it down drastically, there's a lot of unneeded crap in there.
+
+- **Tweet:** https://x.com/PaulSolt/status/2007679397567050058
+- **Link:** https://github.com/steipete/Peekaboo/blob/main/AGENTS.md
+- **Quoted:** https://x.com/steipete/status/2007524664851996947
+- **What:** Recommendation to explore Peter Steinberger's macOS agent tools (Peekaboo for screenshots, Oracle for AI assistance, and RepoBar for GitHub monitoring) with agent documentation. Highlights three sophisticated automation tools for developers.
+
+---
+
+DATE: Saturday, January 3, 2026
+## @carolccs1111 - Reply with image
+> @rebatheonryo @6asscat https://t.co/fvK5snKIEZ
+
+> *Replying to @rebatheonryo:* @6asscat that nigga was hearing yiddish in his walls
+
+- **Tweet:** https://x.com/carolccs1111/status/2007705529033146674
+- **Parent:** https://x.com/rebatheonryo/status/2007684616455631217
+- **What:** Image reply in a conversation thread.
+
+---
 
 ## @_kaitodev - Lovable for videos gaining traction
 > lovable for videos gets better everyday with new creators joining
@@ -66,6 +710,74 @@
 
 
 # Friday, January 2, 2026
+
+## @ankurnagpal - 2026 Backdoor Roth IRA Contribution Guide
+
+> I just made my 2026 Backdoor Roth IRA contribution for $7,500
+>
+> Most high earners don't do this because they think it's a complicated strategy that isn't worth the effort
+>
+> But, you typically can do it in less than 5 minutes with 3 simple steps:
+
+- **Tweet:** https://x.com/ankurnagpal/status/2007124597846753524
+- **What:** Personal finance advice on executing a backdoor Roth IRA contribution for 2026. The author explains this tax strategy is simpler than most high earners believe and can be completed in under 5 minutes.
+
+---
+
+## @doodlestein - Claude Code UI/UX Enhancement Prompt
+
+> Here is an incredibly useful prompt to use with Claude Code and Opus 4.5 to improve the UI/UX of your web application.
+>
+> I use this mostly for NextJS 16 apps with React 19, Tailwind 4, and other libraries like Framer Motion, but it's pretty generic and should work with anything.
+>
+> Something about the phrasing, and asking for agreement from the model, somehow motivates it to polish things up better. Also, instructing it to separately think through desktop vs mobile leads to much better outcomes.
+>
+> Note that this is really for when your site/app already works and looks decent and you want to improve it. I have a different prompt for when it looks bad and you need a complete overhaul.
+>
+> I generally do many, many passes of this, sometimes with more than one agent at once. Each time, it tries to make some incremental improvement, even if it's minor; but these really add up after 10 iterations!
+>
+> Here it is (I even made this a button on my Stream Deck gizmo because I use it so frequently):
+>
+> "I still think there are strong opportunities to enhance the UI/UX look and feel and to make everything work better and be more intuitive, user-friendly, visually appealing, polished, slick, and world class in terms of following UI/UX best practices like those used by Stripe, don't you agree? And I want you to carefully consider desktop UI/UX and mobile UI/UX separately while doing this and hyper-optimize for both separately to play to the specifics of each modality. I'm looking for true world-class visual appeal, polish, slickness, etc. that makes people gasp at how stunning and perfect it is in every way.  Use ultrathink."
+
+- **Tweet:** https://x.com/doodlestein/status/2007194101448573036
+- **What:** A detailed prompt engineering guide for iteratively improving web application UI/UX using Claude Code and Opus 4.5. The approach emphasizes separate desktop/mobile optimization and progressive refinement through multiple passes with extended thinking.
+
+---
+
+## @gmickel - RepoPrompt v1.5.61 Integration in Flow Plugin
+
+> Also added support for @RepoPrompt's new prompt export (v1.5.61). Run a @ID_AA_Carmack-level review, export the full context to a file, paste into the LLM of your choosing.
+>
+> https://t.co/eOUY4GGmyD
+> *Replying to @gmickel:* Nice tip for when you're just starting with a vague idea. Added this to my flow plugin as an optional step before the plan → work loop
+>
+> /flow:interview https://t.co/l7cgqY72rT (or beads id)
+>
+> 40+ deep questions about technical details, edge cases, testing, architecture. Writes refined spec back.
+>
+> h/t @trq212
+
+- **Tweet:** https://x.com/gmickel/status/2007251220348682538
+- **Link:** https://github.com/gmickel/gmickel-claude-marketplace
+- **Parent:** https://x.com/gmickel/status/2007251218159067177
+- **What:** Enhancement to Gordon Mickel's Flow plugin adding support for RepoPrompt v1.5.61's new prompt export capability, enabling high-quality code reviews that can be exported to external LLMs, complementing the existing plan→work loop with a deep interview phase.
+
+---
+
+## @alexhillman - Git command safety with hooks
+> basically everything starts with this command https://t.co/yry008gaSI
+>
+> *Quoting @mattsalem:* @alexhillman What's your planning workflow look like?
+
+- **Tweet:** https://x.com/alexhillman/status/2007292106046615977
+- **Link:** https://gist.github.com/alexknowshtml/074cb4fd91c14b37f2b6e2b62f79b60e
+- **Quoted:** https://x.com/mattsalem/status/2007291062143070355
+- **What:** Git workflow optimization tool. Discusses a key command for managing planning workflow.
+
+---
+
+---
 
 ## @alexhillman - Git safety hooks for destructive command prevention
 > been here, this never feels good.
@@ -490,7 +1202,154 @@ it's live now do check it out and would appreciate your feedback https://t.co/DO
 ---
 
 
+# Thursday, January 1, 2026
+
+## @__morse - Playwriter MCP Browser Automation Extension
+> https://t.co/cG7QBcAAE8
+> *Replying to @__morse:* playwriter can do basically anything in the browser. I just used it in opencode to open Cloudflare dashboard and register a new domain, all while lying in my bed. it even clicked "I am not a robot" and paid
+>
+> https://t.co/cG7QBcAAE8
+
+- **Tweet:** https://x.com/__morse/status/2006709180510372142
+- **Parent:** https://x.com/__morse/status/2006709143051411818
+- **What:** Playwriter is a browser automation MCP that works as a Chrome extension, providing full Playwright API capabilities with 90% less context window overhead than traditional Playwright MCPs.
+
+---
+
+## @Dimillian - State of Agentic iOS Engineering in 2026
+> The State of Agentic iOS Engineering in 2026
+>
+> My perspective on AI-driven programming, workflows, and tooling
+>
+> https://t.co/a4xAAbK4vg
+> *Replying to @Dimillian:* I wrote a big retrospective on my 2025 usage of AI tooling and workflows for iOS, but not only.
+> I hope you'll find something for you; it's a bit of everything!
+> Link below 👇🏻
+
+- **Tweet:** https://x.com/Dimillian/status/2006773415181693125
+- **Parent:** https://x.com/Dimillian/status/2006773412321169685
+- **Link:** https://dimillian.medium.com/the-state-of-agentic-ios-engineering-in-2026-c5f0cbaa7b34?sk=fc0d73c63aec57085ff9fb90fd1de1c7
+- **What:** A comprehensive retrospective and analysis of AI tooling and workflows for iOS development, covering agentic programming approaches and best practices from 2025 usage.
+
+---
+
+## @mattpocockuk - Ralph Opus 4.5 Workflow and Context Management
+> I'm using Ralph for everything.
+>
+> I have some modifications to @GeoffreyHuntley's initial vision:
+>
+> - How to give Ralph enough context to succeed
+> - AFK Ralph vs HOTL Ralph
+> - Why PRD format matters
+> - Why multi-phase plans are dead
+>
+> Video (or probably videos) coming soon
+>
+> *Quoting @mattpocockuk:* Ralph Wiggum + Opus 4.5 is really, really good
+
+- **Tweet:** https://x.com/mattpocockuk/status/2006807098076881312
+- **Quoted:** https://x.com/mattpocockuk/status/2006694097818395019
+- **What:** An exploration of using Ralph (an AI-powered development workflow) with Claude Opus 4.5, discussing context management, operational modes, and improvements to the original vision including PRD formatting and planning approaches.
+
+---
+
+## @0xfdf - Beads: Task Management Graph for Agents
+
+> this is beads: https://t.co/MBq3rQDd9M. you can sync it with any task management frontend you want; I integrate it with GitHub issues using `gh`, but you can use any.
+>
+> I recommend something like this in your AGENTS/CLAUDE . md file:
+>
+> ```
+> ### Issue tracking
+>
+> Be conscientious about tracking your work with issues creating using beads (`bd`). Beads is a task management graph with which you can track projects, epics, issues, etc.
+>
+> ALL plans, tasks, todos, subtasks, etc should be faithfully recorded in beads in full technical detail, complete with
+> dependencies and order of completion. You MUST record ALL your work with beads task management. ALL issues must have their name suffixed with the current git worktree (if any) and branch you're working on, so that multiple agents can work without colliding.
+>
+> You can familiarize yourself with the available commands using `bd -h`.
+>
+> ### Landing the Plane (Session Completion)
+>
+> **When ending a work session**, you MUST complete ALL steps below. Work is NOT complete until `git push` succeeds.
+>
+> **MANDATORY WORKFLOW:**
+>
+> 1. **File beads issues for remaining work** - Create issues for anything that needs follow-up
+> 2. **Sync ALL beads issues to GitHub using the `gh` tool** - Preserve the project hierarchy of the issues (epic -> issue, etc). If an issue has changed, change its state on GitHub as well (updates should be reflected as new comments/posts on the issue).
+> 3. **Run quality gates** (if code changed) - Tests, linters, builds
+> 4. **Update issue status** - Close finished work, update in-progress items
+> 5. **PUSH TO REMOTE** - This is MANDATORY:
+>    ```bash
+>    git pull --rebase
+>    bd sync
+>    git push
+>    git status  # MUST show "up to date with origin"
+>    ```
+> 6. **Clean up** - Clear stashes, prune remote branches
+> 7. **Verify** - All changes committed AND pushed
+> 8. **Hand off** - Provide context for next session
+>
+> **CRITICAL RULES:**
+> - Work is NOT complete until `git push` succeeds
+> - NEVER stop before pushing - that leaves work stranded locally
+> - NEVER say "ready to push when you are" - YOU must push
+> - If push fails, resolve and retry until it succeeds
+> ```
+> *Replying to @yacineMTB:* I need a task manager program, something that I can very easily use and track my different tasks, while having them assigned to individual coding agents. Right now; I just name my tmux sessions which task I'm trying to get done. But I need something that works with my phone
+
+- **Tweet:** https://x.com/0xfdf/status/2006807995884175661
+- **Link:** https://github.com/steveyegge/beads
+- **Parent:** https://x.com/yacineMTB/status/2006685073685520483
+- **What:** A distributed, git-backed graph issue tracker designed for AI agents. Provides persistent memory, dependency tracking, and structured task management across multi-session workflows with GitHub integration.
+
+---
+
+## @Steve_Yegge - Gas Town: Coding Agent Orchestrator Launch
+
+> Happy New Year! I've just launched my coding agent orchestrator, Gas Town, for anyone crazy enough to try it. https://t.co/xWJLZzmpZH
+
+- **Tweet:** https://x.com/Steve_Yegge/status/2006835043503845445
+- **Link:** https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04
+- **What:** Announcement of Gas Town, Steve Yegge's new coding agent orchestrator platform released on New Year's Day 2026. This is a comprehensive system for orchestrating multiple AI agents in complex development workflows.
+
+---
+
+
+---
+
+
 # Wednesday, December 31, 2025
+
+## @0xPaulius - Screen Record App Walkthroughs to Create SaaS Specs
+> pro tip: screen record a walk through of the app, then have Gemini create a spec sheet
+>
+> Give the spec sheet to Claude
+>
+> GGWP, saas done
+>
+> *Quoting @dabit3:* Something I wanted to see if Claude Opus 4.5 could do: clone a fully functional Billion $ SAAS product and make it at least 100x cheaper.
+>
+> The first product that came to mind was TypeForm because it's very popular, very expensive, and in theory, very simple.
+>
+> The result is OpenForm: a polished + functional and Open Source Typeform clone at ~100x less cost, that can be setup and deployed in ~15 minutes. The agent building this ran for ~35 minutes.
+>
+> Here are the details, technique, and the code:
+
+- **Tweet:** https://x.com/0xPaulius/status/2006599685902127139
+- **Quoted:** https://x.com/dabit3/status/2006489676924989860
+- **What:** A tip for creating SaaS product specifications by screen recording workflows and having AI create spec sheets, then using those specs with Claude for implementation.
+
+---
+
+## @thsottiaux - Ask Questions if Request is Underspecified Skill
+> Simply adding "Ask questions if my request is underspecified" at the end of a prompt to Codex works well as you might expect, but also codified it a bit more in a `$ask-questions-if-underspecified` skill that I use regularly. https://t.co/QVPidaONx6
+
+- **Tweet:** https://x.com/thsottiaux/status/2006624682515247604
+- **Link:** https://x.com/thsottiaux/status/2006624682515247604/photo/1
+- **What:** A practical prompt engineering tip to include in prompts that instructs AI models to ask clarifying questions when requests lack sufficient detail or context.
+
+---
 
 ## ## @0xRaduan - Claude Code Internal Documentation Reference
 
