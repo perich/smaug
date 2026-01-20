@@ -2,8 +2,9 @@
 
 **Repo:** EveryInc/compound-engineering-plugin
 **Language:** Python
-**Stars:** 4,837
+**Stars:** 5,296
 **URL:** https://github.com/EveryInc/compound-engineering-plugin
+**Creator:** Kieran Klaassen
 
 Official Claude Code plugin that makes each unit of engineering work easier than the last.
 

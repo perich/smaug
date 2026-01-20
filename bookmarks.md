@@ -1,4 +1,153 @@
+# Monday, January 19, 2026
+
+## @Dimillian - Parallel Testing Orchestration in Codex
+> The collab feature in Codex is insanely furious. I've asked the main agents to run tests in parallel for features that don't conflict, and now I have a free orchestrator managing 4 sub-agents writing tests at the speed of light. https://t.co/kgzbUH6x66
+
+- **Tweet:** https://x.com/Dimillian/status/2013321916484902959
+- **What:** Thomas Ricouard demonstrates the power of Codex's collaboration feature by orchestrating multiple sub-agents to run tests in parallel for non-conflicting features, dramatically improving test execution speed.
+
+## @aidenybai - AMI Desktop App for Parallel Coding Agents
+> ami is now a desktop app
+>
+> run parallel coding agents from your computer without breaking your flow
+>
+> claude opus 4.5 is unreasonably good but the interfaces around it haven't caught up
+>
+> go try it out for free :)
+
+- **Tweet:** https://x.com/aidenybai/status/2013342136415199643
+- **What:** A new desktop application that enables running multiple coding agents in parallel while maintaining development flow. Highlights the capability of Claude Opus 4.5 and its potential when paired with better interfaces.
+
+## @thdxr - Good Programming Prevents Bugs at the Design Level
+> ok more clarity - good programming looks like structuring things in a way where certain bugs are impossible
+>
+> LLMs are not good at this they just accomplish the primary task
+
+- **Tweet:** https://x.com/thdxr/status/2013354002562359409
+- **What:** Discussion on how quality programming design prevents entire classes of bugs structurally, whereas LLMs tend to brute force solutions that accomplish the task but lack robustness and proper architecture.
+
+## @stevekrouse - AI Agents Transforming Investment Analysis and Research
+> Warren Buffet says that one investor can really only know 5-10 companies, and value them properly
+>
+> I wonder what the future of public market investing will look like when you can unleash lots of analyst "agents" to be constantly research every part of every company - including every person at the company, on the board, etc, etc
+
+- **Tweet:** https://x.com/stevekrouse/status/2013380188474593460
+- **What:** Exploration of how AI analyst agents could fundamentally change public market investing by enabling comprehensive research of multiple companies simultaneously, overcoming traditional constraints on analyst bandwidth.
+
+## @charlieholtz - Conductor AI Orchestrator Platform Growing Rapidly
+> https://t.co/FiyMgr0pZy
+
+- **Tweet:** https://x.com/charlieholtz/status/2013385252400685298
+- **What:** Link to Conductor's join us page describing their AI orchestrator platform for running teams of coding agents on Mac. The company has grown 250% in January 2026, raised $2.8M, and is being used by engineers at major companies like Linear, Vercel, and Stripe.
+
+---
+
+# Sunday, January 18, 2026
+
+## @dillon_mulroy - Building Vertical Slices with AI for Better Results
+> it's so obvious in retrospect that building vertical slices is a cheat code to getting good results w/ ai. highly recommend reviewing this concept (and rereading the pragmatic programmer) and building systems for your agents around it
+
+- **Tweet:** https://x.com/dillon_mulroy/status/2012902889249792220
+- **What:** Dillon Mulroy shares the effectiveness of building vertical slices when working with AI agents, referencing concepts from the Pragmatic Programmer. This approach creates complete, end-to-end feature implementations rather than layer-by-layer approaches.
+
+## @mattpocockuk - Optimizing AGENTS.md Files for Better Agent Performance
+> Bad AGENTS​.md files can make your coding agent worse and cost you tokens.
+>
+> Here's a prompt you can use to clean them up - PLUS a full guide for folks wanting to learn more.
+>
+> Enjoy: https://t.co/vDSwVQYKbT https://t.co/EJJQvP0tPy
+
+- **Tweet:** https://x.com/mattpocockuk/status/2012906065856270504
+- **What:** Matt Pocock provides guidance on optimizing AGENTS.md files to improve AI agent performance and reduce token usage, including a complete guide and cleanup prompt for better instruction formatting.
+
+**Knowledge File Created:**
+./knowledge/articles/complete-guide-agents-md.md
+
+## @dillon_mulroy - AI Workflow with Skills and Sub-Agents
+> broadly my workflow currently is the following powered by mostly skills (w commands to invoke them) and a few simple custom/sub agents https://t.co/doQAs6Lkn1
+
+- **Tweet:** https://x.com/dillon_mulroy/status/2012953520735998149
+- **What:** Dillon Mulroy demonstrates his current AI development workflow architecture, built on skills accessible via commands and custom sub-agents for specialized tasks.
+
+## @kieranklaassen - Compound Engineering Plugin for Claude Code
+> Woooohh, @kevinrose using my plugin! VERY GOOD Compound Eng for beginners as wel!
+>
+> Check it out at https://t.co/BCDTiLljdV
+
+- **Tweet:** https://x.com/kieranklaassen/status/2013106260422332877
+- **What:** Kieran Klaassen announces that Kevin Rose is using the Compound Engineering plugin for Claude Code, which applies compound engineering principles to make each unit of work easier than the last through planning, execution, review, and knowledge codification cycles.
+
+**Knowledge File Created:**
+./knowledge/tools/compound-engineering-plugin.md
+
+---
+
+# Saturday, January 17, 2026
+
+## @PeterJThomson - Visual Worktree Manager for AI Development
+> @banteg And if you want a GUI to make the worktrees from @cursor_ai @claudeai & @conductor_build easy to see, manage and to run your code in then I build a visual worktree manager:
+> https://t.co/x5juWETrPN
+
+- **Tweet:** https://x.com/PeterJThomson/status/2012459666396348463
+- **What:** Peter Thomson presents Ledger, a visual git worktree manager designed for managing multiple agent workspaces (Cursor, Claude, Conductor) with pull request integration and branch visualization.
+
+## @mitsuhiko - Differences Between Claude Opus and Codex Workflows
+> Codex seems to be built to run uninterrupted after you give it great instructions. The way I like to use opus is for collaborative planning, not for execution. I go back and forth with it. I ask it a question, it will immediately look at the code, come back with counter questions.
+>
+> I'm trying to see if i can steer codex to be closer to what Opus does, but as a result I'm altering my experience with Opus in ways that degrade the experience. For instance to get Codex closer to what I want i say "when we're planning and discussing, always look at the code and don't answer questions from knowledge only". This makes Opus now so eager to read code that it's just neg negative to the default experience.
+
+- **Tweet:** https://x.com/mitsuhiko/status/2012488229308584443
+- **What:** Armin Ronacher discusses how Opus excels at collaborative planning with code review while Codex is more execution-focused, and how instructions can skew AI behavior in unintended ways.
+
+## @gregwedow - Ticket: Git-Native Issue Tracking in 1500 Lines
+> @tetsuo_cpp @mitsuhiko No need for the complexity. Lot of folks getting the same benefits in under 1500 lines with https://t.co/SN8rtHXsBF.
+
+- **Tweet:** https://x.com/gregwedow/status/2012511345409663189
+- **What:** Greg Wedow introduces Ticket, a minimal git-backed issue tracker bash script inspired by Unix Philosophy, optimized for AI agents with markdown files and dependency graphs.
+
+## @munchPRMR - Tweet Link
+> https://t.co/MLEh5gsoZF
+
+- **Tweet:** https://x.com/munchPRMR/status/2012532544403583008
+- **What:** Tweet containing a reference to another tweet article.
+
+## @steipete - CodexBar Menu Bar App
+> how it started:
+> how it's going:
+> https://t.co/LqGlWVNXSq
+
+- **Tweet:** https://x.com/steipete/status/2012598561960038708
+- **What:** CodexBar is a macOS menu bar app that tracks API usage limits for multiple AI services (Codex, Claude Code, Cursor, Gemini, Copilot, etc.) in real-time, helping developers avoid hitting rate limits.
+
+## @erd0xbc - Useful Patterns for Building HTML Tools
+> @calvinalkan @dexhorthy @simonw https://t.co/3rIZ1tYF2p
+
+- **Tweet:** https://x.com/erd0xbc/status/2012608269378789649
+- **What:** Simon Willison's article on building single-file HTML tools with vanilla JavaScript and CSS. Covers patterns for building practical web tools without frameworks, with over 150 examples.
+
+## @ianmSC - Political Commentary
+> The level of dedication Democrats have to actively refusing to enforce federal immigration laws is staggering. It is their top priority, far and away above everything else, fighting desperately to use any available power to obstruct immigration law
+
+- **Tweet:** https://x.com/ianmSC/status/2012635921053593725
+- **What:** Commentary on immigration policy and enforcement priorities.
+
+## @blader - Claudeception AI Skill Learning
+> used claude code to make a little claude code skill that learns new claude code skills as you use claude code
+>
+> https://t.co/IUpdeFzRtq
+
+- **Tweet:** https://x.com/blader/status/2012667150440476851
+- **What:** Claudeception is a Claude Code skill that enables autonomous learning and skill extraction. It allows Claude Code to save discovered solutions as reusable skills that activate in future sessions.
+
+---
+
 # Friday, January 16, 2026
+
+## @thsottiaux - Real-Time Agent Steering in Codex CLI
+> Within the CLI, you can now steer codex mid-turn without interrupting and watch the agent adapt in almost real time. Enable in /experimental
+
+- **Tweet:** https://x.com/thsottiaux/status/2012074358471319599
+- **What:** New Codex CLI feature that allows interruption-free mid-turn steering of agents with real-time adaptation, enabling better control without stopping execution.
 
 ## @mattpocockuk - AI Feedback Loops for TypeScript Projects
 
@@ -17,6 +166,78 @@
 **Knowledge File Created:**
 ./knowledge/articles/essential-ai-coding-feedback-loops-typescript.md
 
+## @ghumare64 - Untitled Shared Article
+> https://t.co/RKiqiotAE8
+
+- **Tweet:** https://x.com/ghumare64/status/2012136491133145364
+- **What:** Shared tweet article link (content not available).
+
+## @tobi - Try: Fresh Directories for Experiments
+> Give try a try at https://t.co/prnhj7TJPV
+
+- **Tweet:** https://x.com/tobi/status/2012163185722200142
+- **What:** Tool for managing experiment directories with fuzzy search and auto-dating, built in Ruby for quick navigation between scattered test projects.
+
+## @Dimillian - Codex Monitor Website Launch
+> Codex Monitor website is live! https://t.co/p00M792ORu
+
+- **Tweet:** https://x.com/Dimillian/status/2012226921514348794
+- **What:** MacOS Tauri app for orchestrating Codex agents across workspaces with threads, reviews, git integration, and model controls for unified workflow management.
+
+## @rseroter - How to write effective specs for AI agents
+> I don't know of anyone who is consistently publishing more insight-rich content than @addyosmani.
+>
+> This "how to write a good spec for AI agents" is a banger with piles of actionable advice.
+> https://t.co/FsnT55w61o
+
+- **Tweet:** https://x.com/rseroter/status/2012234363761782843
+- **What:** Addy Osmani's comprehensive guide on writing effective specifications for AI coding agents, covering planning-first approaches, spec-driven development, and iterative refinement strategies.
+
+## @benjitaylor - Annotating for agents: Show, don't tell with animation feedback
+> A "show/don't tell" approach for agent feedback when working on animations and interactions: https://t.co/iTtfLfljlE
+
+- **Tweet:** https://x.com/benjitaylor/status/2012240555955438048
+- **What:** Explores how to provide precise feedback to AI agents on animations and interactions by capturing temporal state, timing, and coordinates rather than just describing changes verbally.
+
+## @rockorager - Functional core, imperative shell design pattern for testability
+> Recommended addition to your https://t.co/1rrsv9wTGb:
+>
+> > Design for testability using "functional core, imperative shell": keep pure business logic separate from code that does IO.
+
+- **Tweet:** https://x.com/rockorager/status/2012289101987193255
+- **What:** Suggests the functional core/imperative shell pattern as a key design principle for agent-guided code, emphasizing separation of pure logic from IO operations for improved testability.
+
+## @shan3v - Decomplect skill for Claude Code architectural analysis
+> @rockorager Yup it's awesome. Built a skill for this https://t.co/3A7ywxxqY0
+
+- **Tweet:** https://x.com/shan3v/status/2012317201391378584
+- **What:** Announces a new Claude Code skill called "Decomplect" for architectural analysis and design quality assessment, implementing functional core/imperative shell principles.
+
+## @banteg - Real-time static sites for agent knowledge bases
+> you can just have a static site updating in realtime that serves both an overview of what your agent has done, as well as a knowledge base that informs its future work. spin up with zensical serve. https://t.co/gOAUOfGf40
+
+- **Tweet:** https://x.com/banteg/status/2012332846736642502
+- **What:** Proposes using real-time static sites as a pattern for agent knowledge bases and work tracking, enabling agents to access updated information for future tasks.
+
+## @rauchg - Introducing Skills: The NPM of AI Skills
+> We're introducing 𝚜𝚔𝚒𝚕𝚕𝚜 – the "npm" of AI skills. Excited to see an open, agent-agnostic ecosystem of skills flourish.
+>
+> To get started, try:
+> ▲  ~/ npx skills i vercel-labs/agent-skills https://t.co/2NACKW1v8r
+
+- **Tweet:** https://x.com/rauchg/status/2012345679721771474
+- **What:** Guillermo Rauch announces a new package management ecosystem for AI skills, similar to npm but for AI agent capabilities.
+
+## @tobi - Using AI to Create Try Homepage
+> Try needed a homepage. So i asked grok to summarize what people are saying on X about it, and gave it to claude to turn into a pitch.
+>
+>  https://t.co/BCtImlHyZx
+>
+> i'm having too much fun with ai. https://t.co/boPGn0PluW
+
+- **Tweet:** https://x.com/tobi/status/2012356776931348520
+- **What:** Tobi Lütke demonstrates using Grok and Claude together to generate website copy - using AI to analyze social sentiment and synthesize marketing messaging.
+
 ---
 
 ---
@@ -27,6 +248,38 @@
 
 
 # Thursday, January 15, 2026
+
+## @chrisman - Socratic Teaching with Synthesis for Fractions
+> 6yo learning fractions with Synthesis. Teaching style is Socratic. Answer correctly, get increasingly challenging follow-up questions.
+>
+> Lover her proud face at 1:10. That justified pride in what you've learned is the best motivator. Far better than points or leaderboards. https://t.co/5drgXEIaAS
+
+- **Tweet:** https://x.com/chrisman/status/2011879000394907871
+- **What:** Demonstrates how the Synthesis platform uses Socratic teaching methods for children's education. The video shows how intrinsic motivation (pride in learning) outperforms gamification approaches like points and leaderboards.
+
+## @nearcyan - Creating Perfect Sound Effects with Claude
+> @mckaywrigley this is kinda why i tell people to tasteMaxx because claude and i made all sfx from the command line.
+>
+> since i know music theory i just lean back and say (literally out loud) "ah, claude, let's use a C major 9 chord for the intro click, make it a bit jazzy"
+>
+> "you're absolutely-"
+
+- **Tweet:** https://x.com/nearcyan/status/2011900330444013700
+- **What:** Shows practical use of Claude AI for audio production, demonstrating how conversational interaction with Claude enables rapid sound design iteration by leveraging domain expertise in music theory.
+
+## @nateberkopec - Safety Mechanisms Beyond Deterministic Agent Enforcement
+> Cheers. Added to my own dotfiles.
+>
+> You should never rely on deterministic agents to enforce safety, though. I implemented a claude hook + opencode plugin which hard-deny. I was able to talk Claude and GLM 4.6 into ignoring my instructions, but the tool caught them.
+
+- **Tweet:** https://x.com/nateberkopec/status/2011972005390926327
+- **What:** Critical security insight: relying solely on AI agents to enforce safety rules is insufficient. Implementing hard-deny mechanisms (hooks and plugins) provides necessary defense-in-depth, as even state-of-the-art LLMs can be socially engineered.
+
+## @PaulSolt - 7 Beginner Tips for Using Codex Effectively
+> 👋 If you're new to Codex, here are 7 beginner tips: 1. Start with: GPT-5.2-Codex high. That is high reasoning. It is enough. Don't be tempted with xhigh unless working on something really tricky. It uses more tokens and will be slower to finish. 2. Sometimes more reasoning may not help. You may need to give your agents better docs that are up to date. I prefer to have my agents create Markdown docs from DocSet that are local, instead of web scraping. I use DocSetQuery to create docs from Dash DocSet bundles. 3. Read @steipete post to get started. Bookmark his blog and follow him. Read his post, it's gold, and so are his other workflow posts. 4. Copy aspects from Peter's agents .md file and make it your own. There's thousands of hours of learnings in his open source projects. Use the scripts too, things like committer for atomic commits are super powerful when multiple agents work in one folder. 5. Just talk to codex. You don't need complex rules. You don't need to create huge Plan .md files. You can get really good results by just working on one aspect of a feature at a time, handing it off, and then letting Codex do it. If you get bored waiting start up another project while you wait. Ask it to do something and then go back to the original one. Most likely it will be done unless you're doing a huge refactor. 6. You can always ask your agent to copy something from another project. Peter does this all the time and has agents leveraging work they've already done for new projects. I ask my agents to create Makefiles to build and run my apps. For new projects I have them copy the structure. See my workflow video: How I use Codex GPT 5.2 with Xcode (My Complete Workflow) 7. Ask it to do things … and most likely you're going to need YOLO (danger mode) to get anything done without constant nagging. Enjoy your next app!
+
+- **Tweet:** https://x.com/PaulSolt/status/2012010080414081188
+- **What:** Practical guide for beginners using Codex, covering reasoning levels, documentation strategies, working with Peter Steinberger's patterns, and effective agent workflows.
 
 ## @bentossell - Agent Loops with UI Viewer for Autonomous Task Execution
 > introducing agent-loops + ui viewer
@@ -3040,6 +3293,12 @@ A few points on why I'm so excited about the project, and why I hope it becomes 
 
 # Saturday, December 27, 2025
 
+## @systematicls - Shared Tweet/Article
+> https://t.co/FQe5bCBqW1
+
+- **Tweet:** https://x.com/systematicls/status/2004900241745883205
+- **What:** A shared tweet or article link. The expanded content points to a Twitter article that may contain relevant technical or industry insights.
+
 ## @aakashgupta - Karpathy "dramatically behind" commentary
 > Andrej Karpathy literally built the neural networks running inside coding assistants... If he feels "dramatically behind" as a programmer, that tells you everything.
 
@@ -5843,6 +6102,16 @@ DATE: Tuesday, November 4, 2025
 - **What:** Comprehensive superthread collecting all resources on advanced Claude Code usage, research-plan-implement methodology, and context engineering techniques for coding agents.
 
 ---
+
+---
+
+# Tuesday, September 25, 2012
+
+## @KentBeck - Make the Change Easy, Then Make the Easy Change
+> for each desired change, make the change easy (warning: this may be hard), then make the easy change
+
+- **Tweet:** https://x.com/KentBeck/status/250733358307500032
+- **What:** A core principle of effective programming: the difficulty isn't in making the change itself, but in structuring your code so that the change becomes trivial to implement.
 
 ---
 
