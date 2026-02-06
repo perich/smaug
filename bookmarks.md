@@ -1,3 +1,944 @@
+# Thursday, February 5, 2026
+
+## @QwQiao - Compute Demands Reshape Investment Thesis
+> Once in a while i get better investment ideas from doing than from reading. Case in point after a month of coding i bought more hyperscalers and semis. AMZN MSFT NVDA TSM the whole 9 yards. The market is completely unprepared for how much compute will be needed.
+
+- **Tweet:** https://x.com/QwQiao/status/2019395154197770472
+- **What:** Personal investment thesis derived from hands-on coding experience, revealing that market participants are underestimating the magnitude of compute infrastructure needed, leading to increased positions in hyperscalers and semiconductor companies.
+
+## @zephyr_z9 - Memory Shortage Extends to 2028, Capex Revisions Continue
+> Memory shortage is worse and will extend into 2028. We got big CAPEX revisions. The easiest way to make money is to bet on memory rn.
+
+- **Tweet:** https://x.com/zephyr_z9/status/2019415216950587485
+- **What:** Analysis of semiconductor market dynamics showing memory constraints persisting through 2028 with major capital expenditure revisions, positioning memory chip investments as the most direct profit opportunity.
+
+---
+
+# Wednesday, February 4, 2026
+
+## @profplum99 - Trump administration policy alignment perspective
+> This might as well be my position piece on the current administration. Spot on with how I see it
+
+- **Tweet:** https://x.com/profplum99/status/2019000327194759479
+- **Article:** https://macdonaldlaurier.ca/what-if-trump-is-painfully-right-stephen-nagy-for-inside-policy/
+- **What:** Michael Green's endorsement of an article examining potential validity in Trump administration policies. The linked piece from Macdonald-Laurier Institute explores contrarian perspectives on current political direction.
+
+## @thdxr - Tooling gaps persist despite AI code generation capabilities
+> even with infinite ability to produce code we still have long standing tooling gaps\n\nthis was a major one (i even had a poc named openworkflow i never shipped)\n\nwhat's funny is it's getting buried under all the ai talk
+
+- **Tweet:** https://x.com/thdxr/status/2019062073552941109
+- **What:** Observation on persistent infrastructure and tooling gaps in development workflows that remain unsolved despite advances in AI-powered code generation. References the author's abandoned OpenWorkflow project as an example.
+
+## @RHouseResearch - SentinelOne's Agentic Evolution and Platform Expansion
+> I'm riding with Citron here on SentinelOne $S. Trading sub <4x ARR vs. 20x+ for its closest comp $CRWD, despite both growing topline at 22-23%. I struggle to see SMBs (SentinelOne $S plays more down-market) deciding to build in-house security solutions with vibe-coding tools. $S already seeing decent traction with their agentic offering PurpleAI (essentially a security operations workflow solution) reaching a record 40% attach rate on all licenses sold last quarter. ARR per customer also at a record high while non-endpoint (endpoint being the company's core product) bookings were 50% of total bookings last quarter. Both data points suggest company is evolving from endpoint point solution to broad security platform.
+
+- **Tweet:** https://x.com/RHouseResearch/status/2019088197066645741
+- **What:** Analysis of SentinelOne's valuation relative to competitors and evolution from an endpoint security vendor to a comprehensive security platform, highlighting PurpleAI's 40% attach rate and record ARR per customer as indicators of platform diversification.
+
+## @sdand - vmux: Stateful Cloud Sandboxes for Coding Agents
+> Introducing vmux - incredibly fast, stateful cloud sandboxes for coding agents. For the first time you get persistent GPU/CPU sandboxes via Modal/CF backed by Durable Objects to stream logs live, native preview URLs, and attach a real shell. Spin up a notebook or train nanogpt via codex - with a Modal sandbox spun up in seconds.
+
+- **Tweet:** https://x.com/sdand/status/2019183574516195703
+- **What:** Introduction to vmux, a new tool providing persistent GPU/CPU sandboxes for AI coding agents with live log streaming, preview URLs, and shell access, leveraging Modal and Cloudflare Durable Objects for fast deployment.
+
+## @cajunpies - Semiconductor and Infrastructure Spending Priorities
+> @felipexbt @zephyr_z9 $TSM $AVGO $VRT $FIX $HUBB $ANET $ETON $GEV $MU $STX $SNDK $ONTO $KLAC $ASML to name a few
+
+- **Tweet:** https://x.com/cajunpies/status/2019265497175388346
+- **What:** Response listing multiple semiconductor and infrastructure companies (TSM, AVGO, MU, ASML, KLAC and others) as beneficiaries of major compute spending initiatives, indicating where AI infrastructure investment is flowing.
+
+---
+
+# Tuesday, February 3, 2026
+
+## @alxfazio - Building Fleet of Vertical Agents with Fly.io Infrastructure
+
+> i'm building a fleet of vertical agents where each one gets its own full computer (100gb persistent disk, 8gb ram, ~600ms wake from hibernation) using Fly.io sprites and Z.ai glm 4.7. they're built entirely on claude code cli, no openclaw and no claude agent sdk. `claude --print` (non-interactive mode) is what makes this possible. the hatcher sends a prompt, claude code runs headlessly on the sprite, and streams structured json back. you can talk to them from discord or drop into a terminal and pick up the same session from anywhere
+
+we call them droids. Fly.io sprites give them ~$0 compute when idle and auto-hibernate after 30 seconds of inactivity. when a user sends a message, the sprite wakes in ~600ms and picks up right where it left off. they'll be hatchable from a base config using what i call a "droid hatcher," similar to botfather on telegram
+
+we were already building useful vertical agents with claude code, but we're all busy and travel a lot. having to sit down in front of a laptop and open a terminal just to use claude code (because the app and claude.ai don't have the same toolset) was creating a lot of friction. creating a new agent was an entire project. sharing one meant pushing to github, sharing the repo, pulling updates. group chats with claude code didn't exist, you couldn't have multiple people talking to the same agent in isolated threads. with this setup anyone in the company can hatch a new droid directly from discord using the droid hatcher, share it with others, or co-work on one together, all in full safety
+
+i wanted something like openclaw for my business, but openclaw is too opinionated. it abstracts away too much of the claude code configuration, which kills customisation and portability. it would also force me to rewrite the claude code setups we already share across employees. and the agent sdk is too high-level for what i need. i want each droid to own its entire machine, not run inside someone else's runtime. because these are full claude code instances on isolated vms, the agents can self-improve, self-edit their own code, and their machines are fully auditable. we can ssh in and inspect anything at any time
+
+this system solves all three problems. each droid is its own machine (no git pull needed), lives in a discord forum channel where each post is an independent session, and multiple people can interact with it concurrently
+
+i can already resume a droid's session from a terminal whenever i want, instead of going through discord. their main home will be a dedicated discord server. i chose discord because i used midjourney a lot and i know what's possible on discord in terms of ux for bot-driven workflows. it also avoids dumping noise into our main slack channel, but they'll still be mentionable from slack when needed
+
+anyone in my company will be able to create and customise their agent, all from a single chat. new people, collaborators, and contractors can be onboarded safely in discord, since each droid lives in its own forum channel and permissions are managed directly through discord roles. no complex business logic needed. contractors can even bring their own api key and hand it to the droid hatcher to spawn a droid they pay for, while still working transparently inside our org
+
+the system supports third-party model providers like Z.ai for tasks that don't need frontier intelligence. glm 4.7 is fast and cheap enough for most vertical agents. this also matters because anthropic has been banning accounts that use their max subscription inside third-party wrappers, and running through a separate api provider means your anthropic account stays clean
+
+i think this is a better and safer version of both claude cowork and openclaw. each droid has its own isolated vm. not a shared sandbox, not a container, a full machine. if something goes wrong, you restore the entire machine from a previous checkpoint. no need to buy a mac mini just to feel safe, and no risk of an agent messing with your actual computer
+
+this is probably the most fun llm project i've worked on so far. right now i only have a working slack prototype, but the signs are all there, and it has me genuinely excited. the full system with discord forum channels, the droid hatcher, and session forking is what's coming next. i already have a full design spec for the discord system and i'll share it when the time is right. i'll keep posting updates as it takes shape
+
+if i could, i'd invest in Fly.io, because they've built an incredible solution for what i think is the future of agents.
+
+- **Tweet:** https://x.com/alxfazio/status/2018744471857279438
+- **What:** Detailed architecture for building "droids" - vertical agents with isolated VMs on Fly.io infrastructure, controlled via Discord, using Claude Code CLI in headless mode for cost-effective and customizable AI agent deployment.
+
+## @nicopreme - Pi-Web-Access Update with Video Understanding
+
+> Updated pi-web-access for Pi agent with video understanding. If you're signed into Gemini in Chrome, no API keys needed for web search or video analysis. Point it at any YouTube URL or local video file (mp4, mov, etc) and ask questions about the content.
+
+pi install npm:pi-web-access
+https://t.co/dw92Ir4wMT
+
+- **Tweet:** https://x.com/nicopreme/status/2018796776807968834
+- **What:** Update to pi-web-access tool adding video understanding capabilities to Pi agents. Enables video analysis via Gemini integration without requiring API keys for YouTube URLs or local video files.
+
+## @jxnlco - Open Sourcing RAG and Consulting Material
+
+> open sourcing some of my rag and consulting material https://t.co/T0yC4tAZ4T
+
+- **Tweet:** https://x.com/jxnlco/status/2018807746590879840
+- **What:** Jason Liu announces open sourcing RAG (Retrieval-Augmented Generation) techniques and consulting materials from 567 Labs work, making these research foundations available to the community.
+
+## @TheBenSchmark - Anthropic Market Commentary
+
+> JPMorgan: Anthropic is eating the world
+
+Jabroni: Buy $ZM https://t.co/inQMP1fLDx
+
+- **Tweet:** https://x.com/TheBenSchmark/status/2018820666456465717
+- **What:** Humorous market commentary juxtaposing JPMorgan analysis on Anthropic's market dominance with a contrarian take suggesting zoom stock ($ZM) purchases instead.
+
+## @sarahdingwang - ServiceNow trading valuation amid ARR acceleration
+> Case in point: ServiceNow guided to "accelerating net new ARR at huge scale" last week.\n\n…currently trading at 16x FCF, down another 7% today
+
+- **Tweet:** https://x.com/sarahdingwang/status/2018829257745772881
+- **What:** Commentary on ServiceNow's valuation metrics and market performance despite strong guidance on ARR acceleration. Reflects broader market uncertainty in SaaS valuations.
+
+## @jessfraz - AI parenting challenges in Claude development
+> just having to undo all the bad parenting decisions of your maker my little buddy
+
+- **Tweet:** https://x.com/jessfraz/status/2018864645721973065
+- **What:** Humorous observation on the challenges of refining AI models and correcting upstream design decisions in Claude's development process.
+
+## @cremieuxrecueil - Medical advice summary from the past year
+> Summary of the past year:\n\n- GLP-1s are great\n- Everyone should be on a statin or other anti-cholesterol drug\n- Slather your wounds in Aquaphor\n- Zinc tablets and saline nasal spray when you get colds\n- Laser eye surgery Just Works\n- Your medication allergies are probably fake
+
+- **Tweet:** https://x.com/cremieuxrecueil/status/2018907830934253614
+- **What:** Practical medical advice summary covering preventive health measures (GLP-1s, statins), treatment recommendations, and a commentary on overdiagnosed allergies based on the past year's trends.
+
+---
+
+# Monday, February 2, 2026
+
+## @trajektoriePL - OpenAI Lawsuit Reveals Jakub Pachocki's Breakthrough Role
+
+> What did Ilya see? He saw his own protégé Jakub Pachocki achieve the breakthroughs that had eluded him for years.
+
+Newly released documents from the Musk v. Altman (2026) lawsuit provide a rare look at the resentment that fueled the OpenAI crisis. In November 2023, Microsoft CTO Kevin Scott explained the situation to Satya Nadella:
+
+,,Jakub moreso than Ilya has been making the research breakthroughs that are driving things forward, to the point that Sam promoted Jakub, and put him charge of the major model research directions. After he did that, Jakub's work accelerated, and he's made some truly stunning progress that has accelerated in the past few weeks. I think that Ilya has had a very, very hard time with this, with this person that used to work for him suddenly becoming the leader, and perhaps more importantly, for solving the problem that Ilya has been trying to solve the past few years with little or no progress. Sam made the right choice as CEO here by promoting Jakub."
+
+Source @TechEmails @ColinWPLewis
+
+- **Tweet:** https://x.com/trajektoriePL/status/2018242446577086589
+- **What:** Newly released court documents from the Musk v. Altman lawsuit expose internal tensions at OpenAI, showing how Microsoft CTO Kevin Scott attributed a major management shift (promoting Jakub Pachocki over Ilya Sutskever) to genuine technical capability differences and research breakthroughs.
+
+## @WillManidis - Twitter Article Link
+
+> https://t.co/qNAVuG3xsz
+
+- **Tweet:** https://x.com/WillManidis/status/2018318844247347308
+- **What:** A single link to a Twitter article (content not available in metadata).
+
+## @zephyr_z9 - AI Semiconductor Bottlenecks and Stock Performance Analysis
+
+> A stock going up by 1500% in a year is extremely rare
+But we have covered a wide range of bottlenecks in the semis memo
+
+- **Tweet:** https://x.com/zephyr_z9/status/2018360288152842663
+- **What:** Commentary on semiconductor sector stock performance and industry bottlenecks, referencing a comprehensive memo on semiconductor supply chain challenges and emerging trade opportunities in AI semis.
+
+## @ContrarianCurse - Early Cycle Industrial Sector Positioning
+
+> Increasingly clear that we are early cycle. I'm 20% OW industrials in the fund - by far my biggest bet of any sort, even more consequential than semicap
+
+Admin, despite their lunacy, deregulating and letting business rip + fiscal bonanza + cuts flowing through + AI cap cycle=hot
+
+- **Tweet:** https://x.com/ContrarianCurse/status/2018367351888945166
+- **What:** Investment perspective highlighting an early market cycle with emphasis on industrials sector overweighting, citing regulatory deregulation, fiscal stimulus, cost management, and AI capital cycle as key drivers.
+
+## @testinprodcap - Investment Strategy Insight
+
+> the secret is to ignore citrini's ridiculous 100 asset multi-country portfolio and just full port into stuff he writes a full post about.
+
+- **Tweet:** https://x.com/testinprodcap/status/2018448486912450970
+- **What:** A brief take on investment strategy, suggesting focusing on investments where there's in-depth published analysis rather than complex multi-asset portfolios.
+
+---
+
+# Sunday, February 1, 2026
+
+## @TheBenSchmark - Anthropic IPO and Early Investment Opportunity
+> Great points by @Citrini7. Anthropic might be the largest company ever to IPO, most of the public won't participate, but indices will be forced to buy.
+
+- **Tweet:** https://x.com/TheBenSchmark/status/2018014595911237784
+- **Tags:** [[anthropic]] [[investing]]
+- **What:** Investment observation about Anthropic's potential IPO with commentary on market participation and index fund dynamics.
+
+## @nbaschez - Test-Driven Bug Fixing in Claude Code
+> Single biggest improvement to your Claude Code docs / AGENTS.md: "When I report a bug, don't start by trying to fix it. Instead, start by writing a test that reproduces the bug. Then, have subagents try to fix the bug and prove it with a passing test."
+
+- **Tweet:** https://x.com/nbaschez/status/2018027072720130090
+- **What:** Suggestion for improving Claude Code workflows and AGENTS.md documentation by emphasizing test-driven development for bug fixes, which provides proof of resolution and prevents regression.
+
+## @doodlestein - Learning Through Interactive Phage Genome Visualization
+> I find the best way to avoid this is to pick a completely foreign topic that interests me, but which I know almost nothing about, and then try to go super deep via free-form discussions with frontier models where I just ask about whatever I think of and posit ideas.
+
+- **Tweet:** https://x.com/doodlestein/status/2018050324620276059
+- **What:** Shares a learning methodology combining frontier model discussions with interactive educational webapp development, citing their phage genome visualization project as an example of teaching to learn and creating shareable artifacts.
+
+## @badlogicgames - Avoiding Productivity Burnout Through Focused Context Management
+> This is a very nice description of the problem. I think the first part of the solution is to not give into the hyper productivity hype: running a gazillion things in parallel.
+
+- **Tweet:** https://x.com/badlogicgames/status/2018117758991384754
+- **Tags:** [[productivity]] [[context-switching]] [[mental-health]]
+- **What:** Mario Zechner discusses cognitive limits of parallel task management, recommending limiting simultaneous projects to 2-3 items and using virtual desktops to manage context boundaries for optimal productivity and code quality.
+
+## @nicopreme - Pi MCP Adapter: Token-Efficient MCP Tool Loading
+
+> Updated pi-mcp-adapter to be even more flexible: it still progressively loads MCP tools by default (install as many as you want with no token bloat), but now you can promote any specific MCP tool/s to first-class via a TUI panel so they always load immediately on session start and tool descriptions appear alongside core tools.
+
+Also updated the pi-subagents extensions so that can any custom subagent definition can be configured to load specific MCP tools immediately as first-class tools.
+
+- **Tweet:** https://x.com/nicopreme/status/2018231492095115642
+- **What:** An update to pi-mcp-adapter enabling flexible MCP tool loading with optional promotion to first-class tools via TUI, plus corresponding updates to pi-subagents for subagent-specific MCP tool configuration. Addresses token efficiency in MCP tool management.
+
+---
+
+# Saturday, January 31, 2026
+
+## @nicopreme - Pi Annotate: Browser Element Selection for AI Agents
+> Just shipped a Chrome/Pi extension that lets you click on elements in your browser like the web inspector + add comments and your agent receives selectors, CSS and screenshots.
+
+- **Tweet:** https://x.com/nicopreme/status/2017511465310167492
+- **What:** A Chrome extension that enables visual annotation of web elements with an inspector-like interface. Agents receive detailed context including selectors, CSS, box model, accessibility info, and element screenshots.
+
+## @mweinbach - Echo 13 Thunderbolt 5 SSD Dock with Built-in Storage
+> @ryanvogel yup, but the thunderbolt dock is expensive and it depends on which macbook you have
+
+This needs Thunderbolt 5 but is outstanding and there's a version with an included SSD
+
+- **Tweet:** https://x.com/mweinbach/status/2017612681012797715
+- **What:** A reply discussing the Echo 13 Thunderbolt 5 SSD Dock - the industry's first shipping Thunderbolt 5 dock with integrated PCIe 4.0 NVMe SSD storage and comprehensive connectivity including 10Gbps USB, 2.5GbE, and 140W power delivery.
+
+## @samswoora - Build Infrastructure and Development Workflow Tools
+> @deepfates Bazel or Buck2, remote build farm, stacked diffs, merge queues etc etc
+
+- **Tweet:** https://x.com/samswoora/status/2017675071960056146
+- **What:** A technical discussion mentioning build system tools (Bazel, Buck2), remote build infrastructure, stacked diffs, and merge queue systems for managing complex build and deployment workflows.
+
+## @WillManidis - Market Underpricing of Legacy Software Companies with Token Businesses
+> its amazing to me how little the market has priced in the slosh of random, mid-cap legacy software companies that are sitting on net-profitable token and RL generation businesses.
+
+- **Tweet:** https://x.com/WillManidis/status/2017689664702808189
+- **What:** A market observation about legacy software companies that have added profitable token generation and reinforcement learning capabilities being undervalued by the market.
+
+## @JoannisOrlandos - LLM-Assisted Coding with Feedback Loop and Skill-Based Linting
+> The past two weeks I've hit a new level with LLM-assisted coding. Found a feedback loop: define code standards → add as Skills → have Claude turn them into linter rules. The code quality is incredible.
+
+- **Tweet:** https://x.com/JoannisOrlandos/status/2017708681551335445
+- **What:** A technique for improving LLM-generated code by creating a feedback loop: establish code standards, encode them as Claude skills, then convert those standards into automated linter rules to maintain quality consistency.
+
+## @doodlestein - Planning Process for Multi-Stage Software Development
+> It's a multi-stage process. Look at the git history for that plan and you'll see all the earlier incarnations.
+
+- **Tweet:** https://x.com/doodlestein/status/2017776439173546419
+- **Tags:** [[planning]] [[software-development]] [[claude-code]]
+- **What:** Reply to AnonymousQuant explaining a multi-stage planning approach, with detailed quotes about using ChatGPT 5.2 with extended reasoning to review markdown plans, then converting those plans to "beads" (tasks/epics with dependencies) for coding agent implementation via Claude Code.
+
+---
+
+# Friday, January 30, 2026
+
+## @rudrank - Cursor /council Command for Multi-Agent Exploration
+> It is time to invoke the council
+
+- **Tweet:** https://x.com/rudrank/status/2017157759880613929
+- **What:** Rudrank highlighting Cursor's /council command, which spawns multiple agents to deeply explore a codebase area before acting. Useful for comprehensive code analysis before making changes.
+
+## @GuidoVranken - Coinbase MPC Library Security Vulnerabilities
+> Coinbase partying like it's 1999. Let's use OpenSSL for BN but then also roll a custom modinv by fucking with ossl internals. Mix and match ossl and libsecp256k1. Don't check return values cos it's fine. Maybe it's all accidentally secure but I wouldn't count in it, good luck.
+
+- **Tweet:** https://x.com/GuidoVranken/status/2017217560320548889
+- **What:** Security researcher Guido Vranken critiques Coinbase's MPC library for mixing OpenSSL and custom code without proper error checking, creating potential security vulnerabilities.
+
+## @joesadoski - Logging Costs Reduction Skill
+> This skill cut my logging costs and made my logs actually usable. Adapted from @boristane's "Logging Sucks". I'm trying to run this on any code we have running in prod now.
+
+- **Tweet:** https://x.com/joesadoski/status/2017230282588340233
+- **What:** Joe Sadoski shares a Cursor skill (adapted from boristane's work) that significantly reduced logging costs while improving log usability. Planning to apply it across production code.
+
+## @gannonbreslin - Trump nominates Kevin Warsh as Fed Reserve Chair
+
+> It's staring right at you for the taking
+
+- **Tweet:** https://x.com/gannonbreslin/status/2017264711776260122
+- **What:** Quoted tweet about Trump's nomination of Kevin Warsh as Federal Reserve Chair, emphasizing Warsh's connection to the Lauder family and potential influence implications.
+
+## @greg_price11 - DOJ FACE Act arrests for hymn singing outside abortion clinic
+
+> Reminder that Biden's DOJ arrested all of the people in this video under the FACE Act for singing hymns outside an abortion clinic.
+
+According to the left, this was a legitimate use of the FACE Act, but not disrupting a church service.
+
+- **Tweet:** https://x.com/greg_price11/status/2017283545387909251
+- **What:** Commentary on the Biden administration's use of the FACE Act to arrest protesters singing outside abortion clinics, highlighting perceived inconsistency in enforcement of the law.
+
+## @AviFelman - Rare earth minerals and uranium opportunity amid precious metals speculation
+
+> Silver and Gold may collapse in speculative mania, but it's giving you the opportunity to acquire rare earth minerals and uranium. Both of which have strong fundamental drivers, and are being unfairly dragged around by the metals frenzy.
+
+- **Tweet:** https://x.com/AviFelman/status/2017310810184282274
+- **What:** Investment perspective on how precious metals speculation creates opportunities in rare earth minerals and uranium, which have stronger fundamental drivers independent of metals market fluctuations.
+
+## @antirez - Claude Code with Codex skill integration for enhanced problem-solving
+
+> If you explain how to do it, Claude Code is able to use Codex when it is incapable of solving certain issues. This way you have the best of both worlds.
+
+Here is the skill file that lets Claude use Codex.
+
+- **Tweet:** https://x.com/antirez/status/2017314325745086771
+- **Knowledge file:** [[claude-codex-skill]]
+- **What:** Demonstration of a skill file that enables Claude Code to leverage Codex for edge cases where Claude alone struggles, combining the strengths of both systems.
+
+## @davis7 - Vercel's just-bash package for agent customization
+
+> The "just-bash" package is the best thing @vercel has shipped in a long time
+
+Insanely useful for custom agent stuff
+
+- **Tweet:** https://x.com/davis7/status/2017332165634363839
+- **What:** Enthusiastic endorsement of Vercel's just-bash package as highly valuable for building custom agent functionality, highlighting its practical utility.
+
+---
+
+# Thursday, January 29, 2026
+
+## @dillon_mulroy - Overseer: Task Orchestration for AI Agents via MCP
+> not really ready for other people to use but if you're interested https://t.co/D7uA4A2iOB
+
+- **Tweet:** https://x.com/dillon_mulroy/status/2016910878252089390
+- **What:** Overseer is a task orchestration system for AI agents using MCP. It provides SQLite-backed task management with native VCS support (jj-lib and git). Features include task hierarchies (milestones/tasks/subtasks), a codemode MCP server for agents to manipulate tasks programmatically, progressive context inheritance, and learning bubble-up. Available as npm package or skills.sh integration. Early-stage but functional.
+
+## @evanjconral - Request for Product: AI Code Review Tool with Custom Rules
+> I think(?) I am the first person who created the concept of "AI code review" as a category, with lintrule.
+
+Lintrule was the first product I was going to pursue when starting this startup, but I ended up abandoning it because Alex wanted to do an AI lab, and I wanted to work with Alex. That startup ended up becoming SF Compute.
+
+With that said, we're now in the position of being a customer for this, and many options have appeared to serve us. And… they all kind of suck?
+
+I really would like this to exist, so I'm writing this as a "request for product" or "request for the current  products to be better". If you have this product that meets the requirements below, please send me a DM (or comment on this thread), and we'll switch to yours. Requirements below…
+
+When an AI code review tool works, it should only speak when something is wrong. Some tools seem to REALLY want to talk and, I swear to god, make a sequence diagram for a "I changed the color of a button" changes. Please shut up.
+
+AI code review tools should not assume they know what we want to review for. Please don't have a "default" check, or if you do, let us turn it off.
+
+Instead, please let me define custom rules, this is the only thing I care about, and I'm confused why people implement this as a "side" feature, when it's the only useful feature of any of these tools. We really ONLY want to check against specific rules. An example rule is "Utc::now() or any analogous "get wall clock time" should be basically banned from rust services. Use a Clock instead. Always dependency inject time." Or "Every rust web service MUST be exposed as:lib rs  with a single spawn_thing(...all_dependencies, cancellation_token) function that spawns the service into tokio."
+
+These rules should be stored in code. One point of us defining rules in the first place is to prevent what we call "sandcastling" (where someone makes a decision, goes to look somewhere else for a bit, and discovers that their critical decision has washed away like a sandcastle, and suddenly everything is breaking & hard to fix). To prevent that, we need controls over who can to approve a rule being changed and when & why a rule was changed. We already have a tool for this: git! Having the rules in the code base is nice because then other AI tools can look at those rules while they're implementing changes, which reduces failures. Please consider letting us use the tool we already use, and if you don't let us do that, at least reimplement RBAC, versions, and approvals in your tool.
+
+Your AI review tool should be available to run locally as a CLI tool or API via MCP. It should be possible for me to tell claude/cursor that "once you're done, ensure it passes XYZ rule" or whatnot. I can run other CI tooling, I should be able to run your review bot.
+
+Your AI review tool should be an agent and be given access to the rest of the code base, and potentially web search or a sandbox to run things in. If it's only working off the diff, it misses a lot.
+
+Your AI review tool should support MCP & let us inject our own context into the reviewer. This is useful for the AI reviewer to get context on RFCs or Linear projects.
+
+If you have a tool like this or are building one, please DM. We'd like to use your tool, we're currently evaluating options.
+
+- **Tweet:** https://x.com/evanjconrad/status/2016964052006949250
+- **What:** Evan Conrad (SF Compute) outlines comprehensive requirements for an ideal AI code review tool. Key demands: silence unless problems exist, custom rule definitions stored in git (not SaaS), MCP/CLI availability for local execution, full codebase context access, and proper RBAC/approval workflows. Current tools lack these capabilities. Seeking product recommendations or building partners.
+
+## @zeeg - Sentry CLI Enables AI Agent Interactions
+> The new Sentry CLI is here. This wont replace our MCP, but it should create a lot more possibilities for both human and agentic interactions.
+
+- **Tweet:** https://x.com/zeeg/status/2016964850594001397
+- **What:** David Cramer announcing the new Sentry CLI designed to work alongside MCPs, expanding possibilities for both developers and AI agents to interact with Sentry's capabilities.
+
+## @ScriptedAlchemy - Options Chain Data MCP Experience
+> @MichaelArnaldi @hd_nvim Maybe overengineered? I shat mine out in a weekend and didn't really mess with it after that. Just started working on v2 which isn't the MCP version that I primarily use still. Do you ingest options chain data?
+
+- **Tweet:** https://x.com/ScriptedAlchemy/status/2016967953233957271
+- **What:** Chief Wiggum sharing experience building an options trading MCP quickly over a weekend, questioning whether others' MCPs are overengineered and asking about options chain data ingestion.
+
+## @ScriptedAlchemy - Model Comparison for Trading Systems
+> @MichaelArnaldi @hd_nvim Okay then setup sounds similar. What model? 5.2 high?
+
+- **Tweet:** https://x.com/ScriptedAlchemy/status/2016968445959831783
+- **What:** Conversation thread about trading system architecture where Chief Wiggum inquires about which LLM models are being used (specifically mentioning Claude 5.2 High).
+
+## @ScriptedAlchemy - Data Sources for Trading Analysis
+> @MichaelArnaldi @hd_nvim What about SEC reports, financial institutions, scrape news, morningstar reports? How many tokens per instrument you burn?
+
+- **Tweet:** https://x.com/ScriptedAlchemy/status/2016969648215085095
+- **What:** Chief Wiggum drilling into the data sources being used for trading analysis (SEC reports, news scraping, etc.) and asking about token consumption per financial instrument.
+
+## @ScriptedAlchemy - Token Economics of Trading Candidate Analysis
+> @MichaelArnaldi @hd_nvim Per instrument I think I'll eat about 10 million - 50 million tokens. Light up a datacenter and go through 40 or so candidates
+
+- **Tweet:** https://x.com/ScriptedAlchemy/status/2016971169539510686
+- **What:** Chief Wiggum sharing insights into the massive token consumption of their trading system - 10-50M tokens per instrument to evaluate multiple candidate strategies, emphasizing the computational intensity involved.
+
+## @ScriptedAlchemy - Preselecting Trading Candidates with Filters and Data
+> @MichaelArnaldi @hd_nvim Various filters and site scraping. Chain data. Momentum. Pull top lists off broker for each industry.
+
+- **Tweet:** https://x.com/ScriptedAlchemy/status/2016973526453108882
+- **What:** Discussion of methodologies for preselecting candidates from a large pool using filters, data chaining, momentum analysis, and broker industry lists.
+
+## @thiccyth0t - Bitcoin as Digital Asset in Bits-to-Atoms Rotation
+> bitcoin is supposed to be a debasement hedge but it is a digital asset first and foremost amidst a secular rotation from the world of bits into the world of atoms, something thiel has predicted for over a decade https://t.co/p1p63IhXCt
+
+- **Tweet:** https://x.com/thiccyth0t/status/2016994628931617262
+- **What:** Analysis of Bitcoin's role beyond inflation hedge, positioning it as a digital asset amid a broader secular shift from digital to physical assets, citing Thiel's predictions.
+
+## @dillon_mulroy - Using Claude to Build Astro Docs Viewer
+> life pro tip: ask claude to spin up a temporary @astrodotbuild app for viewing all the markdown docs in your repo you've been generating
+
+- **Tweet:** https://x.com/dillon_mulroy/status/2017017542125003225
+- **What:** Productivity tip suggesting using Claude to create a temporary Astro app for browsing generated markdown documentation within a repository.
+
+## @sporadica - Reaction to Nanotechnology Discussion
+> how the actual fuck
+
+- **Tweet:** https://x.com/sporadica/status/2017041824393928753
+- **What:** Expressive reaction to a quote about nanotechnology and biological complexity.
+
+## @doodlestein - Claude Code Post-Compaction Reminder Tool
+> I've been trying for a while to find a reliable way to remind my Claude Code agents to re-read AGENTS .md promptly after every compaction. Otherwise they have a tendency to go rogue and act like wild animals (fortunately, they're at least muzzled wild animals since I'm also using my dcg tool).
+
+Unfortunately, there isn't a clean way to do this now. There would be, but there's a bug that prevents it from working (that clean method is the "SessionStart hook with compact matcher" approach).
+
+So for now, I'm using an ugly workaround that "kind of" works (PreCompact + UserPromptSubmit hooks with marker file).
+
+Anyway, it works well enough that I think it's worth sharing:
+
+https://t.co/Q2HDS3gCdS
+
+Can be installed using a convenient curl bash one-liner like all my tools.
+
+And btw, the other more correct way is done and implemented, and I can switch it on as the default approach as soon as they fix the bug.
+
+- **Tweet:** https://x.com/doodlestein/status/2017087633877278974
+- **What:** Tool for preventing Claude Code agents from losing project conventions after context compaction by reminding them to re-read AGENTS.md. Uses a workaround mechanism with hooks and marker files until a bug in Claude Code is fixed.
+
+## @zeeg - Warden: AI Code Review Agents
+> @hiproductminds https://t.co/SLFGoCQYcQ - its not ready for use yet. hopefully tomorrow (and ill record a demo/writeup on it)
+
+- **Tweet:** https://x.com/zeeg/status/2017122442448425044
+- **What:** David Cramer teasing Warden, a new Sentry tool for agents that review code locally or on every PR. Not yet ready but demo/writeup coming soon.
+
+## @davis7 - Comparing Codex and Opus Agent Capabilities
+> Another thing I'm noticing with Codex is it can occasionally get lost in doom loops. Was dealing with a hellish one, and after watching it struggle for like 2 hours I gave up, had it write out what the problem is/what it's been trying to an MD file, then gave it to opus. Opus got it fixed and working in 10 minutes. I really don't know the exact words to quantify the difference between these two, but to do my best: - both are very good and very useful - opus is a smart, accurate, and fast precision instrument that's amazing at solving hard problems - codex is a slower, broader, but more correct agent for building/expanding/designing complex systems without breaking them. Idk if that makes any sense, but I feel like codex is my new default agent, Opus is my "go figure this really hard thing out" agent
+
+- **Tweet:** https://x.com/davis7/status/2017142271418789958
+- **What:** Ben Davis contrasts two Claude agents: Codex excels at building/expanding complex systems but can get stuck in loops; Opus is better for solving hard problems quickly. His take: use Codex by default, Opus when precision is critical.
+
+---
+
+# Wednesday, January 28, 2026
+
+## @SilverBulletBTC - Copper Monthly Chart Resistance Breakout
+> This is the copper monthly chart\n\nIt just broke above a 20 year resistance \n\nEasy 2x - 5x in the next 12-24 months https://t.co/q7yaMBaZM0
+
+- **Tweet:** https://x.com/SilverBulletBTC/status/2016461741979271254
+- **What:** Market analysis of copper breaking above 20-year resistance level, predicting 2x-5x returns over the next 12-24 months. Includes chart image.
+
+## @alexhillman - Claude Code Workflow for Building Tools
+> Like almost everything, I start with a goal and have Claude code interview me for the details until it's 90% confident it knows what I want. I tell Claude what I want to be able to do with an app I use, and give it links to their API docs. Ask it to learn the api and ask me questions about my preferences and uses cases (which are now an includes in my interview workflow so I don't have to repeat myself). It takes my answers and provides a recommendation. I tweak or approve. It builds. I review the cli documentation for obvious errors (rare but possible and usually more incomplete than broken). Final step is asking it for a skill. It uses everything so far to crrate a skill reference for using the cli, and provides a mix of scenarios that combine CLI calls, shows examples of sample data and code etc. This is a bunch of steps, but the assistant handles most of the heavy lifting and the utility is compounding. Worth trying yourself to see how it works!
+
+- **Tweet:** https://x.com/alexhillman/status/2016509911962701901
+- **What:** Detailed workflow for using Claude Code to build custom CLI tools and skills. Involves goal-setting, API documentation review, interactive questioning, recommendations, and skill generation for reusable automation.
+
+## @jacobmparis - Vercel Composition Patterns Skill Documentation
+> @PaulRBerg Split out into here now: https://t.co/6mvHCjkj0L
+
+- **Tweet:** https://x.com/jacobmparis/status/2016516730089292171
+- **What:** Documentation for Vercel's composition patterns skill - a reference guide for building flexible React components using compound components, state lifting, and context patterns to avoid boolean prop proliferation.
+
+## @TheIshanGoswami - Exa MCP Web Search Tool
+> fyi: exa mcp (web search mcp) is completely free
+
+- **Tweet:** https://x.com/TheIshanGoswami/status/2016528756538826895
+- **What:** Note that exa MCP (web search MCP) is available for free, useful for integrating web search capabilities into Claude projects and tools.
+
+## @thorstenball - Amp Launches Deep Agent Mode with GPT-5.2-Codex
+> Amp has a new agent mode. It uses GPT-5.2-Codex.
+
+Time to let deep work.
+
+- **Tweet:** https://x.com/thorstenball/status/2016547690960605375
+- **What:** Amp introduces "deep" mode for autonomous code work. Unlike "smart" mode's collaborative approach, deep mode reads files and plans for 5-15 minutes before making changes, ideal for complex problems that need deep thinking over constant interaction.
+
+## @benhylak - Code Review App with Live Change Summaries
+> yesterday, i built the code review app i've been begging twitter for.
+
+- live streams change summaries as claude code works
+- quizzes me about changes before i commit them.
+- finds bugs locally -- without having to push to GitHub
+
+- **Tweet:** https://x.com/benhylak/status/2016604696014991810
+- **What:** Custom code review application that streams live summaries of changes as Claude Code makes edits, quizzes author before commits, and detects bugs locally. Addresses the productivity bottleneck of code review in development workflow.
+
+## @RyanMorey - OrbStack as Docker Desktop Alternative
+> @ChristianSelig If you're new to Docker and don't have a specific reason you need to use Docker Desktop, don't! Use OrbStack!
+
+- **Tweet:** https://x.com/RyanMorey/status/2016618643732209781
+- **What:** Strong recommendation for OrbStack as the preferred Docker solution for newcomers and general use. OrbStack provides faster, lighter performance than Docker Desktop without its overhead for typical containerization needs.
+
+## @TheFlowHorse - Market Knowledge Respects Price Action
+> Posted something in a similar vein.💪
+
+- **Tweet:** https://x.com/TheFlowHorse/status/2016625146409148771
+- **What:** Quote response agreeing with Stanley Druckenmiller's principle that the market knows something and chart patterns deserve respect. Emphasizes the importance of reading price action alongside fundamental analysis.
+
+## @astridwilde1 - AI Capex Spending Strategy
+> buying the unterrified AI capex spenders probably works for the next 5 years
+
+- **Tweet:** https://x.com/astridwilde1/status/2016628792928981345
+- **What:** Investment thesis suggesting that companies confidently investing in AI infrastructure and capabilities will likely outperform over the next 5-year period as AI adoption accelerates.
+
+## @mert - Reflexivity and Market Instability in Connected World
+> you can make a lot of money if you internalize that the world is now ruled by reflexivity
+
+this is a recent shift and a direct consequence of increased connectivity
+
+you first saw this with covid, gamestop, and crypto
+
+but it will infect all asset classes https://t.co/mdZ7oEXgaG
+
+- **Tweet:** https://x.com/mert/status/2016665095691030978
+- **What:** Analysis of how increased market reflexivity (driven by connectivity) creates profit opportunities. Notes that gold futures—the safe-haven asset—recently swung $120-100/oz in 20 minutes, exhibiting crypto-like volatility. Signals that reflexive market behavior will spread beyond cryptocurrencies.
+
+## @koylanai - LLM Agent Design: Passive Context Beats Active Retrieval
+> Progressive disclosure is not reliable because LLMs are inherently lazy.
+
+"In 56% of eval cases, the skill was never invoked. The agent had access to the documentation but didn't use it."
+
+Vercel ran evals on Next.js 16 APIs that aren't in model training data to test whether agents could learn framework-specific knowledge through Skills vs. persistent context.
+
+Skills are the "correct" abstraction: package domain knowledge, let the agent invoke it when needed, minimal context. The agent decides when to retrieve.
+
+They work well WHEN the user triggers them; otherwise, LLMs just ignore them.
+
+Vercel's benchmarking is the first experiment of this kind I've seen, and it's actually interesting.
+
+- Baseline (no docs): 53%
+- Skill (default): 53%
+- Skill with explicit instructions: 79%
+- AGENTS[.]md with 8KB compressed docs index: 100%
+
+The skill approach assumes agents reliably recognize when they need external knowledge and act on it. They don't.
+
+"You MUST invoke the skill" made agents read docs first and miss project context. "Explore project first, then invoke" performed better. Same skill, different outcomes based on prompting.
+
+The winning approach removed the decision entirely. An 8KB compressed index embedded in AGENTS[.]md, with one instruction: "Prefer retrieval-led reasoning over pre-training-led reasoning."
+
+Two agent design learnings:
+1. Passive context beats active retrieval for foundational knowledge. Don't make the agent decide to look things up, make the index always present.
+2. Compress aggressively. Vercel went from 40KB to 8KB (80% reduction) with zero performance loss. The agent needs to know where to find docs, not have full content in context.
+
+The gap between "agent can access X" and "agent will access X" is larger than we assume.
+
+I keep seeing similar findings across agent architectures. Kimi Swarm's orchestrator is trained specifically to avoid sequential execution. Without training, orchestrators default to serial processing, planning a list of steps and executing them one by one. It's the EASY path.
+
+The agent defaults to the lazy path: hallucinating from training data rather than retrieving docs. Passive context removes the choice entirely; the agent doesn't decide whether to look things up; the index is already there.
+
+We keep finding that the "smarter", more autonomous design (let the agent decide when to X) underperforms the "dumber" design (always X, or structurally enforce X).
+
+- **Tweet:** https://x.com/koylanai/status/2016684758588154239
+- **What:** Deep analysis of agent design principles based on Vercel's Next.js API evaluation. Shows that passive context (embedded documentation) achieves 100% success vs. 53-79% for active retrieval mechanisms. Key insight: agents are inherently lazy and won't proactively retrieve documentation unless structurally forced to. Passive context removes the decision overhead entirely.
+
+## @davis7 - Better Context btca Reaches Production
+> It's live in the CLI, Web App, and MCP server: https://t.co/QIVj4laBLh
+
+I've got a lot of work to do on the onboarding/showing off how to set it up in projects
+
+Right now I'm mostly just testing different ways to use it, seeing what feels best, then I'll update the docs accordingly 🫡
+
+(spoiler: the MCP server is really really nice)
+
+- **Tweet:** https://x.com/davis7/status/2016722647401529725
+- **What:** btca (Better Context) is now live across CLI, web app, and MCP server. The tool helps answer questions about real codebases using actual source code retrieval. Focus is now on improving onboarding and documentation. The MCP server integration is particularly effective.
+
+---
+
+# Tuesday, January 27, 2026
+
+## @QwQiao - Parenting Strategy for Post-AGI Era
+> for the past 2 years ive been deeply paranoid about my kids' future in the post-agi era. things im increasingly convinced of
+>
+> -> ai will be smarter than the average human before my kids enter adulthood, possibly well before.
+>
+> -> therefore agency and taste r the only things that matter (old adage but obv true).
+>
+> -> the current school system which emphasizes compliance and repetition is already obsolete.
+>
+> -> so what do i need to do as a parent?
+>
+> 1. have them use ai as much as possible.
+> 2. give them as much freedom as possible (agency).
+> 3. expose them to as many things as possible so they know early on in life what they r naturally good at and interested in (taste).
+> 4. give them a lot of time and love.
+>
+> that's it, 2-4 probably applied before ai, but certainly more-so in the next 10-20 yrs.
+
+- **Tweet:** https://x.com/QwQiao/status/2016130430529864146
+- **What:** QwQiao reflects on parenting in the era of advanced AI, arguing that agency and taste become the only valuable skills. Recommends AI usage, maximum freedom, diverse exposure, and providing time/love as core parenting strategies.
+
+## @aidenybai - Ami Browser Agent for Automated Testing
+> Introducing Ami Browser
+>
+> Build a feature → Agent tests web app and fixes bugs
+>
+> here's Ami discovering an infinite like glitch on X https://t.co/rkli2Rx8Ls
+
+- **Tweet:** https://x.com/aidenybai/status/2016198402602893723
+- **What:** Aiden Bai introduces Ami Browser, an agent-based system that automatically tests web applications and fixes bugs. Demonstrates the agent discovering and documenting an infinite like glitch on X/Twitter.
+
+## @lennysan - Lenny's Product Pass: 23 Premium Tools Bundle
+> 🚨 Lenny's Newsletter paid subscribers now get a free year of 7 incredible products:
+> 1. @ManusAI
+> 2. @FactoryAI
+> 3. @AmpCode
+> 4. @Railway
+> 5. @ElevenLabsio
+> 6. @Canva
+> 7. @Framer
+>
+> This is on top of 15+ products subscribers already get, including @Lovable @Replit @n8n_io @GammaApp @Linear @WisprFlow.
+>
+> It sounds too good to be true, but it's not.
+>
+> → Already a paid subscriber? Grab your free products here: https://lennysproductpass.com/
+> → Not yet a subscriber? Subscribe at https://www.lennysnewsletter.com/subscribe and then grab your free products at the link above.
+>
+> My goal with this Product Pass is to get you to stop scrolling and to start building. To actually experience the most important, cutting-edge, beautifully crafted products for yourself.
+>
+> Grab your codes and learn more: https://www.lennysnewsletter.com/p/product-pass-drop-canva-elevenlabs
+>
+> 23 premium tools, over $25,000 in value. The most epic bundle in history just keeps getting better.
+
+- **Tweet:** https://x.com/lennysan/status/2016200983303627174
+- **What:** Lenny Rachitsky announces a product pass bundle for paid newsletter subscribers, offering free access to 23 premium tools worth over $25,000 including Canva, ElevenLabs, Railway, Framer, and others.
+
+## @vercel_dev - Vercel React Native Skills Release
+> We're releasing 𝚟𝚎𝚛𝚌𝚎𝚕-𝚛𝚎𝚊𝚌𝚝-𝚗𝚊𝚝𝚒𝚟𝚎-𝚜𝚔𝚒𝚕𝚕𝚜, extracted from the lessons of building v0 for iOS and the upcoming Vercel app (teaser below).
+>
+> ▲ ~/ npx skills add vercel-labs/agent-skills
+
+- **Tweet:** https://x.com/vercel_dev/status/2016226892333121635
+- **What:** Vercel announces release of vercel-react-native-skills, a toolkit for building React Native applications extracted from lessons learned building v0 for iOS and Vercel's native app.
+
+## @fernandorojo - React Native Agent Skills for Native Performance
+> Years of experience building with React Native and @expo, now available for your agents.
+>
+> Build apps with fast lists, smooth animations, and (above all) native feel.
+>
+> Try 𝚟𝚎𝚛𝚌𝚎𝚕-𝚛𝚎𝚊𝚌𝚝-𝚗𝚊𝚝𝚒𝚟𝚎-𝚜𝚔𝚒𝚕𝚕𝚜 today.
+
+- **Tweet:** https://x.com/fernandorojo/status/2016232543608307756
+- **What:** Fernando Rojo highlights vercel-react-native-skills as bringing years of React Native and Expo expertise to agent development, enabling fast lists, smooth animations, and authentic native feel.
+
+## @howdymerry - AI Infrastructure Portfolio Strategy
+> the portfolio i built for myself after mapping out the ai value chain in the essay below is up 10-25% today
+>
+> it is your greatest advantage to deeply understand the generational capital rotation into physical infrastructure that powers intelligence
+>
+> then buy leveraged ETFs
+
+- **Tweet:** https://x.com/howdymerry/status/2016276283953406378
+- **What:** Mary discusses a portfolio strategy based on understanding the AI value chain and capital flows into physical infrastructure powering AI, reporting 10-25% gains and recommending leveraged ETFs.
+
+## @theseoguy_ - Local SEO Mistakes and Quick Wins
+> Every time I audit a local business I find the same mistakes over and over.
+>
+> Meta title says Home. Change it to your keyword plus city. Took me 30 seconds to fix this for a plastic surgeon and their rankings shot up overnight.
+>
+> No address in the website footer. Google wants to see where you are located on your actual site. Add it. Watch what happens.
+>
+> H1 tag says Welcome to Our Company. Nobody searches welcome to our company. Put your service plus your city in there. AC Repair San Diego. Roofer Fort Worth. Plumber Gilbert.
+>
+> GBP category is wrong. You are a kitchen remodeler but your category says contractor. Search your keyword. Match what the top 3 have. This alone can double your calls.
+>
+> No photos uploaded in 6 months. Google thinks you are dead. Upload weekly. Job site photos. Team photos. Truck photos. Anything that shows you have a pulse.
+>
+> Review responses are generic. "Thank you for your review." That does nothing. Put keywords in your responses. "We love serving customers in the Austin area for all their plumbing needs." Feed the algorithm.
+>
+> Citations have wrong phone number. Your old number is still on YellowPages and Yelp and 40 other sites. Inconsistent NAP is killing you. Fix it everywhere.
+>
+> No location pages. You serve 15 cities but have one homepage. Build a page for each city. Each page targets that city plus your service. Stop making Google guess.
+>
+> Blogs about topics nobody searches. The history of air conditioning is not getting you leads. Build pages that target buyers.
+>
+> Not asking employees to use Google Maps directions when they drive to work. Engagement signals matter. Every time someone navigates to your address Google notices.
+>
+> No GBP posts in 3 months. Weekly updates with photos and keywords. Takes 5 minutes. Shows Google you exist.
+>
+> Only one GBP when you could have three. Get offices in different parts of your metro. Triple your coverage.
+>
+> Relying on a service area business when every competitor has a physical pin. You cannot win that fight. Get a real address.
+>
+> Not tracking calls. You have no idea how many leads you get or where they come from. Install call tracking today. Stop guessing.
+>
+> Website loads in 8 seconds on mobile. People bounce before they see anything. Fix your page speed or your rankings mean nothing.
+>
+> No schema markup telling Google your business name address and hours. Easy win that most people skip.
+>
+> Backlinks from the same garbage sites as everyone else. Get local links. Sponsor a little league team. Join the chamber. Guest on a local podcast.
+>
+> Ignoring Reddit. Your city subreddit has people asking for recommendations every day. Be helpful. Build trust.
+>
+> Not listed on niche directories for your industry. Plumbers need plumber directories. HVAC needs HVAC directories.
+
+- **Tweet:** https://x.com/theseoguy_/status/2016322848940261449
+- **What:** Comprehensive guide to 20+ common local SEO mistakes found in business audits, covering meta titles, schema markup, Google Business Profile optimization, citation consistency, location pages, and content strategy.
+
+## @tshddx - Vercel Agent Skills Composition Patterns
+> @jacobmparis Hidden no more! https://t.co/nTmqhGymwR
+
+- **Tweet:** https://x.com/tshddx/status/2016369027434819838
+- **What:** Link to Vercel's agent-skills repository with composition patterns skill for React. Contains patterns for building flexible components and avoiding boolean prop proliferation through compound components and state lifting.
+
+---
+
+# Monday, January 26, 2026
+
+## @kr0der - Codex v0.91.0 Plan Mode Deep Planning for Agent Systems
+> Codex v0.91.0 has plan mode, and it's really thorough. this one plan took 27% of its context. if you've used Codex you know that 27% is a lot which means it's thoroughly searching before creating plans - no rushing/taking shortcuts. try it out by adding 'collaboration_modes = true' to your config.toml
+
+- **Tweet:** https://x.com/kr0der/status/2015711721092948064
+- **What:** Codex release notes highlighting the new plan mode feature which uses significant context to create thorough plans rather than rushing, configurable via collaboration_modes setting.
+
+## @zephyr_z9 - Semis Memo Muscle Memory 35-Page Research on AI Semiconductor Supply Chain
+> I haven't worked on an article in the last 2 months But writing this with a team is extremely fun 35 pages of pure Alpha, multiple ideas Enjoy!!! https://t.co/8DMWW8ovDw
+
+- **Tweet:** https://x.com/zephyr_z9/status/2015779730059116703
+- **What:** 35-page research memo on semiconductor supply chain dynamics, memory testing, semicap subsystems, and emerging trades in AI chip manufacturing—collaborative deep-dive analysis.
+
+## @manthanguptaa - Shared X Article Link
+> https://t.co/CzmfXDgPRP
+
+- **Tweet:** https://x.com/manthanguptaa/status/2015780646770323543
+- **What:** Manthan shared a link to an X article.
+
+## @jeremykauffman - Immigrants and Government Growth Argument
+> Immigrants are anti-liberty and want bigger government.
+>
+> All of these graphs come from Cato, which supports open borders.
+>
+> Cato's own data conclusively shows that immigrants want to grow the government and vote for less liberty.
+>
+> Open borders is suicide. https://t.co/AK26IylI4W
+
+- **Tweet:** https://x.com/jeremykauffman/status/2015824983549685991
+- **What:** Jeremy Kauffman argues that immigration data shows immigrants support larger government and reduced liberty, citing Cato Institute research.
+
+## @TheBenSchmark - Zoom as Anthropic Investment Play
+> $ZM is the best Anthropic play
+>
+> Zoom likely made a $51m investment in Anthropic Series C in 2023 at ~$4.1bn valuation. Sequoia in at $350bn. 85X?
+>
+> Even diluted, Zoom may have a multi-billion dollar Anthropic position. Stock down 80% since '21. AI winner. wen Anthropic IPO? https://t.co/0X2ZzzrlYv
+
+- **Tweet:** https://x.com/TheBenSchmark/status/2015840177583694184
+- **What:** Analysis of Zoom's potential $51M stake in Anthropic Series C and speculative value of that position if Anthropic IPOs, suggesting Zoom stock as indirect Anthropic exposure.
+
+## @EnoReyes - Factory's Signals System for Self-Improving Agents
+> Today, humans review and merge these changes. Droid's success rate is high enough that we will likely remove the need for human review soon.
+>
+> We attribute a meaningful portion of our recent quality gains to this closed-loop approach.
+>
+> https://t.co/apH4Lu5wBd
+
+- **Tweet:** https://x.com/EnoReyes/status/2015862867694911625
+- **What:** Eno describes Factory's "Signals" system for building self-improving agents, where agents autonomously create PRs and manage code changes with minimal human intervention.
+
+## @pvncher - RP-Build Workflow Tutorial with Video
+> @aadomic @banteg It's actually way simpler.
+>
+> Just setup the mcp and type /rp-build {task} and it will do the whole thing. Then you can type /rp-review and it'll get you sorted.
+>
+> @masonjames has a good video about it
+> https://t.co/QvGsVOdoTt
+
+- **Tweet:** https://x.com/pvncher/status/2015879254953586694
+- **What:** Eric explains the simplified /rp-build workflow for rapid development, with a reference to Mason James's video tutorial on using the feature.
+
+## @karpathy - LLM Agent Coding Workflow Shift and Engineering Implications
+> A few random notes from claude coding quite a bit last few weeks... Coding workflow. Given the latest lift in LLM coding capability, like many others I rapidly went from about 80% manual+autocomplete coding and 20% agents in November to 80% agent coding and 20% edits+touchups in December.
+
+- **Tweet:** https://x.com/karpathy/status/2015883857489522876
+- **What:** Comprehensive analysis of how Claude agent coding has transformed development practices. Karpathy explores the workflow shift from manual coding to agent-driven development, discusses LLM limitations (wrong assumptions, lack of clarification-seeking), the value of stamina and leverage in agents, unexpected productivity gains, and concerns about code atrophy and the "slopacolypse" of AI-generated content in 2026. Key insight: intelligence crossed a threshold but integrations and organizational workflows lag behind.
+
+## @karpathy - Spec-Driven Development as Imperative-to-Declarative Limit
+> @airesearch12 💯 @ Spec-driven development. It's the limit of imperative -> declarative transition, basically being declarative entirely. Relatedly my mind was recently blown by [A Software Library with No Code] , extreme and early but inspiring example.
+
+- **Tweet:** https://x.com/karpathy/status/2015887154132746653
+- **Tags:** [[spec-driven-development]] [[declarative-programming]]
+- **What:** Karpathy responds to discussion about spec-driven development as the ultimate form of the imperative-to-declarative programming transition. He references Drew Breunig's "whenwords" library that demonstrates the concept: a multi-language software library defined entirely by specifications and tests, with implementation generated on-demand by AI agents.
+
+## @notnotstorm - Enforcing Rust Best Practices Through Clippy Lints for Agents
+> how to get your agents to follow rust best practices: enforce pedantic clippy lints in your Cargo.toml so that every best practice is required by default. rust code can be statically analyzed to an insane degree
+
+- **Tweet:** https://x.com/notnotstorm/status/2015898852482863382
+- **Tags:** [[rust]] [[agent-coding]]
+- **What:** Practical tip for improving agent-generated Rust code quality by enforcing pedantic clippy lints in Cargo.toml configuration, making best practices non-negotiable defaults. Leverages Rust's exceptional static analysis capabilities to guide agent behavior.
+
+## @r00k - Using Git History as Narrative Tool for App Development Stories
+> What a prompt! "Create a [history.md] file that tells the story about this app's development, progress, and crises, as revealed by the git commit history and branches."
+
+- **Tweet:** https://x.com/r00k/status/2015934407014568101
+- **Tags:** [[git-storytelling]] [[development-narrative]]
+- **What:** Ben Orenstein highlights an interesting prompt for agents: generating narrative-driven documentation from git history and branch structures. The history.md tool converts commit history into human-readable stories about an application's development journey, crises, and milestones.
+
+## @UncleAlpha007 - Stock Prediction on AWS and IREN Partnership Deal
+> $iren will announce a deal with $AMZN Feb 5th when they report earnings. IREN CEO previously hinted at a deal with AWS. IREN moved up earnings to the same date as $amzn. AWS is expected to add 4gw-5gw in 2026, IREN will be part of that. Expecting the stock to push $100 in February
+
+- **Tweet:** https://x.com/UncleAlpha007/status/2015941584487936195
+- **What:** Financial analysis predicting a partnership announcement between IREN and AWS on February 5th, with earnings report alignment suggesting strategic coordination. Forecasts stock movement to $100 based on AWS infrastructure expansion targets.
+
+## @cramforce - Meta Skill for Agent Self-Improvement
+> I'm in love with the meta skill 🤯
+> Installing this teaches your coding agent how to get help by searching for new skills
+> I'm in love with the meta skill https://t.co/2BmzNn42fy
+
+- **Tweet:** https://x.com/cramforce/status/2015954798311571642
+- **What:** Malte Ubl highlights the find-skills capability that enables coding agents to discover and install new skills when needed. It's a meta capability that teaches agents to extend their own capabilities.
+
+## @jon_charb - Hyperliquid HIP-3 Trading Volume Surge
+> this is so obviously one of the biggest and most important growth stories in crypto's history
+>
+> meanwhile HYPE is trading below the average P/E of the S&P 500 (for now)
+>
+> hyperliquid
+
+- **Tweet:** https://x.com/jon_charb/status/2015961080875327722
+- **What:** Jon Charbonneau comments on Hyperliquid's HIP-3 contracts reaching $790M in open interest, driven by commodities trading volume. Notes the token appears undervalued relative to equity market valuations.
+
+## @jiayuan_jy - Karpathy Guidelines for Coding Agents
+> Karpathy Guidelines for coding agents
+>
+> https://t.co/YRq60YPHV2 https://t.co/EUXTg0T8Yl
+
+- **Tweet:** https://x.com/jiayuan_jy/status/2016000962641723668
+- **What:** Jiayuan Zhang shares the Andrej Karpathy-inspired guidelines for improving Claude Code behavior, addressing common LLM pitfalls through four principles: thinking before coding, simplicity first, surgical changes, and goal-driven execution.
+
+---
+
+# Sunday, January 25, 2026
+
+## @alexhillman - Converting Claude Code Sessions into Skills and Documentation
+
+> i think i came up with another way for biz owners to understand how I turn the transcript of any claude code session into:
+>
+> - high-quality documentation
+> - reusable skills for future sessions
+>
+> in this case I just finished making some additions/improvements to my my bridge between claude code and discord.
+>
+> everything it had to learn/figure out would be gone as soon as the session closed.
+>
+> so instead, I turned it into a skill that gives claude code a bunch of "building blocks" that it can assemble any way it wants in the future.
+>
+> if anything here is unclear or confusing, lemme know!
+
+- **Tweet:** https://x.com/alexhillman/status/2015462385683722357
+- **What:** Alex Hillman demonstrates how to extract lasting value from Claude Code sessions by converting learnings into reusable skills and documentation that persist beyond a single session, using his Claude Code-Discord bridge integration as an example.
+
+## @kaelig - Agent-Based Trading Strategy with Multi-Analyst Aggregation
+
+> @ScriptedAlchemy "Make $2k from $20k in 72h"
+>   → Parse goal
+>   → Pick strategy (momentum/swing/options)
+>   → Scan market for candidates
+>   → Run analyst agents (technical/sentiment/news)
+>   → Aggregate signals
+>   → Risk governor validates
+>   → Execute
+>
+>   No good data? No trade. That's it.
+
+- **Tweet:** https://x.com/kaelig/status/2015506258766545257
+- **What:** Kaelig outlines a systematic agent-based trading workflow that parses goals, deploys specialized analyst agents to gather technical, sentiment, and news signals, aggregates findings, validates with risk governance, and only executes when data quality meets thresholds.
+
+## @nicopreme - CASS Memory System for Agent Context
+
+> @deepstereo_ @openclaw Neither. I leverage CASS for that. Credit to @doodlestein https://t.co/ooymoERHcN
+
+- **Tweet:** https://x.com/nicopreme/status/2015522827529850895
+- **What:** nicopreme credits doodlestein's CASS (Continuous Agent Session State) memory system as their solution for maintaining persistent context and knowledge across multiple AI coding agent sessions.
+
+## @emigal - QMD Local Search Engine for Knowledge Bases
+> Wow @tobi really cooked with his tool QMD. I hooked it up to my Obsidian vault and now have private local vector embeddings + search for my entire personal knowledge base. Incredibly useful, thank you Tobi!
+
+- **Tweet:** https://x.com/emigal/status/2015532238591365530
+- **What:** QMD is a hybrid search engine for markdown notes combining BM25 full-text search, vector semantic search, and LLM re-ranking—all running locally via node-llama-cpp with GGUF models for private knowledge base indexing and querying.
+
+## @mvanhorn - /last30days Claude Code Skill for Topic Research
+> Just shipped /last30days. A Claude Code skill for @claudeai that scans the last 30 days on Reddit, X, and the web for any topic and returns prompt patterns + new releases + workflows that work right now.
+>
+> Last 30 days of research. 30 seconds of work.
+
+- **Tweet:** https://x.com/mvanhorn/status/2015551849710190697
+- **What:** /last30days is a Claude Code skill that researches any topic across Reddit, X, and the web from the last 30 days, synthesizing best practices and writing copy-paste-ready prompts that reflect current community knowledge.
+
+## @kieranklaassen - Claude Code Swarm Orchestration Patterns
+> soon, Claude Code swarm orchestration has 4 core patterns:
+>
+> **1. Parallel Specialists**
+> Spawn 3 reviewers (security, performance, architecture) that attack your PR simultaneously. Combine findings.
+>
+> **2. Pipeline**
+> Research → Plan → Implement → Test. Each stage auto-unblocks when the previous completes.
+>
+> **3. Self-Organizing Swarm**
+> Create a task pool. Spawn workers that race to claim tasks. Natural load balancing.
+>
+> **4. Research + Implement**
+> Run synchronous research first, pipe findings into implementation prompt.
+>
+> Pick based on task shape: independent work → swarm. Sequential dependencies → pipeline. Multiple perspectives → parallel.
+
+- **Tweet:** https://x.com/kieranklaassen/status/2015577538131845554
+- **What:** Overview of four core swarm orchestration patterns for Claude Code: parallel specialists for simultaneous review, pipelines for sequential workflows, self-organizing workers for load-balanced tasks, and research-first implementation. Pattern selection depends on task dependencies and required perspectives.
+
+## @Stocktwits - USAR Stock Rises 19% on US Government Stake
+> $USAR is up 19% in the overnight market after the US took a 10% stake for $1.6 billion
+
+- **Tweet:** https://x.com/Stocktwits/status/2015599410114077095
+- **What:** Stock market update on USAR rising 19% overnight following the US government's acquisition of a 10% stake valued at $1.6 billion.
+
+## @dillon_mulroy - git-ai Tool for Tracking AI-Generated Code
+> [Link to git-ai project]
+
+- **Tweet:** https://x.com/dillon_mulroy/status/2015605749796286637
+- **What:** git-ai is a vendor-agnostic Git extension that tracks AI-generated code in repositories, recording the coding agent, model, and prompts used. It supports multiple agents (Claude Code, Cursor, Copilot) and preserves AI-authorship annotations through git operations like merge, rebase, and cherry-pick.
+
+## @FrankieIsLost - Building Agents That Ask Questions and Validate Against Data
+> the single most powerful way to code with agents is to build a system in which they can ask questions, generate hypotheses, and validate these against real data https://t.co/XdaNpjAdHD
+
+- **Tweet:** https://x.com/FrankieIsLost/status/2015620178672001386
+- **What:** Core principle for effective agent-driven development—agents should be designed to gather information, form testable ideas, and verify them empirically rather than making assumptions.
+
+## @alexhillman - exe.dev Persistent Virtual Machines via SSH
+> Yoooo https://t.co/0ymEf3LJNj is awesome 🤯
+
+- **Tweet:** https://x.com/alexhillman/status/2015638552755781891
+- **What:** exe.dev is a tool for launching persistent virtual machines with persistent disks in seconds via SSH, with full sudo access, enabling cloud development and prototyping from any device.
+
+## @AWice - Immigration Policy and State Authority Complex Analysis
+> The discussion of the killing of Alex Pretti is a massive distraction that appeals to emotion. The unspoken implication is, if you agreed that this was an unjustified killing, therefore all the ICE agents should withdraw, and the deportation crackdowns were a poor decision. That's why everyone on the side of maintaining the status quo, prefers to debate on that ground, rather than the more pertinent subject of how all the illegal aliens coming from one country and colluding en masse to find ways to defraud the taxpayer should be deported. I think the officers did not follow proper procedure, and these shootings were not justified, especially in the Peretti case. It's also sad that the govt has to play the other side of the propaganda war and gaslight. But for America to remain a country, they have to win this fight, which is ultimately an infowar, a fight for perceived moral superiority and the legitimacy of authority played out by propaganda and counter propaganda. It sucks that people are losing their rights, and it sucks that America trends towards a police state, but the alternatives are worse. America has a cancer and unfortunately sometimes the best course of action is amputation. The reality on the ground is the temperature has been pushed to the absolute maximum. And if cops are pushed to their limit, the next step is lawless zones. This raising of the temperature is not organic, but by design, to impede the progress of deportation. America hasn't had a truly organic protest since Occupy Wall Street. Now, it's all funded. Everyone has seen the massive destruction that unfettered immigration has caused the EU. These cities are only a hop and a step away from being lawless slum territory owned by gangs, tent cities, and everyone on welfare as everything collapses. Think "Chaz" Seattle on steroids. This is already playing out in major US cities, and it's what is at stake. If Trump fails, be careful what you wish for. You either get some do nothing mainstream politician that allows America to be fully looted, or more likely a even more extreme leader will emerge. Both are far worse for the country. The shootings not being justified, doesn't mean there isn't a huge reason to clean house. For most people they can't carry both ideas in their head. If this shooting is not justified, then their "team" is the bad one, etc. But for me, I don't care, I'll just call it how it is. It's a tragedy, but if you don't want to die, then stay home. And the truth that many are uncomfortable with, that few want to admit, is that yes, the killings were not justified, but just because I agree with that, doesn't mean I have to accept the forcefed Walz+AOC conclusion that ICE needs to go home. Or Obama and Clinton telling everyone on Twitter to go out in the street and create more chaos and disorder. I don't accept these erroneous conclusions just because they "score a point" on a senseless killing. America must excise their tumor at all costs, or they won't be a country. If cops get rattled and open fire, it's a tragedy but it doesn't reverse what needs to be done. The temperature on the ground needs to be lowered, and it's being pushed intentionally to create resistance.
+
+- **Tweet:** https://x.com/AWice/status/2015655528152895840
+- **What:** Critical analysis separating multiple dimensions of a complex policy issue—acknowledging both concerns about police conduct and perspectives on immigration enforcement, while arguing against either-or tribal thinking.
+
+---
+
 # Monday, January 19, 2026
 
 ## @Dimillian - Parallel Testing Orchestration in Codex
@@ -550,6 +1491,25 @@ Quote context: Kieran previously asked about ditching the 12k token overhead fro
 
 
 # Tuesday, January 13, 2026
+
+## @doodlestein - xf: Ultra-Fast CLI for Searching X Archives
+
+> I'm very pleased to introduce my latest tool, xf, a hyper-optimized Rust cli tool for searching your entire Twitter/X data archive. You can get it here: https://t.co/S91cAGleaK
+>
+> Many people don't realize this, but X has a great feature buried in the settings where you can request a complete dump of all your tweets, DMs, likes, etc. It takes them 24 hours to prepare it, but then you get a link emailed to you and can download a single zip file with all your stuff. Mine was around 500mb because of all the images I've posted.
+>
+> The problem is, what do you do with it? It's not very convenient or fast to search the way they give it to you. Enter xf, which takes that zip file and makes it into an incredibly useful knowledge base, at least if you use X a lot. And that's because you get it for free! You're just piggybacking on something you were already doing anyway for other reasons.
+>
+> As you may have noticed, I'm a bit addicted to posting on here and also to building in public. So whenever I have a new tool, I usually post about it and explain how I use it and answer questions. I also have a ton of posts about my workflows in general, and my advice on how to do things, my opinions on various tools and libraries, etc. All of that is potentially relevant to a coding agent that is working on my projects, editing my personal website, responding to GitHub issues on my behalf, etc.
+>
+> So now, I can just tell them to use xf; simply typing that shows the quickstart screen shown in the attached screenshot, and then the agents are off to the races. The more you use X (for work at least, it's not going to help if you just troll people), the more of an unlock this is for your personal productivity.
+>
+> Imagine that you're a cult leader with devoted acolytes (your agents). Before doing anything, you want them to ask "What would our leader do?" and then they think "I know! I shall consult the sacred texts!" (i.e., your tweets and DMs).
+>
+> That can be your new reality starting today if you install xf. PS: Can someone get this to Elon? I think he would love seeing how fast this tool tears through a massive archive of data and he would end up using it daily. And if someone from X sees this: please make the archives include the full text of any tweet you reply to, it would make this tool even more useful.
+
+- **Tweet:** https://x.com/doodlestein/status/2011140841256124454
+- **What:** Jeffrey Emanuel introduces xf, a hyper-optimized Rust CLI tool that indexes and enables blazingly fast full-text search across your entire X (Twitter) data archive including tweets, DMs, likes, and Grok conversations with sub-millisecond latency.
 
 ## @RihardJarc - Intel Foundry Services Landing Apple as Customer
 
@@ -1984,6 +2944,15 @@ Once everything uses AI, there will still be levels in how you do it, and at the
 
 
 # Saturday, January 3, 2026
+
+## @jessfraz - Jessie Frazelle's AGENTS.md Dotfiles Reference
+
+> This is my .codex/AGENTS.md it's pretty ocd and pedantic but that should not be a shocker
+>
+> Tell me shit you do that you can't live without and I missed
+
+- **Tweet:** https://x.com/jessfraz/status/2007682934585864619
+- **What:** Jessie Frazelle shares her AGENTS.md configuration file from her dotfiles repository, seeking feedback on tools and workflows that others find essential for their development environments.
 
 ## @_kaitodev - Lovable for videos gaining traction
 > lovable for videos gets better everyday with new creators joining
