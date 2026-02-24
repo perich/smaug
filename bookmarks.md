@@ -1,4 +1,2152 @@
+# Monday, February 23, 2026
+
+## @zephyr_z9 - Agentic Shopping Already Live in China
+> *Quoting @Poe Zhao:* Alibaba just released Spring Festival numbers for Qwen: nearly 200 million "one-sentence orders," meaning roughly 1 in 10 people in China ordered something through an AI agent during the holiday.
+> 55 million cups of milk tea. 3,000 tons of eggs. 11 million cups of coffee.
+> This is the commerce-as-interface thesis at scale.
+> I wrote about this before the holiday — specifically about whether Alibaba could collapse the app layer into an agent layer without breaking Taobao's economics. The volume answers one question. The other questions are harder.
+> The agent also delivered wrong coffee to a lot of people. At 200 million orders, even a 1% error rate is 2 million trust events.
+>
+> Full analysis: https://t.co/SIhPnZCyHH
+>
+> For those who are skeptical about @Citrini7's agentic shopping thesis
+> It's already in full swing in China
+> Bytedance's ZTE phone was an early preview
+
+- **Tweet:** https://x.com/zephyr_z9/status/2025944051456049639
+- **Quoted:** https://x.com/poezhao0605/status/2025936519383626035
+- **What:** Evidence of agentic shopping already operational at scale in China during Spring Festival, with examples from Alibaba's Qwen AI agent and ByteDance's ZTE phone.
+
+## @goodalexander - Cloudflare and European Equities Trading Strategy
+> I've started aggressively buying Cloudflare $NET and shorting European equities $VGK.
+>
+> The stock has been decimated 9% intraday on what Citrini admitted was a "thought piece" (not even his base case) -- so the likelihood of a subsequent post truth "upgrade" is very high
+
+- **Tweet:** https://x.com/goodalexander/status/2025995646063497634
+- **What:** Trading strategy betting on Cloudflare recovery after market decline due to agentic shopping thesis skepticism, with corresponding short position on European equities.
+
+## @vasuman - Market Buying Opportunity
+> Buy the dip. Buy literally everything that you can get your hands on. Cloudflare + Crowdstrike especially.
+>
+> Not investment advice.
+
+- **Tweet:** https://x.com/vasuman/status/2025996380284580317
+- **What:** Suggested buying opportunity during market dip, particularly for Cloudflare and Crowdstrike, with caveat that it's not investment advice.
+
+## @ecommerceshares - CRM Valuation vs Historical Software Disruption
+> In 2013, $MSFT traded down to a 9x P/E because on-premise software was getting disrupted by a new technology… SAAS!
+>
+> Meanwhile today, $CRM still trades at a '26E P/E multiple of 25.2x for +9% rev growth (vs $META at 22.2x, +26% rev growth)
+>
+> Hardly a "liquidation" event.
+
+- **Tweet:** https://x.com/ecommerceshares/status/2026053534513254832
+- **What:** Analysis questioning whether CRM's valuation represents disruption-induced liquidation, comparing to MSFT's 2013 SAAS-driven decline and contrasting growth metrics with META.
+
+## @AviFelman - AI Automation and New Economic Opportunities
+> When I was 7 years old I was asked by my father what went into the price of a sandwich. Considering it carefully, I answered.
+>
+> The lettuce, the tomato, the bread and the meat.
+>
+> I did not consider correctly. I was short quite a few costs as my father was eager to point out. I had forgot the labor of the worker, the rent of the land, the marketing costs of the chain. I wasn't seeing the full picture.
+>
+> Today we are all making a similar mistake with AI. We are not considering what cannot be considered. As foreign to the 7 year old as these excess charges were, so are the downstream affects of AI.
+>
+> In 1850, if you had told a teamster that his horse and carriage would soon be obsolete, he would have envisioned a world of mass starvation for men of his skill. He could grasp the concept of a faster carriage, but he could not conceive of the interstate highway system, the suburban real estate market, or the roadside motel industry. These were not just new products; they were an entirely new social architecture.
+>
+> We are currently in the teamster's shoes. We see AI automating the ingredients of our current economy—the writing, the coding, the data entry—and we fear the void. But history shows that humanity doesn't fall into the void; it builds a floor over it.
+>
+> Karl Marx looked at the dark satanic mills of the 19th century and saw a terminal point. He argued that as the means of production became more efficient, capital would consolidate and labor would become a worthless commodity. He believed capitalism would eventually eat itself because it would run out of things for people to do.
+>
+> Marx was wrong because he viewed human utility as a fixed pie. He didn't understand that technology doesn't just subtract labor; it changes the nature of what we consider valuable.
+>
+> When the mechanical loom made fabric cheap, we didn't stop buying clothes. Instead, we invented the fashion industry. We created brand management, retail psychology, and textile engineering.
+>
+> We moved from a world where everyone owned two outfits to a world where millions of people are employed in the cycle of seasonal trends.
+>
+>  In the age of the steam engine, "handmade" was a sign of poverty. Today, it is a luxury. We are already seeing a shift where the human touch—the artisanal, the face-to-face, and the physically present—is becoming the high-margin sector of the economy.
+>
+> Every time we automate a simple task, we move the human to a more complex one. We didn't stop needing accountants when Excel was invented... we simply started asking accountants to perform much more sophisticated financial modeling.
+>
+> The 7-year-old misses the rent and the marketing because they are abstractions. Similarly, we struggle to see the jobs of 2040 because they rely on problems we haven't even encountered yet. We might see the rise of Personal Data Stewards, who manage the interaction between our private lives and public AI models, or Reality Architects, who ensure that the virtual spaces we inhabit are psychologically grounded.
+>
+> The world works itself out because humans are fundamentally restless. We do not tolerate a vacuum of purpose, we seek higher function always.
+
+- **Tweet:** https://x.com/AviFelman/status/2026080105848602811
+- **What:** Extended essay on historical patterns of technological disruption and labor displacement, arguing that AI automation will create new categories of human work rather than permanent joblessness, drawing parallels from transportation and textile industries.
+
+---
+
+# Sunday, February 22, 2026
+
+## @ctatedev - Portless Framework Compatibility Testing
+> `portless` was built for the web
+>
+> So devs can stop fussing over ports and agents can work in parallel
+>
+> Today we patched portless to fix some framework compatibility issues and added e2e tests for: Next.js, Svelte, Nuxt, Vite, Remix, Astro, Angular, Hono, Express, FastAPI, Flask
+
+- **Tweet:** https://x.com/ctatedev/status/2025592161723678790
+- **What:** Development tool update for a port-agnostic framework that allows parallel agent work and now includes comprehensive end-to-end testing across major frameworks.
+
+## @goodalexander - AI Market Valuation and Enterprise Software Future
+> Right not market is pricing near zero margin expansion at Salesforce between 2026 and 2027. That means AI results in virtually zero efficiency gain (or headcount reduction) at a company that's all hands on deck applying AI tools
+>
+> So either 1) everyone will vibe code their own CRMs 2) Anthropic and OpenAI will outright start launching CRMs or 3) the market is smoking crack
+>
+> I'm high confidence #1 is wrong - code maintainability drops a lot w huge code bases. That's why you aren't using vibe coded software every day right now
+>
+> I used to think #2 and it was a great schizo meme - but it was more believable when AI coding wasn't demonstrably extremely useful. And token usage seemed set to go off a cliff - necessitating a "big rug".
+>
+> But now I'm in camp 3. Anthropic isn't incentivized to murder its largest enterprise customers. The flip side is that they keep doing Pr about how "non technical industries benefit a lot from Claude" - see their hackathon winners being doctors
+>
+> More big picture - in October November we were in a very bad spot. Model upgrades seemed to be slowing at totally insane valuations. We are at insane valuations and we have an acceleration. Plus you're going to have Elon on roadshow for spacex IPO pumping this stuff to Valhalla "robotic mars takeover with neuralink implants"
+>
+> You don't want to be a pessimist in this type of situation. And "software being cannibalized by research labs bc it's all kind of a scam" is a pessimist trade
+
+- **Tweet:** https://x.com/goodalexander/status/2025613522466410742
+- **What:** Market analysis on AI model valuations, enterprise software margins, and the future of software development in an increasingly AI-capable world. Argues against pessimistic views given current market momentum.
+
+## @dexhorthy - Code Mode and Execution Sandboxes in AI Systems
+> Lot of folks asking me about how code mode / one-off execution sandboxes fit into claude code / humanlayer systems.
+>
+> I love this paper (link below) - here's my kind of current unrefined take -
+>
+> agentica is pretty focused on
+>
+> 1. lets let an agent interact with a persistent python env and write code (think, appending cells to a jupyter notebook where you preserve the namespace)
+>
+> 2. (fancier) "im writing python methods/modules and want to expose it to an agent in a code sandbox" - this is super dope tech btw
+>
+> for me code mode it feels more like "one off" code tasks for reasoning (a la arc-agi), random agentic stuff (a la openclaw) but not (yet) optimized for filesystem/coding tasks specifically.
+>
+> In claude code we already have code mode, the agent can write code to analyze/solve problems (in addition to doing its primary job of writing code for the codebase)
+
+- **Tweet:** https://x.com/dexhorthy/status/2025629934249795779
+- **What:** Technical discussion of how code execution sandboxes differ between systems like Agentica and Claude Code, with focus on persistent environments vs one-off task execution for reasoning and analysis.
+
+## @doodlestein - Prompt Strategy for Agent Development Enhancement
+> *Quoting @doodlestein:* @bradlishman Yes, if you're not cranking the ambition factor to the max, you're wasting the potential of these frontier models. They've eclipsed us already, you just need to know how to draw it out of them.
+
+> When you think you're finished with your development plan for your agent, try this prompt with a few different frontier models. You might be amazed what they come up with:
+>
+> "What's the single smartest and most radically innovative and accretive and useful and compelling addition you could make to the plan at this point?"
+>
+> If you've already started development and have a fleshed out project already, replace the word "plan" with "project."
+
+- **Tweet:** https://x.com/doodlestein/status/2025645582782480827
+- **Quoted:** https://x.com/doodlestein/status/2025634170534285779
+- **What:** Practical prompt engineering technique for getting frontier AI models to suggest innovative features and improvements to development plans and projects.
+
+## @kuberdenis - Kubernetes Learning Path with ArgoCD
+> *Quoting @iTanayVaswani:* The Kubernetes headstart...
+
+> Ignore all of this and install minikube / k3s on a vm, then get kubectx/ns and install argocd on it, then cert manager, traefik, sealed secreta, external dns; (use cloudflare) host something on it and pay attention (ghcr/free docker for the containers) then do it again, better
+
+- **Tweet:** https://x.com/kuberdenis/status/2025690245123965292
+- **Quoted:** https://x.com/iTanayVaswani/status/2025488677019979856
+- **What:** Practical advice on learning Kubernetes by doing: set up a local cluster, install essential tools (ArgoCD, cert-manager, Traefik, external DNS), deploy something real, then repeat with improvements.
+
+## @badlogicgames - Greenfield Project Development Workflow
+> *Replying to @_mshahid:* What does your workflow generally look like?
+
+> greenfield project:
+> - decide on tech stack, pick the simplest possible thing that will work, set up scaffold + build system + pre-commit hooks for type checking/linting + CI/test infra.
+> - think about modules required to build thing, and their interdependencies, pick the "root".
+> - split the root module into its own units of work (small enough to handle manually or via a single, non-compacting agent session), figure out their interdependencies, then work through units of work. usually encoded as an issue on GH or another issue tracker
+> - for each unit of work, start a session, have clanker read the issue, discuss implementation until implementation plan falls out. since units of work are generally small, plans are small and barely multi-step. once plan looks good, tell the clanker "do it, make no mistakes". once the clanker thinks it's done (impl, tests, type checking), review the code and scream at the clanker what an idiot it is. take the learnings and either refine implementation, or throw it all away and start from scratch based on the new info. repeat until unit of work is complete, write and review docs (markdown files in repo) if needed for both future you and future clanker. keep them SUPER concise, no clanker slop, ensure they match code. commit, push, close issue. can parallelize 2-3 of these, usually stick to single threading tho.
+>
+> along the way your initial plan will fall apart, but you have hopefully build up a good set of well written, well tested units of work and/or modules, that you can change direction more easily and with confidence.
+>
+> so basically just winging it, like before without clankers.
+
+- **Tweet:** https://x.com/badlogicgames/status/2025711045025677701
+- **Parent:** https://x.com/_mshahid/status/2025707929689612544
+- **What:** Detailed breakdown of greenfield project workflow emphasizing modular development, clear unit-of-work definition, and iterative refinement with AI assistants while maintaining code quality and documentation standards.
+
+## @Jesse_Livermore - AI Displacement and Inflation Strategy
+> Not a hard fix if AI productivity displaces labor income. Print money, hand it out. Lost income replaced.
+>
+> The problem is that the prices of wanted things whose supplies are not boosted by AI productivity will inflate under the printing. Those are the things to invest in.
+
+- **Tweet:** https://x.com/Jesse_Livermore/status/2025726248538775866
+- **What:** Analysis of economic impacts of AI labor displacement and investment strategy around non-AI-boosted supply sectors.
+
+## @ChristianHeiens - Jury System Breakdown Across Cultures
+> *Quoting @arctotherium:* In experimental settings, blacks of both parties and white Democrats favor black criminals over white ones in sentencing and pardoning decisions, while white Republicans have no racial preference. https://t.co/YX3OaR9OQD
+>
+> This exact type of phenomenon eventually forced Lee Kuan Yew to abolish jury trials in Singapore.
+>
+> "The jury system is part of an English tradition that presumes a common culture. That assumption cannot hold in a society like ours."
+>
+> Apparently it can't hold any longer in Anglo societies either.
+
+- **Tweet:** https://x.com/ChristianHeiens/status/2025778979882348989
+- **Quoted:** https://x.com/arctotherium42/status/2025253855559098868
+- **What:** Historical parallel between Singapore's abolition of jury trials and contemporary jury system challenges regarding bias in sentencing decisions.
+
+---
+
+# Saturday, February 21, 2026
+
+## @Midnight_Captl - Market Valuation Opportunity on Tech Giants
+> We're going to look back at 2026 and laugh hysterically that they tried to get you to sell Amazon Meta and Google at mid 20's fwd to buy Walmart at 40x fwd
+>
+> This is a gift. Don't waste it.
+
+- **Tweet:** https://x.com/Midnight_Captl/status/2025313803056152603
+- **What:** Investment commentary on current market valuations and the opportunity to hold major tech stocks instead of buying overpriced consumer retail companies.
+
+## @skooookum - On Parenthood and Legacy
+> I understand now. You don't have children to continue yourself. You have them so that letting go of your youth has somewhere to go.
+
+- **Tweet:** https://x.com/skooookum/status/2025416345903403127
+- **What:** Philosophical reflection on the meaning of parenthood and how it provides context for transitioning from youth to adulthood.
+
+---
+
+# Friday, February 20, 2026
+
+## @astridwilde1 - Early Position in RELY
+> i have an awful habit of being right but scale into a position 4-6 months too early. there's >120% upside from here for $RELY with an exit multiple of 8x EV/EBITDA in 2028
+
+- **Tweet:** https://x.com/astridwilde1/status/2024773945195651301
+- **What:** Investment observation about consistently being right on direction but timing entry too early, with specific upside thesis for RELY at 8x EV/EBITDA exit.
+
+## @firstadopter - SK Hynix HBM Memory Valuation
+> I really can't believe SK Hynix is valued at the lowest single-digit P/E despite having the most advanced HBM memory technology and growing at a insane pace. The stock market is strange sometimes.
+>
+> Investors must be reading my Substack this week. lolol
+
+- **Tweet:** https://x.com/firstadopter/status/2024808116190150832
+- **What:** Analysis of SK Hynix's undervaluation despite having cutting-edge HBM memory technology and rapid growth, with reference to accompanying Substack analysis.
+
+## @mattzcarey - Code Mode with MCP - Cloudflare
+> Code Mode is all you need, very excited about this direction for MCP
+
+- **Tweet:** https://x.com/mattzcarey/status/2024847630811980277
+- **Filed:** [Code Mode with MCP - Cloudflare](./knowledge/articles/code-mode-with-mcp-cloudflare.md)
+- **What:** Cloudflare's approach to integrating MCPs into AI workflows using Code Mode
+
+## @Cloudflare - Code Mode with MCP - Cloudflare
+> The Cloudflare API has over 2,500 endpoints. Exposing each one as an MCP tool would consume over 2 million tokens. With Code Mode, we collapsed all of it into two tools and roughly 1,000 tokens of context.
+
+- **Tweet:** https://x.com/Cloudflare/status/2024847784914882945
+- **Filed:** [Code Mode with MCP - Cloudflare](./knowledge/articles/code-mode-with-mcp-cloudflare.md)
+- **What:** Cloudflare's approach to integrating MCPs into AI workflows using Code Mode
+
+## @ctatedev - Another example of the new diff command: catching visual reg
+> Another example of the new diff command: catching visual regressions
+
+Instead of text-based snapshots, this uses pixel-level comparison to spot unintended CSS and layout changes
+
+Catch regressions before shipping, or pair with bisect to pinpoint exactly when one was introduced
+>
+> *Quoting @ctatedev:* Diffing now available in agent-browser
+
+Compare pages with snapshot diffs or pixel-level visual regression
+
+Verify actions with up to 90% fewer tokens, catch visual regressions, monitor page changes, and compare across environments
+
+- **Tweet:** https://x.com/ctatedev/status/2024855314449760707
+- **Quoted:** https://x.com/ctatedev/status/2024729467826950474
+- **What:** Development tool discussion
+
+## @claudeai - Claude Code Security
+> Introducing Claude Code Security, now in limited research preview.
+
+It scans codebases for vulnerabilities and suggests targeted software patches for human review, allowing teams to find and fix issues that traditional tools often miss.
+
+Learn more:
+
+- **Tweet:** https://x.com/claudeai/status/2024907535145468326
+- **Filed:** [Claude Code Security](./knowledge/articles/claude-code-security.md)
+- **What:** Anthropic's new vulnerability scanning feature for codebases with targeted patch suggestions
+
+## @garybasin - gbasin/stress-test-skill
+> made a little skill for this to share: i think there's a broader point that...
+
+**the models are still lazy and not aware of their capabilities**
+
+...hopefully this is solved in the next gen, but for now you can save a lot of time and pain by having the model verify assumptions by running small POCs upfront -- this dramatically increases the odds of the agent's v1 being useful
+>
+> *Quoting @garybasin:* pro-tip: ask your clanker to stress test every plan and perform comprehensive POCs and internet research on anything they're not 100% confident will work
+
+- **Tweet:** https://x.com/garybasin/status/2024921484401983511
+- **Quoted:** https://x.com/garybasin/status/2024894178325381163
+- **Filed:** [gbasin/stress-test-skill](./knowledge/tools/gbasinstress-test-skill.md)
+- **What:** GitHub repository: stress-test-skill
+
+## @DanielNealAdler - Stripe - AI Agents and Coding
+> the @stripe dev blog is basically a playbook for aspiring dev tools founders
+
+- **Tweet:** https://x.com/DanielNealAdler/status/2025001712621322728
+- **Filed:** [Stripe - AI Agents and Coding](./knowledge/articles/stripe-ai-agents-and-coding.md)
+- **What:** Stripe's development guide on AI agents and one-shot end-to-end coding agents
+
+## @theo - I was frustrated by the image generation experiences in exis
+> I was frustrated by the image generation experiences in existing apps. Including ours. That's why I spent almost a year playing with alternative UX.
+
+Today, we finally have something to show for it.
+
+Introducing T3 Canvas, the world's best image generation experience.
+
+- **Tweet:** https://x.com/theo/status/2025082274262516117
+- **Video:** https://x.com/theo/status/2025082274262516117
+- **Status:** Needs transcript
+- **What:** Development tool discussion
+
+## @SIGKITTEN - dnakov/litter
+> *Replying to @SIGKITTEN:* codex app-server is legit af
+
+i was just looking into it for a project and accidentally ended up making an actual native codex iphone app
+
+i can spawn and talk to codexes anywhere on my network
+and one of the best parts... I built and linked codex into the actual iphone app and it now runs locally on the actual iphone
+
+gl doing that, cc
+>
+> wip here
+
+- **Tweet:** https://x.com/SIGKITTEN/status/2025091433040912538
+- **Parent:** https://x.com/SIGKITTEN/status/2025073817467416983
+- **Filed:** [dnakov/litter](./knowledge/tools/dnakovlitter.md)
+- **What:** GitHub repository: litter
+
+---
+
+# Thursday, February 19, 2026
+
+## @mgratzer - Forging a Workflow: Agentic Engineering in Practice
+> I wrote my first blog post. It's about building a side project with coding agents for my kids over the winter holidays. It covers my workflow and what I think about the human in the loop when agents write the code.
+
+- **Tweet:** https://x.com/mgratzer/status/2024403519038529752
+- **Link:** https://mgratzer.com/posts/forging-a-workflow/
+- **Filed:** [Forging a Workflow: Agentic Engineering in Practice](./knowledge/articles/forging-a-workflow-agentic-engineering.md)
+- **What:** A blog post exploring the workflow and philosophy of using coding agents for a side project with kids, emphasizing the importance of keeping humans in the loop.
+
+## @mattpocockuk - Do-Work Skill Pattern for Feature Development
+> I put a /do-work skill in each of my repos, and I love it.
+
+It's dead simple, just encodes how I build features/fix bugs:
+
+1. Plan
+2. Explore
+3. Build
+4. Run Tests/Types
+5. Commit
+
+Having it in a skill lets me hang more complexity on each stage as needed.
+
+1a. If designing a new frontend interface, produce multiple prototypes on a throwaway route
+3a. If doing backend work, use RGR approach
+4a. If touching frontend code, use agent-browser to QA the frontend
+
+Each of these extras have their own markdown file, so they don't crowd context.
+
+Crucially, this helps keep all of this out of the AGENTS file (which should be almost empty)
+
+Then I run it with "/do-work <prompt>"
+
+Strong recommend.
+
+- **Tweet:** https://x.com/mattpocockuk/status/2024488394429014134
+- **What:** A pattern for organizing development skills in code repositories, breaking down feature development into discrete stages and keeping agent configuration clean.
+
+## @davidgomes - Cursor's Debug Mode Is Arguably Its Best Feature
+> *Replying to @davidgomes:* Started writing about Cursor's Debug Mode... Ended up with a mini-thesis for the future of coding agents. What if coding agents were always instrumenting the code they're running?
+
+> https://t.co/aZyrllJN8s
+
+- **Tweet:** https://x.com/davidgomes/status/2024493580409266356
+- **Parent:** https://x.com/davidgomes/status/2024493578823856473
+- **Filed:** [Cursor's Debug Mode Is Arguably Its Best Feature](./knowledge/articles/cursors-debug-mode-best-feature.md)
+- **What:** An article exploring Cursor's Debug Mode feature and proposing a broader thesis about the future of AI coding agents that instrument code during execution.
+
+## @GoogleLabs - Pomelli's Photoshoot Feature
+> Today, we're introducing Pomelli's latest feature update, 'Photoshoot'
+
+With Photoshoot, you can start from a single image of your product and easily create high quality, customized product shots to elevate your marketing.
+
+Available free of charge in the US, Canada, Australia & New Zealand! Get started with Pomelli today at https://t.co/SbeT00ToNx
+
+- **Tweet:** https://x.com/GoogleLabs/status/2024529795548102667
+- **Link:** https://labs.google.com/pomelli/about/
+- **What:** A new feature from Google Labs that uses AI to generate high-quality product photography from a single image, available free in select regions.
+
+## @joelhooks - CLI Design for AI Agents
+> cli design for agents 🤖
+
+humans shouldn't suffer clis, that's what fuckin robots are for https://t.co/EAxbq6R0FI
+
+- **Tweet:** https://x.com/joelhooks/status/2024533555993596084
+- **Filed:** [CLI Design for AI Agents](./knowledge/articles/cli-design-for-ai-agents.md)
+- **What:** An article on designing command-line interfaces specifically for AI agents to parse, using JSON envelopes and HATEOAS patterns instead of human-friendly formatting.
+
+## @rork - Rork Max: AI-Powered App Development for Apple Platforms
+> Introducing Rork Max
+
+AI that one-shots almost any app for iPhone, Watch, iPad, TV & Vision Pro. Even Pokémon Go with AR & 3D.
+
+Max is a website that replaces Xcode. Install on device in 1 click. Publish to App Store in 2 clicks.
+
+Powered by Swift, Claude Code & Opus 4.6.
+
+- **Tweet:** https://x.com/rork/status/2024570781330792896
+- **What:** A web-based tool powered by Claude Code and Opus 4.6 that enables AI-driven development of native applications across Apple's ecosystem with simplified deployment.
+
+## @mattpocockuk - Interviewing for Better Planning with Claude Code
+> Claude Code (or Opus 4.6) feels like it asks you far fewer questions during plan mode
+
+Try:
+
+"Interview me relentlessly about every aspect of this plan until we reach a shared understanding. Walk down each branch of the design tree, resolving dependencies between decisions one-by-one."
+
+- **Tweet:** https://x.com/mattpocockuk/status/2024576093894955369
+- **What:** A prompt pattern for getting more thorough planning and clarification from Claude Code or Opus 4.6 by requesting deeper questioning about design decisions and dependencies.
+
+## @Replit - Replit Animation: Vibecode Video Creation
+> Introducing Replit Animation
+
+Vibecode your next viral video in minutes, powered by Gemini 3.1 Pro.
+
+(This video was 100% made in Replit Animation)
+
+- **Tweet:** https://x.com/Replit/status/2024578806208745637
+- **What:** A new tool from Replit that enables rapid creation of viral-ready videos using AI (Gemini 3.1 Pro) with animation capabilities.
+
+## @evrgn11112231 - Stock Ranking by Quality
+> *Replying to @chat_SBC:* best business of the group?
+>
+> @chat_SBC You didn't ask but: ASML, TSM, META, MCO, MA, V, FICO, NVDA, MSFT/GOOG/AMZN in that order
+
+- **Tweet:** https://x.com/evrgn11112231/status/2024599850231189868
+- **Parent:** https://x.com/chat_SBC/status/2024594536601702517
+- **What:** Investment ranking of semiconductor and financial companies by business quality, suggesting META is undervalued.
+
+## @nicopreme - Visual Explainer Agent Skill
+> POV: Planning with the "Visual Explainer" skill. I can't go back to markdown plans after getting used to this.
+
+- **Tweet:** https://x.com/nicopreme/status/2024630185564557769
+- **Filed:** [Visual Explainer - Agent skill for HTML visual documentation](./knowledge/tools/visual-explainer.md)
+- **What:** Agent skill that transforms complex terminal output and text-based plans into styled, interactive HTML pages with Mermaid diagrams and responsive design.
+
+## @evrgn11112231 - Meta Business Quality & Valuation
+> The fact the no one realizes how high quality of a business $META actually is is exactly why it is so cheap and why it's such a good risk/reward imo.
+>
+> *Quoting @evrgn11112231:* @chat_SBC You didn't ask but: ASML, TSM, META, MCO, MA, V, FICO, NVDA, MSFT/GOOG/AMZN in that order
+
+- **Tweet:** https://x.com/evrgn11112231/status/2024630693255663626
+- **Quoted:** https://x.com/evrgn11112231/status/2024599850231189868
+- **What:** Investment thesis on Meta's undervaluation despite high business quality, predicting future multiple expansion.
+
+## @alexhillman - API2CLI System for Claude Code
+> alright, I polished some stuff up and released my api2cli system:
+>
+> Add this to your Claude Code system
+>
+> Then tell Claude "build me a CLI for [any API]"
+>
+> some are harder than others, but I haven't had one outsmart us yet 😎
+
+- **Tweet:** https://x.com/alexhillman/status/2024651709503483944
+- **Filed:** [API2CLI - Generate CLIs from API documentation](./knowledge/tools/api2cli.md)
+- **What:** Claude Code skill that transforms API documentation into dual-mode CLIs with Commander.js, including human-readable terminal output and JSON mode for agents.
+
+## @naval - AI Podcast: A Motorcycle for the Mind
+> New podcast on AI (full episode). Links below.
+>
+> A Motorcycle for the Mind
+>
+> 0:00 If you want to learn, do
+>
+> 2:13 Vibe coding is the new product management
+>
+> 6:49 Training models is the new coding
+>
+> 10:13 Is traditional software engineering dead?
+>
+> 13:07 There is no demand for average
+>
+> 14:12 The hottest new programming language is English
+>
+> 18:36 AI is adapting to us faster than we are adapting to it
+>
+> 22:56 No entrepreneur is worried about AI taking their job
+>
+> 26:46 The goal is not to have a job
+>
+> 29:49 AIs are not alive
+>
+> 32:55 AI fails the only true test of intelligence
+>
+> 36:49 Early adopters of AI have an enormous edge
+>
+> 39:37 AI meets you exactly where you are
+>
+> 43:02 Always leverage the best intelligence
+>
+> 44:37 If you can't define it, you can't program it
+>
+> 49:37 The solution to AI anxiety is action
+
+- **Tweet:** https://x.com/naval/status/2024700227111047581
+- **Status:** Needs transcript
+- **What:** Naval Ravikant podcast discussing paradigm shifts in technology, from vibe coding to AI's impact on jobs and entrepreneurship, with detailed chapter breaks.
+
+## @hrishioa - Skills Better Than Documentation
+> New paper on skills. The conclusions hold up exactly 1-to-1 with our experience.
+>
+> Skills are better than docs, but only when made with care. Less is more.
+>
+> Models are really bad at making skills. 2 paragraphs of human-written condensed instructions (or best practices) are better than 20 pages of model-summarised info. My theory is they lack the theory-of-mind IQ to think through what they might have needed to know before they knew it.
+
+- **Tweet:** https://x.com/hrishioa/status/2024713140769083461
+- **What:** Research-backed observation that concise human-written skills documentation outperforms verbose AI-generated summaries for teaching models how to use tools effectively.
+
+---
+
+# Wednesday, February 18, 2026
+
+## @kimmonismus - Repeating Prompts Dramatically Improves LLM Performance
+
+> Researchers found that repeating the exact same prompt twice dramatically improves LLM performance (one model improved from 21% to 97% accuracy on a name-search task) without longer outputs, slower responses, fine-tuning, or fancy prompt engineering.
+>
+> Because models process text left to right, duplicating the input gives every token a second chance to "see" the full context, leading to measurable gains across 7 benchmarks and 7 major models.
+>
+> *Quoting @burkov:* LLMs process text from left to right — each token can only look back at what came before it, never forward. This means that when you write a long prompt with context at the beginning and a question at the end, the model answers the question having "seen" the context, but the context tokens were generated without any awareness of what question was coming. This asymmetry is a basic structural property of how these models work.
+>
+> The paper asks what happens if you just send the prompt twice in a row, so that every part of the input gets a second pass where it can attend to every other part. The answer is that accuracy goes up across seven different benchmarks and seven different models (from the Gemini, ChatGPT, Claude, and DeepSeek series of LLMs), with no increase in the length of the model's output and no meaningful increase in response time — because processing the input is done in parallel by the hardware anyway.
+>
+> There are no new losses to compute, no finetuning, no clever prompt engineering beyond the repetition itself.
+>
+> The gap between this technique and doing nothing is sometimes small, sometimes large (one model went from 21% to 97% on a task involving finding a name in a list). If you are thinking about how to get better results from these models without paying for longer outputs or slower responses, that's a fairly concrete and low-effort finding.
+
+- **Tweet:** https://x.com/kimmonismus/status/2024069380162936992
+- **Quoted:** https://x.com/burkov/status/2023822767284490263
+- **What:** Research finding that repeating prompts twice improves LLM accuracy across multiple models and benchmarks without additional computational cost.
+
+## @cnakazawa - Fastest Frontend Tooling for Humans and AI
+
+> New blog post
+>
+> Fastest Frontend Tooling for Humans & AI
+>
+> Upgrade Today
+
+- **Tweet:** https://x.com/cnakazawa/status/2024089116376482213
+- **Link:** https://cpojer.net/posts/fastest-frontend-tooling
+- **Filed:** [Fastest Frontend Tooling for Humans and AI](./knowledge/articles/fastest-frontend-tooling-for-humans-and-ai.md)
+- **What:** A comprehensive guide to modern frontend tooling optimizations for 2026, including TypeScript in Go, Oxfmt, Oxlint, and performance improvements for both human developers and AI systems.
+
+## @virattt - Migrating from Ink to Pi-TUI for Better Performance
+
+> I just ripped out Ink from Dexter.
+>
+> We're now fully on pi-tui, the same stack OpenClaw runs on.
+>
+> Difference is lovely:
+> • no more flicker
+> • smoother renders
+> • tighter UX
+>
+> Thank you @badlogicgames for making pi.
+
+- **Tweet:** https://x.com/virattt/status/2024132649476850107
+- **What:** A developer shares their successful migration from Ink to pi-tui for terminal UI rendering, noting significant improvements in visual performance and user experience.
+
+## @PlanetScale - Database Skills for AI Agents Launch
+
+> Today we're launching our database skills for AI agents.
+>
+> Give your agents the context they need to make good decisions and write better queries when working with Postgres, MySQL, Vitess, and Neki (coming soon).
+
+- **Tweet:** https://x.com/PlanetScale/status/2024167734326808754
+- **Link:** https://database-skills.com/
+- **Filed:** [Database Skills for AI Agents](./knowledge/articles/database-skills-for-ai-agents.md)
+- **What:** PlanetScale releases specialized AI agent skills that enable LLMs to write better database queries across multiple database systems including Postgres, MySQL, and Vitess.
+
+## @natolambert - Open Models in Perpetual Catch-Up Article
+
+> *Replying to @Altimor:* Some notes about the slew of Chinese models coming out (Kimi K2.5, MiniMax, GLM-5 etc) claiming to "match Sonnet / Opus / God in evals at 1/10th of the price"
+>
+> yup, this is why i wrote this, folks hype too much.
+
+- **Tweet:** https://x.com/natolambert/status/2024203995712278699
+- **Parent:** https://x.com/Altimor/status/2024166553357336660
+- **Link:** https://www.interconnects.ai/p/open-models-in-perpetual-catch-up
+- **Filed:** [Open Models in Perpetual Catch-Up](./knowledge/articles/open-models-in-perpetual-catch-up.md)
+- **What:** Analysis of the open-closed AI model gap, discussing how open models compare to closed alternatives, distillation, innovation timescales, and what strategies enable open models to succeed.
+
+## @egornomic - Codex Stop Word for Backward Compatibility
+
+> This word is truly a "stop" word for Codex if you put it in agents file. Finally it stopped polluting code with bAckWaRd ComPaTibiLitY.
+>
+> *Quoting @banteg:* @EthanLipnik the 5.3 word for it is cutover
+
+- **Tweet:** https://x.com/egornomic/status/2024213737410822632
+- **Quoted:** https://x.com/banteg/status/2023867977800777882
+- **What:** Brief discussion about using "cutover" as a stop word in Codex agent files to prevent code generation with backward compatibility anti-patterns.
+
+## @rohitdotmittal - Figma Stock Valuation and AI Integration
+
+> Figma is a story where the stock was clearly significantly oversold.
+>
+> No one I know has cancelled their Figma subscription, regardless of the other design tools they use.
+>
+> 70% growth in weekly active users is insane at this scale.
+>
+> Figma is one of the best at seamlessly adding AI at the right places. It makes me more likely to use Figma, not less.
+>
+> Bullish on this company.
+
+- **Tweet:** https://x.com/rohitdotmittal/status/2024245470290162136
+- **What:** Investment analysis of Figma's market position, growth metrics, and successful AI integration strategy that enhances rather than detracts from the core product.
+
+## @businessbarista - Tenex Labs Hiring for AI Transformation
+
+> I can't hire fast enough.
+>
+> There is virtually unlimited demand to help midsized and enterprise businesses execute AI transformation successfully.
+>
+> And @tenex_labs is becoming the McKinsey of AI, leading the charge.
+>
+> We need killer engineers: full-stack, AI-pilled coding workflows, uncapped cash upside based on output
+>
+> And we need killer strategists: technically dangerous (at minimum), exceptional at strategic relationship building, strong product sense.
+>
+> Link to learn more below…
+
+- **Tweet:** https://x.com/businessbarista/status/2024306999870042145
+- **What:** Announcement of hiring opportunities at Tenex Labs for engineers and strategists specializing in enterprise AI transformation.
+
+---
+
+# Tuesday, February 17, 2026
+
+## @jamiepine - Spacebot AI Operating System for Teams
+> This is my take on the perfect AI assistant.
+>
+> A Rust-based agentic operating system designed to scale for large Slack and Discord communities. The channel is the ambassador to the human. Branches think. Workers execute. Nothing ever blocks.
+>
+> Meet Spacebot 🟣
+>
+> The biggest issue with OpenClaw is when it's doing work, it can't talk to you. Spacebot's architecture fixes this by design the conversation layer never touches tools. It delegates thinking to branches and heavy tasks to workers, so it's always responsive even with 100 people talking at once.
+>
+> Dump your memory files, notes, documents and chat histories into a folder — Spacebot turns them into structured memories automatically. Eight typed memory categories, graph associations, hybrid search. Not markdown files. Not vibes in a vector database.
+>
+> Built-in @OpenCode workers for deep coding sessions. Browser automation. Brave web search. Cron jobs. A skill system compatible with your existing OpenClaw skills. And a gorgeous control UI at https://t.co/aAEbMp4LSh.
+>
+> The cortex oversees the whole system — auditing memories, actioning goals and todos. You teach your Spacebot by talking to it. Structure and speed over config files and markdown.
+>
+> Self-hosting is a single Rust binary. Or one-click cloud deploy at https://t.co/aAEbMp4LSh.
+>
+> This is for teams, communities, and personal assistants. It will blow you away.
+>
+> ⭐️ https://t.co/H8pCoE9R4h
+
+- **Tweet:** https://x.com/jamiepine/status/2023631346434798060
+- **Link:** https://spacebot.sh/
+- **Filed:** [Spacebot - Rust-based AI Agent for Teams and Communities](./knowledge/tools/spacebot-rust-based-ai-agent-for-teams-and-communities.md)
+- **What:** Rust-based AI operating system designed for team collaboration with concurrent task handling, automated memory management, and built-in developer tools.
+
+## @forestmanjohn - Puresteel Plastic-Free Coffee Maker
+> 3 months ago, I quit my job to chase a dream: to build an affordable, convenient, plastic-free coffee maker.
+>
+> Grateful for everyone who has reserved ❤️
+>
+> https://t.co/jxDgAirVsd https://t.co/Xgw5UNrp0Z
+
+- **Tweet:** https://x.com/forestmanjohn/status/2023748742503964724
+- **Link:** https://puresteelco.com/
+- **Filed:** [Puresteel - Affordable Plastic-Free Stainless Steel Coffee Maker](./knowledge/articles/puresteel-affordable-plastic-free-stainless-steel-coffee-maker.md)
+- **What:** A founder's journey building an entirely stainless steel coffee maker as an environmentally conscious alternative to plastic-based brewing equipment.
+
+## @usemonologue - Monologue for iOS Voice Recording App
+> Monologue for iOS is here.
+>
+> You talk 3x faster than you type.
+>
+> Prompts to Claude. Brain dumps to Notion. Grocery lists. Midnight epiphanies. First drafts that sound like you. Now in your pocket.
+>
+> Follow, like, RT—50 annual subscriptions are up for grabs.
+
+- **Tweet:** https://x.com/usemonologue/status/2023801691506942385
+- **What:** An iOS app that converts voice input to text, enabling faster communication than typing while integrating with Claude, Notion, and other tools.
+
+## @aidenybai - React Doctor Code Analysis Tool
+> *Replying to @aidenybai:* Introducing React Doctor
+>
+> Scan your React codebase for anti-patterns:
+>
+> - Unnecessary useEffects
+> - Fix accessibility issues
+> - Prop drilling instead of context / composition
+>
+> Run as a CLI or agent skill. Repeat until passing. Fully open source https://t.co/yf6Ucgx3g8
+>
+> Run this in your terminal to try it out:
+>
+> npx -y react-doctor@latest
+
+- **Tweet:** https://x.com/aidenybai/status/2023806826580766793
+- **Parent:** https://x.com/aidenybai/status/2023806825062449424
+- **Filed:** [React Doctor - Code Analysis Tool](./knowledge/tools/react-doctor.md)
+- **What:** A CLI tool that analyzes React codebases for anti-patterns, performance issues, and architectural problems, providing a health score and actionable diagnostics.
+
+## @burkov - Prompt Repetition Improves LLM Accuracy
+> LLMs process text from left to right — each token can only look back at what came before it, never forward. This means that when you write a long prompt with context at the beginning and a question at the end, the model answers the question having "seen" the context, but the context tokens were generated without any awareness of what question was coming. This asymmetry is a basic structural property of how these models work.
+>
+> The paper asks what happens if you just send the prompt twice in a row, so that every part of the input gets a second pass where it can attend to every other part. The answer is that accuracy goes up across seven different benchmarks and seven different models (from the Gemini, ChatGPT, Claude, and DeepSeek series of LLMs), with no increase in the length of the model's output and no meaningful increase in response time — because processing the input is done in parallel by the hardware anyway.
+>
+> There are no new losses to compute, no finetuning, no clever prompt engineering beyond the repetition itself.
+>
+> The gap between this technique and doing nothing is sometimes small, sometimes large (one model went from 21% to 97% on a task involving finding a name in a list). If you are thinking about how to get better results from these models without paying for longer outputs or slower responses, that's a fairly concrete and low-effort finding.
+
+- **Tweet:** https://x.com/burkov/status/2023822767284490263
+- **Filed:** [Prompt Repetition Improves Non-Reasoning LLMs](./knowledge/articles/prompt-repetition-improves-llm-accuracy.md)
+- **What:** Research paper demonstrating that repeating prompts to LLMs improves accuracy across multiple models by allowing bidirectional token attention, without increasing latency or output tokens.
+
+## @rudrank - App Store Connect CLI Automation Tool
+> Today has been the happiest I have felt in a while. I can finally feel the sparkle in my eyes again
+>
+> This App Store Connect CLI is way more powerful than I thought it is, and I have still not reached 1.0
+>
+> I have to accelerate fast so it gets more popular and becomes the training data for models out there
+
+- **Tweet:** https://x.com/rudrank/status/2023833941443272946
+- **Filed:** [App Store Connect CLI - Scriptable Automation Tool](./knowledge/tools/app-store-connect-cli.md)
+- **What:** A scriptable CLI tool for automating iOS/macOS app distribution workflows, including TestFlight management, builds, submissions, and analytics without interactive prompts.
+
+## @NickADobos - Claude Code Agent Architecture Enhancement
+> Claude got a huge hidden update. Holy shit.
+>
+> Before:
+> User prompt -> Claude -> uses tool -> Claude
+>
+> After:
+> User prompt -> Claude -> writes code and logic -> that code uses a tool -> code logic can parse or format results, add conditional logic and use tool multiple times -> Claude
+>
+> This unlocks crazy amounts of complex function calling.
+>
+> For example, say you are querying a database. Previously you would do one query, then Claude would read that result and then query again if needed. Now Claude writes code to call the tool, then that code can handle the result and do different things, like query again, strip or format data, and change what it's doing based on the tool call result, all before being sent back to Claude. The code, that Claude writes, pre plans how to react to the tool result.
+>
+> This compresses LLM agent loops, because the agent isn't deciding on the fly, and it doesn't need to keep asking the LLM to make decisions, instead the LLM pre-bakes potentially hundreds or thousands of decision paths.
+>
+> I would not be surprised if we see eventually 2x-100x improvements or more on agent loop & tool calling efficiency scores from this design.
+>
+> Subtle but absolutely huge change.
+>
+> *Quoting @alexalbert__:* Underrated dev upgrade from today's launch:
+>
+> Claude's web search and fetch tools now write and execute code to filter results before they reach the context window.
+>
+> When enabled, Sonnet 4.6 saw 13% higher accuracy on BrowseComp while using 32% fewer input tokens.
+
+- **Tweet:** https://x.com/NickADobos/status/2023861257757925469
+- **Quoted:** https://x.com/alexalbert__/status/2023834863858769975
+- **What:** Discussion of architectural improvements to Claude that enable writing and executing code to handle tool results before returning to the LLM, dramatically improving agent efficiency.
+
+## @kevinkern - Codex Multi-Agent Support Release
+> Codex 0.102 is out with experimental multi-agent support.
+>
+> TUI:
+> enable it under /experimental -> multi agents
+>
+> config:
+> [features]
+> multi_agent = true
+>
+> 3 agents included:
+> - default - mixed tasks
+> "spawn default agent to debug the failure and propse fix"
+>
+> - explorer - codebase research
+> "spawn explorer to map payment flow and check risks, no edits"
+>
+> - worker - coding & bug fixes
+> "spawn worker for src/auth/* and implement token refresh & run tests"
+>
+> you can define custom agents too. here is an example:
+>
+> [features]
+> multi_agent = true
+>
+> [agents .fast_worker]
+> description = "Fast scoped implementation agent."
+> config_file = "/Users/<you>/.codex/agents/fast_worker.toml"
+>
+> ~/.codex/agents/fast_worker.toml
+> model = "gpt-5.3-spark"
+> model_reasoning_effort = "low"
+> model_verbosity = "low"
+>
+> Bonus:
+> current default is 6 agent threads per session.
+>
+> You can customize it with
+> [agents]
+> max_threads = 12
+
+- **Tweet:** https://x.com/kevinkern/status/2023864261949399311
+- **What:** Update to Codex 0.102 introducing multi-agent support with pre-built agents for different tasks (default, explorer, worker) and configuration options for customization.
+
+## @iandmacomber - Claude Code Adoption Across Non-Engineering Roles
+> We've seen mainstream adoption of Claude Code across non-eng in the last six weeks at @tryramp. 80% of PMs, 70% of compliance, 55% of the finance team. It's changed how I think about the role of the data team.
+>
+> * 2021-2024: analyst says "hey the numbers look off" in #helpdata, someone on the data team digs through code, troubleshoots, and pushes a PR. You could fill your entire day just doing this (and stakeholders were happy and grateful)!
+> * 2024-2025: analyst says "hey the numbers look off" in #helpdata, someone on the data team copies the question into Claude Code, troubleshoots, and pushes a PR
+> * Jan 2026: the analysts start by using CC themselves, and show up to #helpdata with "hey, the numbers look off, I know why, and here's the line of code I think needs to change"
+> * Feb 2026: "This number looks off, here's why, here's a PR, just approve it"
+>
+> AI tools are fundamentally changing what's possible for non-engineering roles. Our finance team ships SQL (shoutout Kate and Jun), our product team conducts causal analysis (Sam, Teddy), our design and engineering team build KPI dashboards. So what does this mean for the data profession, and the size of data teams?
+>
+> The strongest data ICs are expanding what they are capable of, compressing timelines, shipping front end + back end code, fixing copy, writing SKILL.mds, and driving outcomes. If you are extremely resourceful and curious, have great taste for what matters to our customers, can source your own projects and ship anything in two days (or two hours) I can use 100 of you. You'll be more effective than you've ever been. Something something #jevonsparadox.
+>
+> If you define yourself by your skillset "I do dbt models and dashboards "I do causal analysis" "I do data eng and Airflow DAGs", that scope and role is shrinking fast. The existing team can do more, and AI is competing your skillset out.
+>
+> Paraphrasing @giansegato, we're progressively automating the easier parts of data jobs to agents, and the complexity and impact of the tasks we have left are increasing. The remaining work is HARD. It's creative and strategic. It's not siloed. It's knowing where to push, having conviction, leading and influencing teams.
+>
+> I'm hiring for extremely entrepreneurial, curious people who want to do the most impactful work of their careers at Ramp. If that describes you, reach out.
+
+- **Tweet:** https://x.com/iandmacomber/status/2023869483706728761
+- **What:** Perspective on how Claude Code adoption is transforming work across non-engineering roles at Ramp, shifting data teams toward higher-impact strategic work rather than routine technical tasks.
+
+---
+
+# Monday, February 16, 2026
+
+## @dabit3 - https://t.co/P39MoYvvQR
+> https://t.co/P39MoYvvQR
+
+- **Tweet:** https://x.com/dabit3/status/2023206853715325068
+- **Link:** https://x.com/i/article/2023178739492831233
+- **What:** https://t.co/P39MoYvvQR
+
+## @caminmc - @cramforce trust your gut king
+> *Replying to @cramforce:* You need conviction and be ready and willing to eat your words https://t.co/mwsdkzp1xx
+>
+> @cramforce trust your gut king https://t.co/QotiRZ4sgm
+
+- **Tweet:** https://x.com/caminmc/status/2023229122990997727
+- **Link:** https://twitter.com/caminmc/status/2023229122990997727/photo/1
+- **Parent:** https://x.com/cramforce/status/2023131165465743502
+- **What:** @cramforce trust your gut king
+
+## @HuggingModels - You can now clone voices that sound actually real.
+> You can now clone voices that sound actually real.
+Non robotic, full human.
+
+1.7B parameters of clean, natural speech.
+
+https://t.co/nvK8GFi53o https://t.co/3Qxs9WrglU
+
+- **Tweet:** https://x.com/HuggingModels/status/2023243784637788313
+- **Link:** https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice
+- **Link:** https://twitter.com/HuggingModels/status/2023243784637788313/video/1
+- **What:** You can now clone voices that sound actually real.
+
+## @labubu_trader - Current Trading Holdings Update
+> My current holding in the trading accounts:
+> Long: XLU/XLI/XLE, CVX/XOM/RIG, CAT/DE/ADM, Gold, Semi caps, ORCL/IGV(closed igv/pltr puts when igv hit $80 last week), LLY, ULTA, EWU/EWG/EWJ/EWZ
+> Short: QQQ/ARKK, COIN/MSTR
+
+- **Tweet:** https://x.com/labubu_trader/status/2023442117008519423
+- **What:** Trading portfolio update showing current long and short positions across various asset classes including commodities, sector ETFs, and individual stocks.
+
+## @arlanr - Automating Product Onboarding with AI Agent
+> we just killed product onboardings.
+>
+> i did more than 200 collison installations over the summer, going around houses and onboarding people to my product.
+>
+> Paul Graham ended up tweeting about it, and a lot of people recognize me just because of that.
+>
+> today, i decided to automate it.
+>
+> introducing collison installation agent by @nozomioai.
+>
+> 1) tell our agent what product you want to be onboarded to
+> 2) we index their docs and packages
+> 3) the agent installs it on your machine
+>
+> bun install nia-onboarding-agent
+
+- **Tweet:** https://x.com/arlanr/status/2023445510074355842
+- **What:** Product onboarding automation tool that uses AI to understand product documentation and automate installation on user machines.
+
+## @LLMJunky - Codex Subagent Configurability Launch
+> Hell yeah! Subagent Configurability in Codex will launch tomorrow!
+>
+> Create, define, and launch custom agents with your model / reasoning level of choice with a simple edit to config file.
+>
+> > Plan with one model
+> > Orchestrate with another
+> > Execute (with Spark!?)
+>
+> TY @OpenAIDevs https://t.co/b82h87xHfx
+
+- **Tweet:** https://x.com/LLMJunky/status/2023490752446427440
+- **What:** Announcement of configurable subagent functionality in Codex allowing mixed model strategies for planning, orchestration, and execution.
+
+## @nbaschez - Reducing Cognitive Debt with LLM Explanations
+> my current favorite trick for reducing "cognitive debt" (h/t @simonw) is to ask the LLM to write two versions of the plan:
+>
+> 1. The version for it (highly technical and detailed)
+> 2. The version for me (an entertaining essay designed to build my intuition)
+>
+> Works great
+
+- **Tweet:** https://x.com/nbaschez/status/2023501535343509871
+- **What:** Technique for understanding complex technical plans by asking LLMs to provide both detailed technical versions and intuition-building essays.
+
+## @nicbstme - Shared Article
+> https://t.co/v7sot4WCI2
+
+- **Tweet:** https://x.com/nicbstme/status/2023501562480644501
+- **Link:** https://x.com/i/article/2023495526877155328
+- **What:** A tweet sharing an article link related to unknown content.
+
+## @bryan_johnson - Heart Rate and Sleep Quality Impact
+> My heart rate before bed last night: 38 bpm
+>
+> In the 99.9th percentile.
+>
+> The 40 hour social media fast dropped it by around 10%. Seems social media could be a 10% tax on my nervous system.
+>
+> RHR is the most important marker I track. It's a tell-all of health and habits. This single number reveals stress, food, screens, fitness, relationships and more.  Show me your RHR and I'll see your soul.
+>
+> Lowing your RHR before bed is the #1 thing you can do to improve your health. A low RHR will boost sleep quality.
+>
+> High quality sleep:
+> > Mental acuity up 15%
+> > Insulin sensitivity + glucose control better by 25%
+> > Self control up by 20%
+> > Mood enhanced by 15–30%
+> > Physical performance improvement by 10%
+> > Lower injury risk by 20–60%
+>
+> My suggestions for you:
+> + final meal four hours before bed
+> + screens off one hour before bed
+> + read a book 10 min before bed
+> + in bed at the same time every single night
+>
+> Master these and then you can add on more layers to get even better.
+
+- **Tweet:** https://x.com/bryan_johnson/status/2023532738557649281
+- **What:** Health optimization insights on resting heart rate, sleep quality, and concrete lifestyle recommendations including meal timing, screen usage, and consistent sleep schedules.
+
+---
+
+# Sunday, February 15, 2026
+
+## @kieranklaassen - Compound Engineering Plugin Multi-Platform Support
+> Compound Engineering plugin now works in: @claudeai , CoWork, @OpenAI Codex, @opencode , @FactoryAI Droid, @cursor_ai , Pi, @geminicli
+
+- **Tweet:** https://x.com/kieranklaassen/status/2022897697553027097
+- **Filed:** [Compound Engineering Plugin: Cross-Platform AI Coding Tools](./knowledge/tools/compound-engineering-plugin-cross-platform-ai-coding-tools.md)
+- **What:** Claude Code plugin marketplace featuring compound engineering tools designed to improve productivity across multiple AI coding environments (Claude Code, OpenCode, Codex, Cursor, Pi, and others).
+
+## @jarredsumner - AI-Generated Code Quality Standards at Bun
+> *Replying to @RhysSullivan:* the amount of time i have to spend cleaning up and verifying bulk generated ai code feels like it offsets most of the benefit of generating it with ai in the first place
+>
+> I think there's still a lot to be improved here
+
+For bun's repo, we rarely merge AI-generated code if none of the tests fail with the previous version of bun
+
+- **Tweet:** https://x.com/jarredsumner/status/2022897968819683811
+- **Parent:** https://x.com/RhysSullivan/status/2022885759888572774
+- **What:** Discussion on maintaining code quality standards when integrating AI-generated code, emphasizing test-driven validation in the Bun project.
+
+## @artifexdev - Pi Librarian Extension for Coding Agents
+> Made a pi extension that gives your coding agent a librarian (inspired by @AmpCode )
+
+- **Tweet:** https://x.com/artifexdev/status/2022971218651955543
+- **Video:** https://twitter.com/artifexdev/status/2022971218651955543/video/1
+- **Status:** Needs transcript
+- **What:** Custom Pi extension that adds a librarian capability to coding agents, enhancing their ability to manage and reference project documentation.
+
+## @jachands - opensrc: npm Package Source Code Fetching Tool
+> *Replying to @thdxr:* I use opensrc for this sometimes:
+
+- **Tweet:** https://x.com/jachands/status/2023006669324857445
+- **Parent:** https://x.com/thdxr/status/2022916571744866683
+- **Filed:** [opensrc: npm Package Source Code Fetcher for AI Agents](./knowledge/tools/opensrc-npm-package-source-code-fetcher-for-ai-agents.md)
+- **What:** CLI tool that fetches source code for npm packages to give AI coding agents deeper implementation context beyond types and documentation, with support for GitHub repositories.
+
+## @_bgwoodruff - You can usually find discount codes for the eightsleep, and/or...
+> *Replying to @isidentical:* Any cheaper eightsleep alternative? It seems very useful to have a cold bed but not sure if it is worth $5K
+>
+> You can usually find discount codes for the eightsleep, and/or get it through an FSA or HSA.
+
+If you want to avoid the subscription (after the mandatory first year), you can jailbreak it. I can loan you a cable. https://t.co/1wXRvMrPQ5
+
+Many of the 8s competitors don't use water for cooling, and may not work as well. I've only used the 8s and don't have any personal experience here.
+
+Some people have built their own using a used eightsleep topper combined with an aquarium chiller. I personally wouldn't want to deal with that though. https://t.co/JDrvELL11p
+
+I saw that https://t.co/TnwN28omjc is a brand new competitor in this space that looks very similar to 8s, but given how much trouble the early versions of 8s had with reliability and leaks, I wouldn't want to be an early adopter.
+
+- **Tweet:** https://x.com/_bgwoodruff/status/2023115812455002563
+- **Filed:** [free-sleep](./knowledge/tools/free-sleep.md)
+- **Filed:** [You can usually find discount codes for the eightsleep, and/or...](./knowledge/articles/you-can-usually-find-discount-codes-for-the-eightsleep-andor.md)
+- **Link:** https://www.orionsleep.com/
+- **Parent:** https://x.com/isidentical/status/2023108932940775908
+- **What:** You can usually find discount codes for the eightsleep, and/or...
+
+## @Anton_Kuzmen - 5.3-codex + pi + finder + librarian is the ultimate combo.
+> 5.3-codex + pi + finder + librarian is the ultimate combo.
+
+Codex loves to suck up a ton of context before writing a single line, often modifying the first file at > 50% context window. There is no way around it. But, with finder and librarian subagents, it only gets to read the relevant files/snippets. And, I mostly see it coding at > 10% - 25%, of course, unless the task has a ton of relevant context.
+
+Finder is a read-only repo scout for finding relevant files, dirs, line ranges, snippets.
+Librarian is same as finder but for github repos.
+
+You can try them in pi:
+- `pi install npm:pi-finder-subagent`
+- `pi install npm:pi-librarian`
+
+- **Tweet:** https://x.com/Anton_Kuzmen/status/2023134817987223770
+- **What:** 5.3-codex + pi + finder + librarian is the ultimate combo.
+
+## @benjitaylor - Just published some fun Agentation features that leverage agen...
+> Just published some fun Agentation features that leverage agent-browser:
+
+→ Critique Mode: auto reviews your project and leaves annotations with suggested improvements
+→ Self-Driving Mode: auto reviews your project and makes real changes as it goes https://t.co/EPkXEVFdTA
+
+- **Tweet:** https://x.com/benjitaylor/status/2023142545241575730
+- **Link:** https://agentation.dev/mcp
+- **What:** Just published some fun Agentation features that leverage agen...
+
+## @ctatedev - Weekend project: portless
+> Weekend project: portless
+
+Stable, named URLs for local dev
+
+→ Zero config
+→ Subdomains for monorepos
+→ No more port roulette or cookie bleed
+→ Agents get a reliable URL instead of guessing ports
+
+𝚗𝚙𝚖 𝚒 -𝚐 𝚙𝚘𝚛𝚝𝚕𝚎𝚜𝚜 https://t.co/WzkA7xRMCK
+
+- **Tweet:** https://x.com/ctatedev/status/2023142972578308546
+- **Link:** https://twitter.com/ctatedev/status/2023142972578308546/photo/1
+- **What:** Weekend project: portless
+
+## @blader - when codex/claude is working on something a little too ambitio...
+> when codex/claude is working on something a little too ambitious, it's very easy to lose sight of how the implementation actually works
+
+it can be very helpful to reverse engineer a technical / product spec from the implementation.
+
+that's what this does: https://t.co/3hX3mqtfit
+
+- **Tweet:** https://x.com/blader/status/2023170417062756624
+- **Filed:** [schematic](./knowledge/tools/schematic.md)
+- **What:** when codex/claude is working on something a little too ambitio...
+
+---
+
+# Saturday, February 14, 2026
+
+## @flaviocopes - The idea of making a big plan first and let AI work for a long time an
+> The idea of making a big plan first and let AI work for a long time and I wake up with a product is not working for me.
+What works best for me is iteration, small steps.
+The best ideas come while working.
+Do this, do that, add this, add that, oh that's a cool idea, let's explore.
+
+- **Tweet:** https://x.com/flaviocopes/status/2022648335627346055
+- **What:** The idea of making a big plan first and let AI work for a long time and I wake up with a product is not working for me.
+
+## @0Beanie05923291 - Children and Hard Things
+> If you choose not to make your children do hard things they don't like when they're 5, you'll really struggle to make them do hard things they don't like when they're 15. You're also still likely to be trying to make them do hard things when they're 25, and still living with you.
+
+- **Tweet:** https://x.com/0Beanie05923291/status/2022669687218409650
+- **What:** Parenting philosophy on the importance of teaching children to embrace difficult tasks from an early age.
+
+## @pvncher - Rate Limited Podcast on AI Models and Coding
+> New rate limited with @GosuCoder and @RayFernando1337 !
+
+We talk about all the new models in the last couple of weeks, talk personal assistants and dive deep into the work addition ai coding has brought on
+
+- **Tweet:** https://x.com/pvncher/status/2022747326650159162
+- **Video:** https://www.youtube.com/watch?si=0Rza1000KWjltUKh&v=Q5YHwb3wy4I&feature=youtu.be
+- **Status:** Needs transcript
+- **What:** Discussion episode on recent AI models, personal assistants, and the impact of AI on coding productivity.
+
+## @cramforce - just-bash: AST-Powered Shell Script Parsing for Agents
+> Maybe you looked at just-bash and were like "I already have a shell". Well, if you make agent harnesses you should pay attention anyway:
+
+It now supports parsing and re-serializing shell scripts without running them. And in between you can run your own AST transformers or information extractors.
+
+It's a similar role to Babel or AcornJS in the JS ecosystem. Example use cases (and those both ship as built-in transformers):
+
+- Automatically tee every command to a file. Means that if your agent ran `npm e2e-tests | tail 15` and then realizes the tail was too aggressive and it would rather grep, then it can take the output of npm e2e-tests without running the command again
+
+- Do a trustable report as to which commands are in a script without trying to regex it yourself, so you can ask the user for permission to run those commands
+
+More here
+
+- **Tweet:** https://x.com/cramforce/status/2022778424784490944
+- **Link:** https://github.com/vercel-labs/just-bash/blob/main/src/transform/README.md
+- **Filed:** [just-bash: Bash AST Transformation for Agents](./knowledge/tools/just-bash-bash-ast-transformation-for-agents.md)
+- **What:** TypeScript-based bash environment with AST parsing capabilities, allowing agents to parse and transform shell scripts without execution. Includes AST transformer plugins similar to Babel for JavaScript.
+
+## @EricBuess - Hook Rules and Reliability
+> Hook rules dramatically increase reliability.
+
+- **Tweet:** https://x.com/EricBuess/status/2022912130941681787
+- **What:** Brief observation on how strict adherence to hook rules improves system reliability in React applications.
+
+---
+
+# Friday, February 13, 2026
+
+## @GoldenLacLLC - Important tweet:
+> Important tweet:
+
+Just had a discussion with a credible source, Anthropic is indeed the AI customer $DDOG talked about
+
+$DDOG's revenue acceleration is going to be out of this world for the next 3-4 quarters
+
+Needed to tweet this given what I shared the last couple of days..
+
+- **Tweet:** https://x.com/GoldenLacLLC/status/2022319659995779380
+- **What:** Important tweet:
+
+## @tbpn - "Every male 40 and older should probably be taking somewhere between 2
+> "Every male 40 and older should probably be taking somewhere between 2.5 and 5 milligrams of tadalafil." - @hubermanlab
+
+Jordi: What do you think the best athletes in the world are doing this Olympics?
+
+Huberman: "People are taking vasodilators. You know, Viagra and tadalafil, which commonly goes by Cialis."
+
+"Tadalafil is a vasodilator. It lowers blood pressure, and people know of it as Cialis for erectile dysfunction. It was originally developed as a drug to improve prostate health."
+
+"The basic takeaway is that most every male 40 and older should probably be taking somewhere between 2.5 and 5 milligrams of tadalafil—not necessarily for erectile function, although it will augment that as well—but to lower blood pressure and to improve vasodilation for the brain and the prostate."
+
+"And I'm not saying this as a biohacker or a podcaster. Our head of male sexual health from Stanford, Mike Eisenberg, MD, PhD. He is best in class in terms of male sexual health endocrinology. That's his recommendation."
+
+- **Tweet:** https://x.com/tbpn/status/2022350426394534334
+- **What:** "Every male 40 and older should probably be taking somewhere between 2.5 and 5 milligrams of tadalafil." - @hubermanlab
+
+## @ChromiumDev - WebMCP is available for early preview → https://t.co/bZMcANfg37
+> WebMCP is available for early preview → https://t.co/bZMcANfg37
+
+WebMCP aims to provide a standard way for exposing structured tools, ensuring AI agents can perform actions on your side with increased speed, reliability, and precision. https://t.co/9NvSi6rMdV
+
+- **Tweet:** https://x.com/ChromiumDev/status/2022363079976034455
+- **Link:** https://developer.chrome.com/blog/webmcp-epp
+- **What:** WebMCP is available for early preview → https://t.co/bZMcANfg37
+- **Filed:** [WebMCP is available for early preview → https://t.co/bZMcANfg37](./knowledge/articles/webmcp-is-available-for-early-preview-httpstcobzmcanfg37.md)
+
+## @SaaiArora - Can someone who works at @tryramp tell me how good Inspect is? The sta
+> Can someone who works at @tryramp tell me how good Inspect is? The stat that it merges more than 50% of PRs is so crazy to me.
+
+- **Tweet:** https://x.com/SaaiArora/status/2022372136053043438
+- **What:** Can someone who works at @tryramp tell me how good Inspect is? The stat that it merges more than 50% of PRs is so crazy to me.
+
+## @cryptopunk7213 - amazon is without doubt the best asymmetric ai bet in the stock market
+> amazon is without doubt the best asymmetric ai bet in the stock market right now and it’s not even close
+
+- trainium ai chips sold out for 2026, anthropic’s using 1 MILLION of them to train claude
+
+- owns 21% of anthropic worth $80B
+
+- 23% compounding growth on $69B revenue (aws and advertising)
+
+- $200B scaling ai capex this year entrenching AWS as the compute hyperscaler for AI labs
+
+- fastest (and most reliable) deployer of enterprise GPU clusters for fortune 500
+
+- most robots deployed at scale for manual labor automation - guess who has the best data to train robot models???
+
+yet the market still prices them as an e-commerce business??? 
+
+ludicrous.
+>
+> *Quoting @fiscal_ai:* Amazon has quietly built out the 3rd largest advertising business in the world.
+
+~$69B in annual revenue, growing 23% YoY.
+
+$AMZN https://t.co/LXuHiWkfK1
+
+- **Tweet:** https://x.com/cryptopunk7213/status/2022400706934903038
+- **Quoted:** https://x.com/fiscal_ai/status/2021992753429983700
+- **What:** amazon is without doubt the best asymmetric ai bet in the stock market right now and it’s not even close
+
+## @steipete - New version of https://t.co/VBw4Rt1V5A is out! 0.11 can now even use c
+> New version of https://t.co/VBw4Rt1V5A is out! 0.11 can now even use cursor for free tokens + uses Groq for way faster TTS inference + lots lots of other improvements.
+https://t.co/AiKEz6UgEj
+
+summarize https://t.co/HnrzhQC65N\?v\=n1E9IZfvGMA --slides
+
+my favorite way to consume YT. Or Podcasts. or literally any website or remote or local file.
+
+Powers the content efficient file summarization for @openclaw but also really nice for humans, especially with --slides.
+
+It's also a Chrome extension. because why not. 
+https://t.co/8JnedneSwM
+
+- **Tweet:** https://x.com/steipete/status/2022513027870810384
+- **Link:** https://summarize.sh/
+- **What:** New version of https://t.co/VBw4Rt1V5A is out! 0.11 can now even use cursor for free tokens + uses Groq for way faster TTS inference + lots lots of ot...
+- **Filed:** [New version of https://t.co/VBw4Rt1V5A is out! 0.11 can now even use c](./knowledge/tools/new-version-of-httpstcovbw4rt1v5a-is-out-011-can-now-even-us.md)
+- **Video:** https://www.youtube.com/
+- **Status:** Needs transcript
+
+## @steipete - 🧭 gogcli v0.10.0 shipped: Google in your terminal.
+> 🧭 gogcli v0.10.0 shipped: Google in your terminal.
+
+(really, Google should make this, but here we are)
+
+big Docs/Slides upgrade (markdown updates + tables, tab-aware read/edit, markdown/template slide creation, image-deck ops), Drive upload --replace + convert/share-to-domain, Gmail label delete + watch excludes, Contacts birthdays/notes and more... https://t.co/MkB8rPEcEU
+
+- **Tweet:** https://x.com/steipete/status/2022516951809945850
+- **Link:** https://github.com/steipete/gogcli/releases
+- **What:** 🧭 gogcli v0.10.0 shipped: Google in your terminal.
+- **Filed:** [🧭 gogcli v0.10.0 shipped: Google in your terminal.](./knowledge/tools/gogcli-v0100-shipped-google-in-your-terminal.md)
+
+---
+
+# Thursday, February 12, 2026
+
+## @GavinSBaker - HBM DRAM Supply vs Market Valuation Mismatch
+> HBM DRAM > DRAM > NAND from a long term undersupply (longest to shortest) and China risk (lowest to highest) perspective.
+>
+> The equities have traded exactly the opposite way this year.
+>
+> Good post by @itsDanielWu
+
+- **Tweet:** https://x.com/GavinSBaker/status/2021937035083493667
+- **What:** Market analysis identifying a disconnect between fundamental supply dynamics and equity valuations for semiconductor memory components.
+
+## @nummanali - Codex Reasoning Configuration Deep Dive
+> If like me you want to know everything Codex is doing under the hood
+>
+> Enable all the reasoning details in ~/.codex/config.toml
+>
+> model_reasoning_summary = "detailed"
+> hide_agent_reasoning = false
+> show_raw_agent_reasoning = true
+
+- **Tweet:** https://x.com/nummanali/status/2021948867801927793
+- **What:** Technical tip for debugging and understanding Codex agent reasoning by enabling detailed configuration options to expose internal model decision-making.
+
+## @GeminiApp - Gemini 3 Deep Think Enables Sketch-to-3D-Print Workflow
+> Today, we're releasing a significant upgrade to our specialized reasoning mode, Gemini 3 Deep Think.
+>
+> Deep Think is built to drive practical applications, enabling researchers to interpret complex data and engineers to model physical systems through code.
+>
+> With the updated Deep Think, you can turn a sketch into a 3D-printable reality. Deep Think analyzes the drawing, builds the complex shape, and generates a file so you can create the physical object with 3D printing.
+>
+> This is rolling out now to Google AI Ultra subscribers. Select the "Deep Think" option in the tools menu to get started.
+
+- **Tweet:** https://x.com/GeminiApp/status/2021985731577852282
+- **Link:** https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-deep-think/
+- **Filed:** [Gemini 3 Deep Think Sketch to 3D Model Generation](./knowledge/articles/gemini-3-deep-think-sketch-to-3d-model-generation.md)
+- **What:** Major upgrade to Gemini 3 Deep Think specialized reasoning mode enabling researchers and engineers to convert sketches to 3D-printable designs and model physical systems through code.
+
+## @pierceboggan - Prompt Linter Language Server for VS Code
+> We'd never ship code without a linter. Why are we still shipping prompts without one?
+>
+> I built a language server for prompts that brings the same developer experience we expect from code: real-time diagnostics, quick fixes, and semantic analysis — all inside @code.
+>
+> It catches weak instructions ("try to" → "Must"), flags vague language ("several" → "5-7"), detects contradictions between rules, warns about token budget, and even offers one-click fixes.
+>
+> Because if prompts are how we program AI, they deserve a linter too.
+
+- **Tweet:** https://x.com/pierceboggan/status/2022018953560678885
+- **What:** Introduction of a language server providing real-time linting and semantic analysis for AI prompts with features including instruction validation, vagueness detection, contradiction checking, and automated fixes.
+
+---
+
+# Wednesday, February 11, 2026
+
+## @fejau_inc - Commodity Trade Performance
+> *Quoting @ForwardGuidance:* Energy and metals could be one of the clearest trades heading into next year because they make sense in so many potential regimes @fejau_inc
+>
+> ➤ Physical bottlenecks across key commodities
+> ➤ Hedge against inflation/deficits
+> ➤ Benefit from lower real rates
+> ➤ Benefit from AI energy demand
+>
+> Really nothing changing for me. Bullish energy, metals, commodities, industrials and they all keep performing. Just sitting on these trades and not doing much.
+>
+> Continue to believe MAG7 and tech and therefore crypto w/ that correlation continues to underperform
+
+- **Tweet:** https://x.com/fejau_inc/status/2021607738522939766
+- **Quoted:** https://x.com/ForwardGuidance/status/1997714535143100745
+- **What:** Commentary on sustained commodity market performance with continued bullishness on energy, metals, and industrial sectors while maintaining skepticism about tech/crypto correlation.
+
+## @karpathy - DeepWiki and Software Malleability Through Agents
+> On DeepWiki and increasing malleability of software.
+>
+> This starts as partially a post on appreciation to DeepWiki, which I routinely find very useful and I think more people would find useful to know about. I went through a few iterations of use:
+>
+> Their first feature was that it auto-builds wiki pages for github repos (e.g. nanochat here) with quick Q&A:
+> https://t.co/DQHXagUwK0
+> Just swap "github" to "deepwiki" in the URL for any repo and you can instantly Q&A against it. For example, yesterday I was curious about "how does torchao implement fp8 training?". I find that in *many* cases, library docs can be spotty and outdated and bad, but directly asking questions to the code via DeepWiki works very well. The code is the source of truth and LLMs are increasingly able to understand it.
+>
+> But then I realized that in many cases it's even a lot more powerful not being the direct (human) consumer of this information/functionality, but giving your agent access to DeepWiki via MCP. So e.g. yesterday I faced some annoyances with using torchao library for fp8 training and I had the suspicion that the whole thing really shouldn't be that complicated (wait shouldn't this be a Function like Linear except with a few extra casts and 3 calls to torch._scaled_mm?) so I tried:
+>
+> "Use DeepWiki MCP and Github CLI to look at how torchao implements fp8 training. Is it possible to 'rip out' the functionality? Implement nanochat/fp8.py that has identical API but is fully self-contained"
+>
+> Claude went off for 5 minutes and came back with 150 lines of clean code that worked out of the box, with tests proving equivalent results, which allowed me to delete torchao as repo dependency, and for some reason I still don't fully understand (I think it has to do with internals of torch compile) - this simple version runs 3% faster. The agent also found a lot of tiny implementation details that actually do matter, that I may have naively missed otherwise and that would have been very hard for maintainers to keep docs about. Tricks around numerics, dtypes, autocast, meta device, torch compile interactions so I learned a lot from the process too. So this is now the default fp8 training implementation for nanochat
+> https://t.co/3i5cv6grWm
+>
+> Anyway TLDR I find this combo of DeepWiki MCP + GitHub CLI is quite powerful to "rip out" any specific functionality from any github repo and target it for the very specific use case that you have in mind, and it actually kind of works now in some cases. Maybe you don't download, configure and take dependency on a giant monolithic library, maybe you point your agent at it and rip out the exact part you need. Maybe this informs how we write software more generally to actively encourage this workflow - e.g. building more "bacterial code", code that is less tangled, more self-contained, more dependency-free, more stateless, much easier to rip out from the repo (https://t.co/iKJUoHiIpl)
+> There's obvious downsides and risks to this, but it is fundamentally a new option that was not possible or economical before (it would have cost too much time) but now with agents, it is. Software might become a lot more fluid and malleable. "Libraries are over, LLMs are the new compiler" :). And does your project really need its 100MB of dependencies?
+
+- **Tweet:** https://x.com/karpathy/status/2021633574089416993
+- **Filed:** [nanochat - Simple LLM Training Harness](./knowledge/tools/nanochat.md)
+- **What:** Andrej Karpathy explores how AI agents combined with DeepWiki and GitHub CLI enable extracting and reimplementing specific functionality from repos, making software more modular and malleable. Features insights on agent-driven development and modular code design.
+
+## @doodlestein - Planning and Workflow Methodology Success
+> *Quoting @woodchipdaddy:* Ported a 300k LOC TS Prediction Market Bot (Kalshi) to 140k LOC Elixir using @doodlestein #AgentFlywheel approach, and it booted up first time perfectly =)
+>
+> 2 days of planning, 1 of coding; burn 1 weeks worth of ChatGpt Pro tokens, and half a weeks Claude Max
+> https://t.co/8WPH3Hk4BT
+>
+> My approach really works. You don't have to be some crazy savant to apply it, either. Just read my posts about planning and use the tools and workflows, and you will also get these kinds of results. I've now seen at least 10 people who I don't even know report similar outcomes.
+
+- **Tweet:** https://x.com/doodlestein/status/2021641758690681021
+- **Quoted:** https://x.com/woodchipdaddy/status/2020948600436699607
+- **What:** Jeffrey Emanuel discusses the effectiveness of his Agent Flywheel planning methodology, demonstrated by successful code port from TypeScript to Elixir with 50% reduction in LOC.
+
+## @benhylak - B2B SaaS Design with Raindrop Conversation X-rays
+> who said b2b saas has to be ugly?
+>
+> new in @raindrop_ai: conversation x-rays🩻
+
+- **Tweet:** https://x.com/benhylak/status/2021659442295837077
+- **What:** Announcement of new conversation x-rays feature in Raindrop AI that brings beautiful design to B2B SaaS products.
+
+## @NicHulscher - Creatine Boosts Cognitive Processing Speed by 24.5%
+> A SINGLE 20g dose of creatine increases cognitive processing speed by 24.5% within 3.5 hours.
+>
+> A placebo-controlled trial found that creatine rapidly enhanced brain bioenergetics and improved cognitive performance during sleep deprivation, with effects lasting up to nine hours.
+>
+> *Quoting @DrJesseMorse:* Creatine:
+>
+> A 2024 Nature Scientific Reports study found a single high dose (~20g) improved processing speed by 24.5% and buffered against sleep deprivation for 9 hours.
+>
+> While 5g saturates muscle, recent reviews suggest 15–20g is necessary to maximize brain creatine level.
+>
+> You should be taking 15-20 grams of creatine a day!
+
+- **Tweet:** https://x.com/NicHulscher/status/2021688778369184228
+- **Quoted:** https://x.com/DrJesseMorse/status/2021372063542313206
+- **What:** Research-backed insights on creatine supplementation for cognitive enhancement and cognitive resilience during sleep deprivation, with recommended dosing of 15-20g daily.
+
+## @Cernovich - Peter Attia's Colon Cancer Prevention Message
+> You can hate Peter Attia all you want, but his message on colon caner has saved thousands, maybe more. Get a colon screen before 50. 50 is outdated. 40 is better. I had one and they found some polyps, nothing cancerous, but good to catch early. Sorry for the TMI. Get it done.
+
+- **Tweet:** https://x.com/Cernovich/status/2021694658686885995
+- **What:** Personal testimony and health advocacy for early colon cancer screening before age 50, highlighting the value of preventive healthcare.
+
+## @bcherny - Claude Code Customization and Developer Love
+> Reflecting on what engineers love about Claude Code, one thing that jumps out is its customizability: hooks, plugins, LSPs, MCPs, skills, effort, custom agents, status lines, output styles, etc.
+>
+> Every engineer uses their tools differently. We built Claude Code from the ground up to not just have great defaults, but to also be incredibly customizable. This is a reason why developers fall in love with the product, and why Claude Code's growth continues to accelerate.
+>
+> I wanted to share a few ways we're seeing people and teams customize their Claudes.
+
+- **Tweet:** https://x.com/bcherny/status/2021699851499798911
+- **What:** Discussion of Claude Code's customization architecture that enables developers to tailor their development environment through hooks, plugins, LSPs, MCPs, skills, and custom agents.
+
+---
+
+# Tuesday, February 10, 2026
+
+## @hwchase17 - LangChain Tweet Discussion
+> https://t.co/neRV1d0sXq
+
+- **Tweet:** https://x.com/hwchase17/status/2021261552222158955
+- **What:** Reference to another discussion on X platform.
+
+## @coderabbitai - CodeRabbit Issue Planner Launch
+> Introducing CodeRabbit Issue Planner! ✨
+>
+> AI agents made coding fast but planning messy.
+>
+> Turn planning into a shared artifact in your issue tracker, grounded in related issues and decisions.
+>
+> Review prompts as a team, then hand them off to an agent! https://t.co/4xTjG88JOJ
+
+- **Tweet:** https://x.com/coderabbitai/status/2021268414178726362
+- **Video:** https://twitter.com/coderabbitai/status/2021268414178726362/video/1
+- **Status:** Needs transcript
+- **What:** CodeRabbit's new Issue Planner feature that turns AI agent planning into shared artifacts grounded in related issues and team decisions, streamlining the agent-assisted development workflow.
+
+## @Wattenberger - What Comes After the IDE
+> What comes after the IDE? This is our take. https://t.co/59EqpyJcs6
+
+- **Tweet:** https://x.com/Wattenberger/status/2021269188979949749
+- **Video:** https://twitter.com/Wattenberger/status/2021269188979949749/video/1
+- **Status:** Needs transcript
+- **What:** Perspective on the evolution of development environments beyond traditional IDEs.
+
+## @AviFelman - The Imperative of Asset Ownership in an AI-Driven World
+> Today, you really cannot focus on climbing the corporate ladder, relying on a monthly salary, or even building a traditional cash-flow business. These are all dangerous. You need to be invested, deeply invested, in the assets that have the most to gain from a rapidly changing world and environment. It is unlikely that you will be able to outpace the current winners when it comes to AI, robotics.
+>
+> Simultaneously, we are navigating a massive restructuring of the geopolitical order. The era of easy globalization is ending.
+>
+> Central banks are trapped in a cycle where they must devalue currency to service debt. In this environment, holding cash or relying on fixed income is a guaranteed way to lose purchasing power. The financial currents are moving too fast. If you are not invested you are immediately behind.
+>
+> The only true hedge against this dual tsunami of AI deflation and monetary inflation is ownership.
+>
+> We are moving into an era where the divide will not be between the "rich and poor," but between those who own the infrastructure of the future and those who are just users of it. The vast majority of future wealth will accrue to the assets that benefit from these shifts:
+>
+> Do not labor to compete with the machine, own the machine. Put every last dollar in the machine. Or be left behind.
+
+- **Tweet:** https://x.com/AviFelman/status/2021276103281668363
+- **What:** Investment thesis arguing that in an AI-driven world with geopolitical restructuring and monetary devaluation, wealth accumulation requires ownership of AI and automation infrastructure rather than traditional employment.
+
+## @buccocapital - AI as Accessible Financial Advisory
+> Unless you have $5M+, AI is already good enough to be your financial advisor. Even then it's probably good enough
+>
+> Try it. Share net worth, where/how you've allocated assets, what your goals are. Ask it to analyze and identify opportunities for improvement. Stress test different scenarios
+>
+> It gets basically everything right. Which tax advantaged accounts to use. Whether and which trusts to set up based on federal and state variables. Yup, estate planning advice too
+>
+> Really remarkable. And speaks to the fact that even if the models don't improve, what we have today is going to totally transform white collar work
+
+- **Tweet:** https://x.com/buccocapital/status/2021290232205676944
+- **What:** Observation that current AI models provide sophisticated financial advisory capabilities including tax optimization and estate planning, accessible to those without significant wealth and demonstrating transformational impact on white-collar professions.
+
+## @orhundev - Zerobrew: A Modern Homebrew Alternative
+> Are you using Homebrew? Sorry to hear that, check this out:
+>
+> 🍺 zerobrew — A modern drop-in replacement for Homebrew on macOS
+>
+> 💯 Content-addressable store + parallel downloads =  20x faster
+>
+> 🦀 Written in Rust!
+>
+> ⭐ GitHub: https://t.co/IsosE0sxle
+>
+> #rustlang #cli #devtools #macos #homebrew #packagemanager #performance
+
+- **Tweet:** https://x.com/orhundev/status/2021301890827550970
+- **Filed:** [Zerobrew - Fast Homebrew Alternative](./knowledge/tools/zerobrew-fast-homebrew-alternative.md)
+- **What:** Rust-based package manager for macOS that uses content-addressable storage and parallel downloads to achieve 20x faster performance than Homebrew, with experimental but functional support for most common formulas.
+
+## @mikker - Code Cleanup Prompt for Pre-Commit Checks
+> I use this CONSTANTLY. It's almost the only thing besides vanilla agents I use regularly. And it's so simple, it's just a prompt! Run it before committing. Run it when you feel like things are growing hairy.
+> Codex-5.3-high does this very well 😙👌 https://t.co/R3ss9iVIip
+
+- **Tweet:** https://x.com/mikker/status/2021310724988166443
+- **What:** A simple prompt-based approach for code cleanup and review that can be run before committing or when code structure becomes messy.
+
+## @bnj - Style Dropper Tool for Design Inspiration
+> We made a tool that lets you absorb the vibe of anything you point it at and apply it to your designs
+>
+> It's absurd and it just works
+>
+> Style Dropper, now available in @variantui https://t.co/B3eXDntYtw
+
+- **Tweet:** https://x.com/bnj/status/2021330958671380625
+- **What:** A design tool called Style Dropper that captures the visual and aesthetic qualities from any source and applies them to your own designs.
+
+## @justwatt - AI Work Intensification Research
+> *Replying to @soundslikecanoe:* I'm not usually an anxious guy
+>
+> But lately my heart rate / dopamine levels have felt through the roof
+>
+> It's hard to say but it feels connected to all the constant AI stuff I'm working on. Constant context switching and information overload.
+>
+> Anybody else?
+>
+> It's very real.
+>
+> New research this week on it: https://t.co/N6Nnr7no9p
+
+- **Tweet:** https://x.com/justwatt/status/2021396922377044172
+- **Parent:** https://x.com/soundslikecanoe/status/2021296362340388931
+- **Filed:** [AI Doesn't Reduce Work—It Intensifies It](./knowledge/articles/ai-doesnt-reduce-work-it-intensifies-it.md)
+- **What:** Harvard Business Review article showing research proving that AI tools intensify work rather than reduce it, leading to workload creep, cognitive fatigue, and burnout.
+
+## @packyM - Singularity Investment Strategy
+> How it feels being invested in mining, housing, battery, nuclear fuel, supersonic plane, fusion, space drug, manufacturing, networking, and telco businesses heading into the singularity. https://t.co/7yeFFw1FW3
+
+- **Tweet:** https://x.com/packyM/status/2021424375304683763
+- **What:** Commentary on managing investments across multiple infrastructure and technology sectors in anticipation of AI singularity.
+
+## @FUCORY - Twitter Article Reference
+> https://t.co/rnHGXZdVea
+
+- **Tweet:** https://x.com/FUCORY/status/2021442919299940381
+- **What:** Link to a Twitter article (exact content not captured in metadata).
+
+---
+
+# Monday, February 9, 2026
+
+## @matthew_sigel - Micron Shut Out of NVDA HBM4 as Hynix and Samsung Win
+> "Micron shut out of NVDA HBM4 plans as specs get tougher"
+>
+> *Quoting @matthew_sigel:* Hynix +8% ATH after positive pre-release
+>
+> Operating profit +68% y/y beat consensus by 15%
+> Says growth momentum accelerated further in Q4
+> Sees DRAM bit growth flat in Q1 (vs usual seasonal down)
+> Considering US listing
+> Canceling treasury shares 12.2T Won (~2%)
+>
+> Call tomorrow.
+
+- **Tweet:** https://x.com/matthew_sigel/status/2020849586533810495
+- **Quoted:** https://x.com/matthew_sigel/status/2016500702781034943
+- **What:** Coverage of memory market dynamics with Hynix performing strongly and Micron facing exclusion from NVIDIA's HBM4 supply chain.
+
+## @RihardJarc - AI Coding Usage Surging at Hyperscalers
+> Got to give it to OpenAI. They know how to respond.
+>
+> AI coding usage is going ballistic, the market is underestimating AI, and the demand at the hyperscalers.
+
+- **Tweet:** https://x.com/RihardJarc/status/2020871195223109871
+- **What:** Observation on rapid growth of AI coding adoption and market underestimation of demand from major cloud providers.
+
+## @MichaelDell - Future Wealth Starter Pack for Newborns
+> My wife and I are seeding 25M kids with $250 each, and the government is giving newborns $1,000.
+>
+> To claim your child's "Future Wealth" starter pack, you must file IRS Form 4547.
+>
+> Don't let them start at zero. Claim it here:
+
+- **Tweet:** https://x.com/MichaelDell/status/2020904376202821904
+- **Link:** https://www.irs.gov/instructions/i4547
+- **What:** Information about IRS Form 4547 and government child wealth programs. Michael Dell is promoting claiming benefits for children.
+
+## @doodlestein - Destructive Command Guard Saves Agent Coding Work
+> It has saved me from a similar fate well over 100 times at this point.
+>
+> Not using dcg while doing agent coding is like writing your whole final essay for class without ever saving the file in MS Word (and with autosave disabled).
+>
+> It takes 10 seconds to install and it's 💯🆓.
+>
+> *Quoting @bobjordanjr:* If you're coding with AI agents, check out @doodlestein's destructive_command_guard. It just saved me from losing hours of work by catching a dangerous shell command before it executed. A genuinely useful safety net.
+
+- **Tweet:** https://x.com/doodlestein/status/2020910414708507024
+- **Quoted:** https://x.com/bobjordanjr/status/2020907546664632584
+- **What:** Endorsement of the destructive_command_guard tool as essential safety infrastructure for AI agent development to prevent accidental data loss.
+
+## @WesRoth - OpenAI and Anthropic Expanding into Enterprise Consulting
+> OpenAI and Anthropic are expanding into consulting roles as large enterprise customers struggle to deploy reliable AI agents out of the box.
+>
+> OpenAI is reportedly hiring hundreds of engineers to help clients integrate models like ChatGPT into real systems, tailoring them with business data and workflows.
+>
+> Its new platform, Frontier, highlights the complexity: agents must interface with internal tools, grasp context, and optimize behavior before users see results.
+>
+> Anthropic is also working closely with enterprise customers, while retailers like Fnac report needing help from AI21 Labs after OpenAI and Google agents failed on basic tasks like serial number handling.
+
+- **Tweet:** https://x.com/WesRoth/status/2020913082986528938
+- **What:** Analysis of how major AI companies are shifting toward enterprise consulting to help organizations deploy reliable AI agents in production.
+
+## @_xjdr - Handling Code Complexity with AI Agents Through Iterative Refactoring
+> *Replying to @martin_casado:* I'd love tips on how you all handle code complexity when AI coding the same project for months. I end up spending like 7-80% of the time just cleaning up and refactoring and deleting things.
+>
+> There has to be a better way.
+>
+> the most effective way i've found to handle this sounds insane but its the only thing i've found to work consistently. i basically copy the existing repo to a dir called attic/ and i start from scratch. i then have the fleet of agents review the attic/ code and write tests and specs and contracts to define the core parts and features and functionality. then we make a clean and from scratch implementation but with clear and consistent instructions to optimize for 'elegant minimalism' . i .gitignore attic/ and keep it around for when the new repo is missing something or has inevitable regressions. for large repos (nmoe specifically) i have had to do this 3 or 4 times before i reach a new equilibrium where the models stop fucking things up and i have the tools and automation in place to prevent the complexity / slop explosion.
+
+- **Tweet:** https://x.com/_xjdr/status/2020949667849396467
+- **Parent:** https://x.com/martin_casado/status/2020389660858700268
+- **What:** Strategy for managing code quality and complexity when using AI agents by starting fresh with archived reference code and defining clear contracts.
+
+## @gill_kyle - Agent-Tail: Dev Tool for Log Accessibility
+> Introducing agent-tail: a dev tool that makes your logs easily accessible to agents. npm i agent-tail
+>
+> Wrap dev server commands, add the Vite/Next plugin, install the skill, and your agent has full context of your browser, server, and any other logs.
+>
+> Link to full docs below
+
+- **Tweet:** https://x.com/gill_kyle/status/2020954913837285388
+- **Video:** https://twitter.com/gill_kyle/status/2020954913837285388/video/1
+- **Status:** Needs transcript
+- **What:** New npm package that enables AI agents to access logs from development servers via plugins for Vite/Next.js and browser context.
+
+## @Midnight_Captl - Anthropic Power Infrastructure Estimate
+> 10GW = ~$500B in spend btw $NVDA $TSM
+>
+> *Quoting @FirstSquawk:* ANTHROPIC IS QUIETLY ASSEMBLING VETERAN TEAM AND HAS DISCUSSED SECURING AT LEAST 10 GIGAWATTS OF CAPACITY OVER NEXT SEVERAL YEARS - THE INFORMATION
+
+- **Tweet:** https://x.com/Midnight_Captl/status/2020974593146839438
+- **Quoted:** https://x.com/FirstSquawk/status/2020904271663988859
+- **What:** Financial analysis estimating that Anthropic's 10GW power infrastructure target would represent approximately $500 billion in spending across NVIDIA and TSMC.
+
+## @zarazhangrui - Custom Slash Command for Session Handover
+> Created a custom slash command "/handover" in Claude Code: When I'm ending a Claude session (e.g. context window filling up), I get Claude to generate a "https://t.co/GZrCLFU2Zu" document which summarizes everything we did in this session, including decisions, pitfalls, lessons learned, etc. So the next session's Claude has full context.
+>
+> This prevents amnesia and preserves institutional knowledge
+
+- **Tweet:** https://x.com/zarazhangrui/status/2020992712825241801
+- **What:** A technique for maintaining context continuity across Claude Code sessions by generating handover documents that preserve decisions, pitfalls, and institutional knowledge between sessions.
+
+## @kr0der - Codex 5.3 Regression Test Agent Prompt
+> Codex 5.3 is so good man wtf
+>
+> copy this AGENTS md line from @steipete to get it to add regression tests every time you get it to fix a bug:
+>
+> "Bugs: add regression test when it fits."
+>
+> i added this and it's 10x - Codex fixes a bug and automatically adds tests right after
+
+- **Tweet:** https://x.com/kr0der/status/2021009544952844434
+- **What:** A simple prompt instruction that makes Codex automatically add regression tests when fixing bugs, significantly improving code quality and test coverage.
+
+## @simonsarris - Audiobooks Recommendations List
+> *Replying to @Name03813069:* May I humbly request a list of your recommendations?
+>
+> I list a few of my favorites here (though I wrote this in 2023 so I should update it). But it really depends on the kind of person
+
+- **Tweet:** https://x.com/simonsarris/status/2021032808139858237
+- **Parent:** https://x.com/Name03813069/status/2021031383116939453
+- **Link:** https://map.simonsarris.com/p/audiobooks-are-books-and-theyre-also
+- **Filed:** [Audiobooks Are Books and They're Also Practice](./knowledge/articles/audiobooks-are-books-and-theyre-also-practice.md)
+- **What:** Simon Sarris shares his personal audiobook recommendations, discussing how audiobooks are legitimate books and also serve as a form of practice for listeners.
+
+## @stevekaliski - Minions: Stripe's One-Shot Coding Agents
+> At Stripe we have a tool called "minions" -- it lets us kick off async agents built right in our dev environment to one-shot bugs, features, and more e2e.
+>
+> I have team, project, and personal channels dedicated just to working with minions.
+>
+> I like to think of it as a new type of pair programming -- "pair prompting."
+
+- **Tweet:** https://x.com/stevekaliski/status/2021034048945070360
+- **Link:** https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents
+- **Filed:** [Minions Stripe's One-Shot End-to-End Coding Agents](./knowledge/articles/minions-stripe-one-shot-end-to-end-coding-agents.md)
+- **What:** Stripe's internal tool "minions" that enables async AI agents to autonomously handle bugs, features, and end-to-end tasks, introducing the concept of "pair prompting" as a new development methodology.
+
+## @sawyerhood - Terragon OSS Remote Agent Orchestrator
+> *Quoting @stevekaliski:* At Stripe we have a tool called "minions" -- it lets us kick off async agents built right in our dev environment to one-shot bugs, features, and more e2e.
+>
+> I have team, project, and personal channels dedicated just to working with minions.
+>
+> I like to think of it as a new type of pair programming -- "pair prompting."
+>
+> Read more --> https://t.co/0A6vDEOEjL
+>
+> if you are a large org building one of these yourself, i highly recommend giving the terragon codebase a look. both the ui and the architecture is pretty well thought out and you can vibe code it to adapt to your own infra
+
+- **Tweet:** https://x.com/sawyerhood/status/2021053358522700197
+- **Quoted:** https://x.com/stevekaliski/status/2021034048945070360
+- **Filed:** [Terragon OSS Remote Background Agent Orchestrator](./knowledge/tools/terragon-oss-remote-background-agent-orchestrator.md)
+- **What:** Terragon is an open-source remote background agent orchestrator for running Claude Code and other coding CLIs in the cloud, with well-designed UI and architecture suitable for customization.
+
+## @_brimtown - Datadog Pup CLI for AI Agents
+> free alpha: early drop of a first party datadog cli
+
+- **Tweet:** https://x.com/_brimtown/status/2021057889113358746
+- **Link:** https://github.com/datadog-labs/pup
+- **Filed:** [Pup Datadog CLI for AI Agents](./knowledge/tools/pup-datadog-cli-for-ai-agents.md)
+- **What:** Pup is a comprehensive CLI with 200+ commands across 33+ Datadog products, designed to give AI agents full access to Datadog's observability platform for managing infrastructure and tracking issues.
+
+## @aakashgupta - Ramp's Background Agent Architecture and Impact
+> 57% of merged PRs at Ramp in the last 24 hours came from a background agent. Most companies haven't even started.
+>
+> The architecture Ramp built matters. Their agent Inspect runs in sandboxed VMs on Modal with full access to everything a Ramp engineer has: Sentry, Datadog, GitHub, CI/CD, feature flags, databases, live preview environments. The agent doesn't just write code. It runs tests, checks telemetry, verifies frontend changes with screenshots, and opens PRs that pass the same review bar as human-written code.
+>
+> This is why the number is so high. Model intelligence was already sufficient. Environment parity was the missing piece. Once agents have the same context and tooling humans have, adoption compounds because engineers stop treating the agent as a side tool and start treating it as a parallel teammate running unlimited concurrent sessions.
+>
+> The product development implications are massive. PMs at Ramp now use Inspect during QA to make changes in real time instead of writing tickets. Designers can ship fixes without waiting for sprint capacity. The marginal cost of implementing a small change drops to near zero, which means the backlog starts to dissolve.
+>
+> Most engineering orgs are still debating whether to adopt Cursor or Copilot. Ramp already moved past the foreground agent phase entirely. Background agents that run autonomously, verify their own work, and produce merge-ready PRs at scale.
+>
+> The gap between companies measuring their agent PR ratio and companies that haven't built the infrastructure to support one is going to define the next era of product velocity.
+>
+> *Quoting @rahulgs:* in the last 24 hours, 57% of merged PRs at ramp came from our background agent
+
+- **Tweet:** https://x.com/aakashgupta/status/2021101397467615528
+- **Quoted:** https://x.com/rahulgs/status/2020984194038628832
+- **What:** Analysis of how Ramp's background agent has achieved high productivity through proper infrastructure parity and autonomous PR creation, reshaping engineering workflows.
+
+## @_colemurray - Background Agents Open-Source Implementation
+> *Replying to @_colemurray:* "why did you open source background agents?"
+>
+> because i don't want the ecosystem to be forced to live in someone's closed source box
+>
+> stuck in a support queue to a critical infra stack as they extract $60/mo/seat indefinitely
+>
+> https://t.co/wLym4SCOfA
+
+- **Tweet:** https://x.com/_colemurray/status/2021107964443230576
+- **Parent:** https://x.com/_colemurray/status/2021061719511138797
+- **Filed:** [Background Agents - Open-Inspect](./knowledge/tools/background-agents-open-inspect.md)
+- **What:** Open-source background agents coding system inspired by Ramp's Inspect that runs in sandboxed VMs with full development environment access supporting collaborative multiplayer sessions.
+
+---
+
+# Sunday, February 8, 2026
+
+## @dillon_mulroy - Codex Models Deep Dive Discussion
+> *Replying to @dillon_mulroy:* i fear i've been sleeping on the codex models and they're drastically different in how they operate than opus - it's challenging some of my assumptions in how i've been thinking about working w/ ai
+>
+> i wouldn't say they're better or worse. just different.
+>
+> @AmpCode's deep mode and convo on this exact topic from their RaisingAn Agent podcast is really good https://t.co/zO139O72eM
+
+- **Tweet:** https://x.com/dillon_mulroy/status/2020306986433409294
+- **Parent:** https://x.com/dillon_mulroy/status/2020306614885183532
+- **Video:** https://www.youtube.com/watch?v=4rx36wc9ugw
+- **Status:** Needs transcript
+- **What:** Discussion of operational differences between Codex and Opus models, with a reference to a RaisingAn Agent podcast episode covering this topic.
+
+## @blknoiz06 - AI Capex and Development Plateau Theory
+> *Quoting @TMTLongShort:* I talk a lot about the bull case re AI because I am fundamentally a maxi and recognize that Street has failed to frame the abstractions properly… mostly due to intellectual shortcomings around non-linearity.
+>
+> Let me play the bear for a second.
+>
+> Normally mgmt is incentivized to take rational risks around ROIC and when the marginal capex doesn't pencil you return it to shareholders.
+>
+> But what is different this time is the variance of return has gone up dramatically as you start making preemptive bets on infra well ahead of demand.
+>
+> We haven't reached this point yet. The math still pencils even if scaling laws cease holding after the current model runs.
+>
+> Wall Street doesn't understand this yet but every dollar of existing spend is "money good" solely based on the progress made so far.
+>
+> Thats why the maxi trade to date has been a cake walk.
+>
+> But what's next is a series of upsizing of capex numbers for 2027 then 2028 that will be A LOT HIGHER than current consensus.
+>
+> And that's when you start approaching the point of risk.
+>
+> Because as the scramble to lock-in supply further intensifies we will start running out of "stuff" and that will push hyperscalers further out on the risk curve.
+>
+> They will start betting beyond the knowable horizon… which for them is roughly the duration where you know scaling laws still hold x utility of that specific-level of peak intelligence x decay rate of cost-per-tokens at that point.
+>
+> Anything beyond that is mostly speculative.
+>
+> Currently they are only building to demand if scaling laws ceased holding sometime next year.
+>
+> But soon they'll be betting multiple years out due to game theory.
+>
+> And normally the rational thing to do is to pull back the way MSFT tried to do last year.
+>
+> But the problem is there are too many irrational actors incentivized to push beyond the bounds of traditional IRR.
+>
+> Musk is a zealot
+>
+> Dario is a zealot.
+>
+> Sundar told you he'd rather go bankrupt before losing the AGI race. Larry and Sergey are zealots.
+>
+> Larry is in his 80s and knows this is his one shot at immortality.
+>
+> If they bet wrong and spend too much their stocks may crater on overbuild and excess capacity but each one of these people has enough money to live happily ever after.
+>
+> Hell if I had a billion dollars I'd honestly give away 90% of it in exchange for a 20% chance to see ASI in my lifetime.
+>
+> It's Pascals Wager.
+>
+> So the bear case isn't that hyperscalers are going to spend too much in 2026.
+>
+> It's that we are at the start of a rapid increase in capex estimates for 2028 and when shareholders revolt mgmt is gonna tell them to go fuck themselves.
+>
+> 🫡
+>
+> [Original: would truly be a gift if the overspending on capex somehow aligns w/ a brief period where the ai advancements aren't as noticeable for couple years & we get pullback before re-acceleration of trends towards agi]
+
+- **Tweet:** https://x.com/blknoiz06/status/2020342812403986882
+- **Quoted:** https://x.com/TMTLongShort/status/2020261360794304530
+- **What:** Extended bear case argument on AI capex spending, discussing how irrational actors and personal motivations may drive hyperscalers toward increasingly risky infrastructure bets beyond rational ROI calculations.
+
+## @libriscent - Reframing Overwhelm as Prioritization
+> Every time you replace "I'm overwhelmed" with "I need to decide what matters most and go slow," your brain stops firing alarm signals and starts organizing information again.
+
+- **Tweet:** https://x.com/libriscent/status/2020488645573296229
+- **What:** A practical reframing technique for managing overwhelm by shifting from a stress-response mindset to a prioritization and pacing mindset.
+
+## @Rewkang - Tweet Reference
+> https://t.co/YU33t4yLWN
+
+- **Tweet:** https://x.com/Rewkang/status/2020560687722852391
+- **Link:** https://x.com/i/article/2020548108837412864
+- **What:** Tweet linking to an X article (content not expanded in data).
+
+## @chrisbarber - Monetizing RL Tasks and Benchmarks Strategy
+> if you haven't sold any rl envs/tasks to labs yet, perhaps:
+> 1. make a benchmark
+> 2. make it really really good (a skill that users and labs care about, and 1-20% pass rates for the harder tasks)
+> 3. release it. make it clear in the release that you have sample envs/tasks available for labs that want to train their models on this skill
+> 4. send it around to researchers
+> 5. ??? (hope that researchers care enough to pull you through procurement and that your delivered tasks meet their quality standards)
+> 6. profit
+
+- **Tweet:** https://x.com/chrisbarber/status/2020561020864143377
+- **What:** A practical step-by-step strategy for creators to develop and monetize RL environments and tasks by creating quality benchmarks and reaching out to AI labs and researchers.
+
+## @vig_xyz - Using Claude and Slidev for AI-Powered Slide Generation
+> *Quoting @FracSlap:* 1. I dump all my thoughts talking into granola.
+>
+> 2. I take that transcript to Claude and have it generate a deck outline .
+>
+> 3. Then I use manus to generate the deck. I give it both the full transcript and the outline from Claude.
+>
+> But here's where the real unlock was:
+>
+> I made a skill on manus that has my brand guidelines—has all my colors, fonts, design elements, etc.
+>
+> Now that I have that, manus is spitting out straight fire.
+>
+> It's one-shotting and getting me 95% of the way there, the problem now is that editing in-line on manus is not good and that takes a lot of time.
+>
+> So now I'm seeing if I can codify all of this with Claude code and generate the decks straight in PowerPoint or google slides so that we can easily edit and scale across the team.
+>
+> This is an absolute game changer for me
+>
+> [Original: this seems like a good approach for making slides. i've been using "slidev" to generate markdown slides in cursor, but most of my workflow otherwise is similar - will give this a try and share how it goes]
+
+- **Tweet:** https://x.com/vig_xyz/status/2020581392166613171
+- **Quoted:** https://x.com/FracSlap/status/2020579787765412232
+- **What:** Workflow discussion on using Claude and Slidev for AI-powered presentation generation, with emphasis on incorporating brand guidelines and automating deck creation for teams.
+
+---
+
+# Saturday, February 7, 2026
+
+## @TMTLongShort - Market Consensus and Information Dissemination
+> Two days old, under 3k views
+
+- **Tweet:** https://x.com/TMTLongShort/status/2020147760767356941
+- **Quoted:** https://x.com/TMTLongShort/status/2019589810407481433
+- **What:** Retweet highlighting low visibility of the prior commentary on market efficiency and capital manager understanding, emphasizing information gaps in financial markets.
+
+## @jlongster - Codex 5.3 vs Claude 4.6 Implementation Comparison
+> I implemented a decently complex feature using the same PLAN file with both Codex 5.3 and Claude 4.6, saved the implementation and ask Claude 4.6 to explain the differences
+>
+> Claude roasted its implementation: https://t.co/BwBBD6omKe
+
+- **Tweet:** https://x.com/jlongster/status/2020168913653481886
+- **Gist:** https://gist.github.com/jlongster/d2d8bb29bbb2b9fa268945327ebda300
+- **Filed:** [Codex 5.3 vs Claude 4.6 Implementation Comparison](./knowledge/tools/codex-claude-comparison.md)
+- **What:** Interesting comparison showing Claude 4.6 evaluating its own implementation against Codex 5.3, with Claude providing critical feedback on the differences in approach.
+
+---
+
+# Friday, February 6, 2026
+
+## @menhguin - Portfolio Composition and Investment Thesis
+> *Replying to @hikikommunity:* @menhguin what is your portfolio now...
+>
+> My current newest positions are memory stocks, intel calls, and tryna get more space stocks like rklb. Just variations of what I posted here.
+>
+> *Quoting @menhguin:* @sam_badawi @LeverageShares As of rn I'm about
+> 25% Oklo
+> 20% memory hardware stocks
+> 15% PLTR puts
+> 15% Intel and NVDA shares and calls
+> 10% Tesla (no change)
+> 15% left, mostly aerospace
+
+- **Tweet:** https://x.com/menhguin/status/2019766594533212662
+- **Parent:** https://x.com/hikikommunity/status/2019750139674386454
+- **Quoted:** https://x.com/menhguin/status/1987188623343821073
+- **What:** Portfolio update highlighting allocation across memory hardware, energy/nuclear (Oklo), aerospace/space (Rocket Lab), and options strategies on semiconductor stocks.
+
+## @d_gilz - Microsoft Position Trade on OpenAI Developments
+> Jammed $msft
+>
+> OpenAI making a clear push into enterprise which is Microsoft's specialty + codex outperforming Claude on latest benchmarks + general sentiment bottom on OpenAI
+>
+> 200w ema + wiped out a year of gains
+
+- **Tweet:** https://x.com/d_gilz/status/2019831388502118732
+- **What:** Trading analysis suggesting Microsoft is an attractive long position based on OpenAI's enterprise focus, Codex performance improvements, and technical indicators showing sentiment extremes.
+
+## @threepointone - AI Collaboration and Tool Development Workflow
+> I've been working on a huge thing, and using 3 files - https://t.co/uz6pZeEZrc, https://t.co/9lChAVm7Ij, https://t.co/NB25Ws30HZ. It's been amazing, just chugging through it all.
+>
+> *Quoting @iruletheworldmo:* codex with 5.3 taught me something that won't leave my head.
+>
+> i had it take notes on itself. just a scratch pad in my repo. every session it logs what it got wrong, what i corrected, what worked and what didn't. you can even plan the scratch pad document with codex itself. tell it "build a file where you track your mistakes and what i like." it writes its own learning framework.
+>
+> then you just work.
+>
+> session one is normal. session two it's checking its own notes. session three it's fixing things before i catch them. by session five it's a different tool. not better autocomplete. it's something else. it's updating what it knows from experience. from fucking up and writing it down.
+>
+> baby continual learning in a markdown file on my laptop.
+>
+> the pattern works for anything. writing. research. legal. medical reasoning. give any ai a scratch pad of its own errors and watch what happens when that context stacks over days and weeks. the compounding gains are just hard to convey here tbh.
+>
+> right now coders are the only ones feeling this (mostly). everyone else is still on cold starts. but that window is closing.
+>
+> we keep waiting for agi like it's going to be a press conference. some lab coat walks out and says "we did it." it's not going to be that. it's going to be this. tools that remember where they failed and come back sharper. over and over and over.
+>
+> the ground is already moving. most people just haven't looked down yet.
+
+- **Tweet:** https://x.com/threepointone/status/2020040943014146337
+- **Quoted:** https://x.com/iruletheworldmo/status/2019930102545490212
+- **What:** Discussion of using AI code generation tools (Codex) with a learning feedback mechanism pattern - maintaining error logs and corrections to create continual improvement in AI-assisted development workflows.
+
+---
+
 # Thursday, February 5, 2026
+
+## @labubu_trader - tradingview.com
+> Gladly, I sold all of my semi puts yesterday.
+
+Semiconductors are the strongest sector in the market today after Google's explosive capex increase announced in yesterday's earnings report.
+
+I'm starting to add back my semi positions and only added the ones still performing strongly today. Will add more if NQ slides to 24000: https://t.co/Y96cv5RiVk
+
+I don't see any fundamental or macro weakness for semis. Will hold until NVDA's earnings to cut.
+
+NFA.
+>
+> *Quoting @labubu_trader:* closed my smh puts already
+
+- **Tweet:** https://x.com/labubu_trader/status/2019463367581421669
+- **Quoted:** https://x.com/labubu_trader/status/2019129476039557365
+- **Link:** https://www.tradingview.com/watchlists/319555984/
+- **What:** <he...
+
+## @doodlestein - x.com
+> *Replying to @doodlestein:* I’ll probably finish the Rust Agent Mail port today, and it will be so much faster and better than the current Python version (which is already quite good). 
+
+I waited to do this because I first had to port the fastmcp and sqlmodel Python libraries to Rust, which are fairly complex.
+
+And I also wanted to finish my asupersync library and FrankenTUI so I could use those for everything. But now that all those pieces are in place, it’s coming along very quickly.
+
+Then right after that will be my FrankenCode. And then I can start merging tools (I’ll always also keep them separate and modular) into one super tool, all in “alien artifact” Rust.
+>
+> Also, there is a lot more to my Agent Mail project than just messaging (although it does that incredibly well and with a very nice interface and features); the advisory file reservation system is critical to how I get such crazy results from all these agents. See thread for details.
+
+https://t.co/ru6EZUwC6l
+
+- **Tweet:** https://x.com/doodlestein/status/2019479235010916825
+- **Parent:** https://x.com/doodlestein/status/2019478427053465842
+- **Link:** https://x.com/doodlestein/status/2006261780218265758?s=46
+- **What:** Blows my mind how many people still don’t know about my Agent Mail project and how it does exactly what they want and mu...
+
+## @RyanDanz - Estate Planning & Account Succession for Inheritance
+> If one or both of your parents pass away...
+>
+> 1) ensure they have a trust (before they pass)
+>
+> 2) ensure all bank, brokerage, partnership (LP interests) accounts are in the name of the trust
+>
+> 3) ensure you confirm that any accounts "everyone thinks" are retirement are actually not brokerage accounts (which if in the name of the individual and not the trust, will get locked out (online banking eg) and the underlying assets "frozen" in time).
+>
+> 4) ensure all bank accounts have a beneficiary named - you would think naming the trust ...but depends on the account type.
+>
+> Magic words: "POD"/"TOD" (payable on death / transfer on death)  designations on non-retirement accounts and direct individual beneficiaries on retirement accounts both avoid probate without needing the trust as beneficiary
+>
+> b) have your parent(s) login or your login with and for them and add yourself as an account access / contact person
+>
+> c)  confirm there is a beneficiary listed on the account. most online big banks have a beneficiary in the account settings.
+>
+> 5) now heres the real real talk
+>
+> **Disclaimer: this is not legal advice, its what people practically do**
+>
+> even if you do all of that (1-4 above)...    once they pass away, and before the bank gets notice of their death (usually a SS direct deposit (or annuity, etc.) and the bank freezes their account, (and thus the balances), you should
+>    i)  login to the account
+>    ii) move all the money to a bona fide account
+>
+> But "why!?" youre asking because I just did all those other things!?"
+>
+> Because most people botch one step in the 1-4 waterfall....
+>
+> 6) if its a (small) business account -
+>
+> make sure youre an officer of the corp.
+>
+> or
+>
+> (a) get added to the bank signature card while they're alive,
+> (b) ensure the operating agreement or corporate bylaws have succession/continuity provisions, and
+> (c) if it's a sole proprietorship, treat it like a personal account — title it in the trust or add POD.
+>
+> Sole proprietorships are not a separate legal/corporate entity — it's just the person. Account is effectively a personal account. Go back to Step 1.
+>
+> ----
+>
+> *This is mostly for small estate stuff (<250k) and if any of it is wrong, youre going to go through nonsense of banks (2+ hrs, faxes, estate departments, notaries, affidavits, have to wait at least 40 days before starting the process and likely another 10 days before that money moves ...assuming you have all the docs in order).
+>
+> For larger amounts. ... good luck.  Prepare to wait months or longer and pay bucks.
+>
+> Youre going to need Heggstad Petition (and an estate attorney (6-8k) to go to court to get to the court to tell the bank to move the money. Could take weeks, could take months.
+>
+> If the court says "sorry, no, the Petition fails" ... (for a host of reasons...)  the alternative is to *probate* the account which will cost about $15,000 (statutory probate fees plus court costs (CA ) and take about 12 months.
+>
+> This doesnt matter if you have the worlds greatest trust ... if a single account isnt titled in the name of it, or theres no beneficiary listed (which is super common) ...that money is locked out.
+>
+> Ask me how I know.
+
+- **Tweet:** https://x.com/RyanDanz/status/2019513476826427690
+- **What:** Comprehensive guide to estate planning and succession for inherited accounts, covering trusts, account titling, beneficiary designations, and practical steps to access funds after a parent passes away. Includes warnings about common pitfalls and the legal/financial costs of failing to prepare properly.
+
+## @mitsuhiko - AI Skeptic to Daily User: Measured Perspective
+> Many good notes in here. And well, this sounds simple, but too many people don't do it.
+>
+> *Quoting @mitchellh:* Wrote up about my personal journey from AI skeptic to someone who finds a lot of value in it daily. My goal is to share a more measured approach to finding value in AI rather than the typical overly dramatic, hyped bait out there.
+
+- **Tweet:** https://x.com/mitsuhiko/status/2019519979822129511
+- **Quoted:** https://x.com/mitchellh/status/2019485021787377750
+- **What:** Armin Ronacher commenting on Mitchell Hashimoto's essay about his journey from AI skepticism to finding practical daily value in AI, emphasizing a balanced approach beyond the typical hype.
+
+## @plur_daddy - Twitter Article Share
+> https://t.co/kyfY7E2EPx
+
+- **Tweet:** https://x.com/plur_daddy/status/2019522793751347604
+- **Link:** https://x.com/i/article/2019516732185219072
+- **What:** A shared article link from Twitter, content details not available.
+
+## @arafatkatze - Prompt Engineering Truth
+> Finally cursor has dropped the ultimate truth of prompt engineering
+
+- **Tweet:** https://x.com/arafatkatze/status/2019529841171894461
+- **What:** Commentary on Cursor IDE's practical approach to prompt engineering, with reference to an image containing insights.
+
+## @theo - Free $50 Claude Code Credit
+> Heads up: Anthropic is giving out $50 of free credit to many Claude Code users if you go to the usage dashboard and click "claim"
+
+- **Tweet:** https://x.com/theo/status/2019559922523074765
+- **What:** PSA about free $50 credits available to Claude Code users through the Anthropic usage dashboard.
+
+## @jukan05 - Samsung and SK Hynix Profitability Forecast
+> Honestly, lately when I look at the operating profit estimates for Samsung and SK Hynix coming out from sell-side analysts, it feels like they're not fully reflecting the SSD price increases.
+>
+> Anyway, it's basically a done deal that both Samsung and Hynix are going to make an absolute ton of money this year.
+>
+> Among the current numbers floating around, the median seems to be this KB Securities forecast, and according to it, Samsung's operating profit in 2026 would rank as the 6th highest in the world.
+
+- **Tweet:** https://x.com/jukan05/status/2019567733025960409
+- **What:** Analysis of semiconductor manufacturers' profitability projections for 2026, suggesting analyst estimates may underestimate Samsung and SK Hynix earnings due to SSD price increases.
+
+## @mikeknoop - Opus 4.6 ARC-AGI Performance Analysis
+> The headline is Opus 4.6 scores 69% for ~$3.50/task on ARC v2. This up +30pp from Opus 4.5. We attribute performance to the new "max" mode and 2X reasoning token budget -- notably task cost is held steady.
+>
+> Based on early field reports and other benchmark scores like SWE Bench, we speculate this is a smaller model (maybe Sonnet-ish?) that runs thinking for longer.
+>
+> If true, ARC v2 is measuring the "CoT search" complexity capability of the AI reasoning system, independent of model knowledge. Pretty cool!
+>
+> To get a sense of the complexity limit, here are all the v2 tasks Opus 4.6 failed to solve:
+>
+> *Quoting @arcprize:* Claude Opus 4.6 (120K Thinking) on ARC-AGI Semi-Private Eval
+>
+> Max Effort:
+> - ARC-AGI-1: 93.0%, $1.88/task
+> - ARC-AGI-2: 68.8% $3.64/task
+>
+> New ARC-AGI SOTA model from @AnthropicAI
+
+- **Tweet:** https://x.com/mikeknoop/status/2019571346012008903
+- **Quoted:** https://x.com/arcprize/status/2019483337400938580
+- **Link:** https://arcprize.org/tasks/?dataset=arc-agi-2&model=claude-opus-4-6-thinking-120K-max&status=fail
+- **What:** Analysis of Claude Opus 4.6's performance on ARC-AGI benchmarks, with interpretation that the model may be smaller with extended reasoning capabilities, measuring chain-of-thought search complexity.
+
+## @TheOtherParker_ - IBIT Liquidation & Carry Trade Analysis
+> This was the highest volume day on $IBIT, ever, by a factor of nearly 2x, trading $10.7B today. Additionally, roughly $900M in options premiums were traded today, also the highest ever for IBIT.  Given these facts and the way $BTC and $SOL traded down in lockstep today (normally SOL trades with beta) + the relatively lower liquidations on CeFi exchanges, this leads me to believe that the nexus of the problem lies with a large IBIT holder. IBIT has become the #1 venue for BTC options trading, so my guess is that a hedge fund trading IBIT options is the culprit.
+>
+> If you look at the 13F filings for IBIT (I like whalewisdom dot com), you'll find a number of interesting names that have the majority of their fund in IBIT. In fact, there are a few in there (not naming names) that have 100% of their fund in IBIT, which likely means no cross margin. In fact, the biggest reason to set up a fund to hold a single asset would be to isolate margin, so that if the trade blew up, the brokers wouldn't have claim to any other assets.
+>
+> Interestingly, most of these giant, single asset funds are based in HK.
+>
+> We know that Asian traders, particularly in China, have been deeply involved in the Silver and Gold trade. Silver was down 20% today, which was the 2nd largest 1 day move in a very long time (largest on Jan 30). We also know that the JPY carry trade has been unwinding at an increasingly rapid pace.
+>
+> This leads me to think that the culprit for the IBIT blowup today was 1 or more HK-based non-crypto hedge funds. As @FranklinBi pointed out, the fund(s) being non-crypto would explain why no one sniffed them out. They would likely have few/no crypto counterparties, meaning complete isolation from CT.
+>
+> The last small piece of evidence I have is that I personally know a number of HK-based hedge funds that are holders of $DFDV, which had the worst single down day ever, with a meaningful mNAV decline. The mNAV had been holding steady surprisingly well throughout this pull back until today. One of these fund(s) could have been connected to the IBIT culprit, as I highly doubt a fund taking that large of a position in IBIT and using a single entity structure would only have the one fund.
+>
+> Now, I could easily see how the fund(s) could have been running a levered options trade on IBIT (think way OTM calls = ultra high gamma) with borrowed capital in JPY. Oct 10th could very well have blown a hole in their balance sheet, that they tried to win back by adding leverage waiting for the "obvious" rebound. As that led to increased losses, coupled with increased funding costs in JPY, I could see how the fund(s) would have gotten more desperate and hopped on the Silver trade. When that blew up, things got dire and this last push in BTC finished them off.
+>
+> I have no hard evidence here, just some hunches and bread crumbs, but it does seem very plausible. Let's see if some more concrete evidence floats to the surface here soon. The smoking gun will be a large fund fitting this profile filing a 13F showing a giant IBIT holding going to zero. Unfortunately, if a fund had their IBIT position liquidated today, they wouldn't have to disclose the position change until 45 days after the quarter end, so we'd be looking at mid May for the smoking gun from 13F filings most likely.
+>
+> Hopefully some of you out there with too much time on your hands this weekend can snoop around more. My guess is that word will start to get out, because something of this size is just too hard to hide. Additionally, if the broker was not able to liquidate the fund in time, the broker may have a hole in their balance sheet, which would be even more difficult to hide.
+
+- **Tweet:** https://x.com/TheOtherParker_/status/2019587226871447687
+- **What:** Deep analysis of potential causes for extreme IBIT (Bitcoin ETF) market volatility, theorizing involvement of Hong Kong hedge funds utilizing JPY carry trade leverage and speculating on cross-asset correlations with silver and other markets.
+
+## @TMTLongShort - Market Efficiency and Capital Management Perspective
+> Whenever someone tells me "markets are efficient, everyone understands the bet the hyperscalers are making" I pull up this interview with Lukasz and check how many views it has.
+>
+> The vast majority of capital in this country is run by boomers who rely on a team of overworked millennial analysts who all leave work at 6pm and completely shut off their brain.
+>
+> It's a peaceful lush existence.
+>
+> They are driven, competent, and fine-tuned.  They are polished.  They have families and hobbies.
+>
+> They don't read sci-fi.  They aren't autistic or obsessive like most of the people on here.
+>
+> They still think musk is a fraud and tsla is a ponzi scheme.
+>
+> They have above average intelligence but weren't smart enough to major in theoretical physics.
+>
+> They grinded hard in their 20s to earn the PM seat where they can coast on accumulated knowledge and a "library of mental models" well into their late 50s.
+>
+> When someone mentioned that Leopold was 23 years old they immediately tuned out.
+>
+> Remember that when you quote "market consensus".
+>
+> Thats who is panicking.  That's who will continue to panic.
+
+- **Tweet:** https://x.com/TMTLongShort/status/2019589810407481433
+- **What:** Commentary on how capital managers lack understanding of emerging technology trends like AI/hyperscalers, attributing this to age demographics and disconnection from tech culture.
+
+## @TheOtherParker_ - Bitcoin ETF Options Market and Fund Dynamics Analysis
+> Addition to the "HK Fund" hypothesis.
+>
+> I have a hunch that much of the "OG Bitcoiner Selling" this summer was actually not selling. On July 29, '25, the SEC finally allowed the Bitcoin ETFs to accept in-kind creation/redemption. This was a big point of contention when the ETFs originally launched under Gensler if you remember.
+>
+> One of the HUGE benefits to IBIT over native BTC is the liquid options market. IBIT has one of the most liquid options markets on the planet, entirely dwarfing that of native BTC.
+>
+> In fact, the IBIT options market is THE FOURTH most liquid options market on planet earth, only behind SPY, QQQ, and the SPX index options. WOW.
+>
+> I know for a fact that at least one mega OG Bitcoiner runs his entirely family office around Bitcoin covered call writing to generate income to fund other ventures. This is a fairly common income strategy for any high growth asset, so my guess would be that lots of OG Bitcoiners engage in this strategy.
+>
+> The in-kind creations/redemptions allow for the deposit and withdrawal of native bitcoin into IBIT on a potentially tax-free, zero slippage basis, making it a complete no brainer for anyone wanting to run any kind of options strategy against their BTC stack.
+>
+> So, this would explain (a) the massive surge in OG coins moving this summer and (b) the complete collapse in realized vol, implied vol, and volume on BTC in general, as this heavy options writing squeezed all of the juice out of IBIT ivol and therefore realized vol and ultimately volume.
+>
+> Playing this out a little further. If the fund(s) that blew up was actually associated with an OG Bitcoiner (quite a secretive bunch that don't like to be noticed and are good at privacy), they could have been massively selling vol against their newly minted stack of IBIT, which worked until Oct 10 blew out anyone shorting vol and ultimately created a problem for the fund(s) that ultimately kicked things off. This could have ultimately spiraled as @RyanTheGentry pointed out.
+>
+> Again, just a hypothesis and some bread crumbs, no concrete proof, yet.
+
+- **Tweet:** https://x.com/TheOtherParker_/status/2019617960197849321
+- **What:** Analysis of Bitcoin ETF fund flows and options market dynamics, proposing a hypothesis that OG Bitcoiners may have shifted to covered call strategies using IBIT rather than selling native Bitcoin.
+
+## @jukan05 - Memory Industry Contract Innovation and Supply Dynamics
+> Memory Big 3 Change Contract Practices… Post-Settlement Pricing Emerges
+>
+> Rising memory prices are now transforming supply contract practices. Contract durations are shifting from long-term to short-term, and a "post-settlement" concept reflecting market prices has emerged, moving away from negotiated fixed pricing.
+>
+> Based on reporting by ETNews on the 4th, Samsung Electronics, SK hynix, and Micron — the major memory manufacturers — have recently been entering new types of product supply contracts. An industry insider familiar with the matter said, "As memory prices have surged, an unprecedented post-settlement pricing method has emerged, and ultra-short-term contracts are also being adopted."
+>
+> Typically, memory products such as DRAM and NAND have prices specified at the time of the initial supply contract. With fixed transaction prices, even if market conditions change and prices rise or fall, adjustments are generally made within approximately 10% through negotiations. For example, if a contract is signed to supply DRAM at 100 won, the price mostly holds for about one year. If there are price fluctuations, quarterly negotiations within the contract period adjust it to 110 won (+10%) or 90 won (-10%) for supply in the following quarter.
+>
+> However, recently, contracts have been emerging where price increases are compensated retroactively to reflect market rates even after supply has been delivered. In other words, even if a contract was signed to supply DRAM at 100 won for one year, if DRAM market prices have risen 100% by the end of the contract period, an additional 100 won is paid. This is essentially a post-settlement arrangement.
+>
+> All three major memory companies have already signed contracts using this method, and the counterparties are primarily North American big tech clients. While this could be disadvantageous for suppliers if memory prices fall, analysts note that the risk is minimal since price increases are currently expected to far outweigh the risk of decline.
+>
+> Another industry insider explained, "From major clients' perspective, securing memory supply is currently more important than the contract format," adding, "They have determined that it is urgent to lock in supply contracts first, even if additional costs arise later."
+>
+> Contract durations are also changing. Memory clients want long-term contracts of two years or more, beyond the typical one year, to secure stable memory supply for the expansion of artificial intelligence (AI) infrastructure. However, memory manufacturers as suppliers are increasingly reluctant to agree to this. Supply is tight and price volatility is high. There is a risk that locking into a long-term supply contract with one client could mean missing opportunities to secure other clients on better terms.
+>
+> As a result, contracts have reportedly shifted from annual to quarterly, and even monthly terms. In one known case, a North American data center operator A requested a two-year long-term supply contract from one memory manufacturer but was rejected, and barely managed to secure a supply commitment from another manufacturer. This contract also included the post-settlement pricing method for price increases.
+>
+> An industry insider said, "This supplier-favorable contracting trend is expected to continue at least until the second half of the year, when the upward momentum in memory prices is expected to moderate."
+
+- **Tweet:** https://x.com/jukan05/status/2019629636293128213
+- **What:** Analysis of how memory chip manufacturers are shifting contract terms with customers due to supply shortages and rising prices, moving from long-term fixed pricing to shorter-term post-settlement arrangements that favor suppliers.
+
+## @jukan05 - UBS Micron Outlook and Memory Demand Forecast
+> UBS raised its price target on Micron to $450 with the following commentary...
+>
+> "More importantly, synthesizing industry conversations suggests that memory supply shortages could extend deeper through C2027 — DRAM could remain in a supply deficit through C4Q27, and NAND could be in shortage through C1Q27.
+>
+> This is occurring despite our view that accelerating memory price inflation will cause some demand destruction and spec-downs in PCs and smartphones (accordingly, we have lowered related estimates). The key takeaway is that strong data center demand is more than offsetting these headwinds.
+>
+> (omitted)...
+>
+> We are modeling gross margins of 69.9%, with an increase sequentially in the May quarter (MayQ) to approximately 74.4%. Accordingly, we expect gross margins to peak in the low 80% range across C1Q27E/C2Q27E."
+
+- **Tweet:** https://x.com/jukan05/status/2019635381701079514
+- **What:** UBS analyst report on Micron Technology projecting extended memory supply shortages through 2027 and gross margin expansion driven by data center demand despite PC/smartphone weakness.
+
 
 ## @QwQiao - Compute Demands Reshape Investment Thesis
 > Once in a while i get better investment ideas from doing than from reading. Case in point after a month of coding i bought more hyperscalers and semis. AMZN MSFT NVDA TSM the whole 9 yards. The market is completely unprepared for how much compute will be needed.
@@ -15,6 +2163,19 @@
 ---
 
 # Wednesday, February 4, 2026
+
+## @BasedTorba - Literally just don't allow your daughter to use social media
+> Literally just don't allow your daughter to use social media. It's that simple. The young female mind cannot handle the amount of a dopamine and emotional manipulation that comes from being presented in front of large swarths of foreign hordes, degenerates, and predators (but I repeat myself.) 
+
+It's like sending your daughter into a gladiator arena. You wouldn't do that, yet you allow them to be on Instagram, X, and TikTok. Foolishness. 
+
+From a very young age teach all of your children to never ever use their real names or photos of themselves online anywhere. You need to be teaching your kids OpSec. The internet is a tool, not their personal diary, photo album, or dopamine machine. 
+
+You may think homeschooling and raising your children in a Christian home is enough. It isn't. You must actively monitor, correct, and guide their internet use from a young age by any means necessary.
+
+- **Tweet:** https://x.com/BasedTorba/status/2019158031976788037
+- **What:** Literally just don't allow your daughter to use social media. It's that simple. The young female mind cannot handle the ...
+
 
 ## @profplum99 - Trump administration policy alignment perspective
 > This might as well be my position piece on the current administration. Spot on with how I see it
@@ -50,6 +2211,19 @@
 ---
 
 # Tuesday, February 3, 2026
+
+## @koichincom - opencode-btca - Tool
+> *Replying to @koichincom:* Introducing Opencode-BTCA
+Allow your @opencode to retrieve information directly from the tool/lib/language's source code by integrating @davis7's Better Context CLI (aka btca) https://t.co/cPtJsD7ayR
+>
+> @opencode @davis7 https://t.co/xWOzSisT8e
+
+- **Tweet:** https://x.com/koichincom/status/2018765098228359186
+- **Parent:** https://x.com/koichincom/status/2018764976215966096
+- **Link:** https://github.com/koichincom/opencode-btca
+- **Filed:** [opencode-btca](./knowledge/tools/opencode-btca.md)
+- **What:** Allow OpenCode to directly get infomation from the tool's source code by integrating Better Context CLI
+
 
 ## @alxfazio - Building Fleet of Vertical Agents with Fly.io Infrastructure
 
@@ -5639,6 +7813,33 @@ You can also add this to the "env" section in your settings.json
 
 # Monday, December 15, 2025
 
+## @AniC_dev - introducing Ariana Automations
+> introducing Ariana Automations
+
+every other tool gives agents a sandbox. 
+we give them a full linux computer with sudo, docker, their own IP
+
+now you can run scripts based on what the agent does
+
+setup the environment once, then get rid of the human in the loop (you)
+
+a 🧵 https://t.co/rMvnXkgGCn
+>
+> *Quoting @Scobleizer:* How software development is changing in the AI age.
+
+He spins up many Linux servers in seconds and runs AI agents on them. 
+
+Nuts.
+
+Introducing @AniC_dev and his https://t.co/poT62oN1S4 system that lets AI agents do much deeper work on the cloud. 
+
+He can spin up thousands of virtual machines in seconds. Insane, isn't it?
+
+- **Tweet:** https://x.com/AniC_dev/status/2000776642633838716
+- **Quoted:** https://x.com/Scobleizer/status/1996773715040985562
+- **What:** introducing Ariana Automations  every other tool gives agents a sandbox.  we give them a full linux computer with sudo, ...
+
+
 ## @bull_genius - Pacific Rim Megaquake Risk Analysis
 
 > earthquake GCR / megaquake theory explained for dummies
@@ -7480,6 +9681,15 @@ DATE: Thursday, November 6, 2025
 
 # Wednesday, November 5, 2025
 
+## @melissa - spencermichaels.github.io
+> @Casshibra he was the superior lobotomist 
+https://t.co/We8JIK2uNq
+
+- **Tweet:** https://x.com/melissa/status/1986229732657275020
+- **Link:** https://spencermichaels.github.io/posts/2020-03-16-smart-tv-lobotomy/
+- **What:** <meta name="viewpor...
+
+
 ## @terrysahaidak - Offscreen and Picture API in React Native Skia Worklets
 > @pugson @farcaster_xyz @tanishqxyz not really
 >
@@ -7701,6 +9911,35 @@ DATE: Tuesday, November 4, 2025
 - **What:** Comprehensive superthread collecting all resources on advanced Claude Code usage, research-plan-implement methodology, and context engineering techniques for coding agents.
 
 ---
+
+---
+
+# Monday, September 1, 2025
+
+## @melissa - we bought all these singapore math books before our kid was
+> we bought all these singapore math books before our kid was born
+
+for some reason we thought the series started at 6 years old, he's 4 and it's clear we should've started at 3
+
+he blew through the first two workbooks in two days
+
+and i've done a 180 on the power of worksheets https://t.co/yQOyvrJEbo
+
+- **Tweet:** https://x.com/melissa/status/1962483591172251739
+- **What:** we bought all these singapore math books before our kid was born  for some reason we thought the series started at 6 yea...
+
+---
+
+# Tuesday, September 29, 2020
+
+## @Plinz - 10. People without children seem to integrate reality horizo
+> *Replying to @Plinz:* 9. Cultures don't have intrinsic value. Their value consists in the sentience and sustainability of the civilizations they can give rise to. Working cultural pluralism requires submission to the long game of a joint common culture.
+>
+> 10. People without children seem to integrate reality horizontally, across the present generation. People with children begin to perceive reality vertically, as a history between interacting families, where present personal, political and cultural circumstances are transitional.
+
+- **Tweet:** https://x.com/Plinz/status/1311085898834956288
+- **Parent:** https://x.com/Plinz/status/1311084499338293251
+- **What:** 10. People without children seem to integrate reality horizontally, across the present generation. People with children ...
 
 ---
 
